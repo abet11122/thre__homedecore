@@ -1,5 +1,5 @@
 ---
-title: "17 Christmas Bedroom Ideas for a Cozy Holiday Retreat"
+title: "Christmas Bedroom Ideas"
 description: "Create a festive and restful bedroom with 17 Christmas bedroom ideas using string lights, holiday bedding, wreaths, greenery, and a simple seasonal palette."
 category: seasonal
 tags: ["christmas decor", "bedroom decor", "seasonal decorating", "holiday decor", "cozy bedroom"]

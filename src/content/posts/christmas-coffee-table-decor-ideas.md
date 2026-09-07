@@ -1,5 +1,5 @@
 ---
-title: "15 Christmas Coffee Table Decor Ideas That Stay Practical"
+title: "Christmas Coffee Table Decor Ideas"
 description: "Style your coffee table for the holidays with 15 Christmas coffee table decor ideas using trays, candles, greenery, and seasonal accents that leave room for everyday use."
 category: seasonal
 tags: ["christmas decor", "coffee table decor", "seasonal decorating", "holiday decor", "living room styling"]

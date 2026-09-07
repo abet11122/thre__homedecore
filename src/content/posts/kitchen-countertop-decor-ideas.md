@@ -1,5 +1,5 @@
 ---
-title: "15 Kitchen Countertop Decor Ideas That Stay Practical"
+title: "Kitchen Countertop Decor Ideas"
 description: "Style your kitchen surfaces with 15 kitchen countertop decor ideas that balance visual appeal with everyday function using trays, plants, and vertical displays."
 category: kitchen
 tags: ["kitchen decor", "kitchen styling", "countertop decor", "kitchen organization", "home styling"]

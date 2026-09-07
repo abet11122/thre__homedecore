@@ -1,5 +1,5 @@
 ---
-title: "17 Christmas Kitchen Decor Ideas That Keep the Counter Clear"
+title: "Christmas Kitchen Decor Ideas"
 description: "Decorate your kitchen for Christmas with 17 ideas that add festive warmth without cluttering work surfaces, using windows, cabinet doors, and natural accents."
 category: seasonal
 tags: ["christmas decor", "kitchen decor", "seasonal decorating", "holiday decor", "kitchen styling"]

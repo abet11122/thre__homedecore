@@ -47,7 +47,10 @@ export type CategorySlug =
   | 'diy-decor'
   | 'outdoor'
   | 'seasonal'
-  | 'renter';
+  | 'renter'
+  | 'laundry-mudroom'
+  | 'dorm-college'
+  | 'organization-storage';
 
 export interface Category {
   slug: CategorySlug;
@@ -141,6 +144,27 @@ export const CATEGORIES: Category[] = [
     blurb:
       'Everything that comes off the wall again. Reversible upgrades, deposit-safe fixes and the changes that move house with you.',
     image: 'photo-1631510390389-c1e4fb20ff31',
+  },
+  {
+    slug: 'laundry-mudroom',
+    name: 'Laundry & Mudroom',
+    blurb:
+      'Practical utility spaces made calmer: laundry layouts, mudroom storage, drop zones and hardworking ideas for narrow rooms.',
+    image: 'photo-1626806787461-102c1bfaaea1',
+  },
+  {
+    slug: 'dorm-college',
+    name: 'Dorm & College',
+    blurb:
+      'Smart, removable ideas for dorm rooms and student apartments, from compact desks and storage to personality-filled decorating.',
+    image: 'photo-1555854877-bab0e564b8d5',
+  },
+  {
+    slug: 'organization-storage',
+    name: 'Organization & Storage',
+    blurb:
+      'Useful homes for everyday things: shelves, cupboards, collections and storage systems that stay tidy after the first week.',
+    image: 'photo-1558997519-83ea9252edf8',
   },
 ];
 

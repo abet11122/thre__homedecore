@@ -1,5 +1,5 @@
 ---
-title: "17 Small Bathroom Decor Ideas for a Stylish Space"
+title: "Small Bathroom Decor Ideas"
 description: "Transform a compact bathroom with 17 small bathroom decor ideas covering mirrors, wall colors, shower curtains, plants, and storage that doubles as styling."
 category: bathroom
 tags: ["small bathroom", "bathroom decor", "bathroom styling", "small spaces", "bathroom organization"]

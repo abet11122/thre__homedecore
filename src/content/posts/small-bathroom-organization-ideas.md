@@ -1,5 +1,5 @@
 ---
-title: "17 Small Bathroom Organization Ideas for a Clutter-Free Space"
+title: "Small Bathroom Organization Ideas"
 description: "Discover 17 small bathroom organization ideas that make better use of cabinets, walls, counters, doors, and under-sink storage."
 category: bathroom
 tags: ["small bathrooms","bathroom organization","storage","decluttering","small spaces"]
