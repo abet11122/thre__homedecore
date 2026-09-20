@@ -27,4 +27,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Update the domain here and in src/site.ts once you buy one.
-Sitemap: https://smallcozyhome.store/sitemap-index.xml
+Sitemap: https://www.smallspaceorganizationidea.site/sitemap-index.xml
