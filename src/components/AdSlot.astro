@@ -1,4 +1,6 @@
 ---
+import { SITE } from '../site';
+
 /**
  * AdSense slot with a reserved box.
  *
@@ -7,8 +9,7 @@
  * what keeps CLS at 0.
  *
  * Slot IDs come from env vars so the markup can ship before the account is
- * approved. Until PUBLIC_ADSENSE_CLIENT_ID is set you see a labelled
- * placeholder of the identical size.
+ * approved. Placements stay hidden until their slot IDs are configured.
  */
 interface Props {
   /** Which configured slot to render. */
@@ -39,7 +40,7 @@ const m = mobile ?? SIZES[placement].mobile;
 const dsk = desktop ?? SIZES[placement].desktop;
 
 const clientId =
-  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
+  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || SITE.adsenseClientId;
 
 // Optional per-placement slot IDs, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
 const envKey = `PUBLIC_ADSENSE_SLOT_${placement.toUpperCase().replace(/-/g, '_')}`;

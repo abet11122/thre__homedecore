@@ -32,13 +32,13 @@ Open the URL it prints (usually `http://localhost:4321`). Ads render as labelled
 
 ## Where to paste your AdSense ID
 
-**One place: `.env`.**
+The site's public publisher ID is configured as `SITE.adsenseClientId` in `src/site.ts`, so deployments include the AdSense loader even when no environment variable is set. To override it, set this in `.env` locally and in your hosting environment for production:
 
 ```
-PUBLIC_ADSENSE_CLIENT_ID=ca-pub-1234567890123456
+PUBLIC_ADSENSE_CLIENT_ID=ca-pub-8497285724891966
 ```
 
-That's it. The ID flows into the deferred `adsbygoogle.js` tag in `src/layouts/Layout.astro` and into every `<AdSlot>` on the site. The `PUBLIC_` prefix is required — Astro only exposes prefixed vars to the browser.
+The ID flows into the async `adsbygoogle.js` tag in the page `<head>` and into every `<AdSlot>` on the site. Keep `public/ads.txt` in sync with the publisher ID and redeploy after changes. Manual placements stay hidden until their per-unit slot IDs are configured.
 
 Optionally add the per-unit slot IDs (`PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP` and friends) so each placement reports separately in AdSense.
 
@@ -338,7 +338,7 @@ src/
 
 **Build fails with a Zod error** — a post's frontmatter is wrong. The message names the file and the field. Usually a `description` outside 50–200 characters or a category not in the enum.
 
-**Ads not showing in production** — check `PUBLIC_ADSENSE_CLIENT_ID` is set in your host's environment variables (not just your local `.env`), that the site is approved in AdSense, and that all four legal pages are live. Approval takes days, not minutes.
+**Ads not showing in production** — check the page source includes the correct publisher ID in the AdSense script, that any hosting environment override matches `public/ads.txt`, and that the site is approved in AdSense. Manual placements also need their slot IDs. After deployment, use AdSense → Sites → your site → Check for updates to request an ads.txt recheck. Verification and site approval are separate steps.
 
 **Images 404** — the Unsplash photo ID is wrong. Test it: `https://images.unsplash.com/PHOTO-ID?w=100` should return an image.
 

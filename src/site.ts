@@ -11,6 +11,8 @@ export const SITE = {
   // Interim: swap for your real domain once purchased — this is the only
   // place it needs to change (astro.config.mjs reads it from here).
   url: 'https://www.smallspaceorganizationidea.site',
+  /** Public AdSense publisher ID; keep public/ads.txt in sync when changing it. */
+  adsenseClientId: 'ca-pub-8497285724891966',
   author: 'Sophie Lane',
   authorRole: 'Editor & Home Stylist',
   authorBio:
