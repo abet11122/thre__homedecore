@@ -1,0 +1,79 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+---
+
+<PageLayout
+  title="Disclaimer"
+  eyebrow="Legal"
+  description={`Disclaimer for ${SITE.name} — the limitations and nature of our content.`}
+  lede="What this site is, and what it is not."
+  updated="August 29, 2026"
+>
+  <p>
+    Please read this disclaimer carefully before relying on any content published on {SITE.name}
+    at <strong>{SITE.url}</strong>.
+  </p>
+
+  <h2>General information only</h2>
+  <p>
+    The content on {SITE.name} is published for general informational and inspirational purposes.
+    It does not constitute professional interior design, architectural, structural, legal, financial
+    or safety advice. We are not licensed designers, architects or contractors.
+  </p>
+
+  <h2>Accuracy</h2>
+  <p>
+    We make every effort to ensure the information we publish is accurate and up to date at the
+    time of writing. However, product availability, prices, building regulations and best practices
+    change. We make no warranty — express or implied — about the completeness, accuracy or
+    suitability of any content for your specific situation.
+  </p>
+
+  <h2>Results not guaranteed</h2>
+  <p>
+    Any DIY projects, decorating ideas or product recommendations are shared in good faith based on
+    our own experience. Your results may differ depending on your skill level, tools, materials and
+    circumstances. Always follow manufacturer instructions and relevant safety guidelines.
+  </p>
+
+  <h2>Affiliate links</h2>
+  <p>
+    Some links on this site are affiliate links. We may earn a commission if you purchase through
+    them at no extra cost to you. See our <a href="/disclosure/">disclosure policy</a> for full
+    details. Affiliate relationships do not influence our editorial opinions.
+  </p>
+
+  <h2>External websites</h2>
+  <p>
+    Links to third-party websites are provided for convenience. We have no control over their
+    content and accept no responsibility for anything found on those sites.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the fullest extent permitted by applicable law, {SITE.name} and its contributors accept no
+    liability for any loss, injury or damage — direct or indirect — arising from your use of this
+    site or reliance on its content.
+  </p>
+
+  <h2>Professional advice</h2>
+  <p>
+    Before undertaking any building work, structural changes or significant financial decisions,
+    consult a qualified professional who can assess your specific circumstances.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you believe any content on this site is inaccurate, contact us at
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will review it promptly.
+  </p>
+
+  <hr />
+  <p>
+    <em>
+      This template is a starting point, not legal advice. Have a solicitor or attorney review it
+      for your jurisdiction before you launch.
+    </em>
+  </p>
+</PageLayout>
