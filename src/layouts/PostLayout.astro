@@ -1,5 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from './Layout.astro';
 import Img from '../components/Img.astro';
 import SaveIdea from '../components/SaveIdea.astro';
@@ -20,6 +19,7 @@ import '../styles/reading.css';
 import { articleImage } from '../lib/articleImages';
 import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
 import { recommendationsForPost } from '../data/affiliateProducts';
+import { getPublishedPosts } from '../lib/posts';
 
 interface Props {
   post: any;
@@ -32,9 +32,7 @@ const d = post.data;
 const productRecommendations = recommendationsForPost(post.id, d.category);
 const heroPhoto = articleImage(d.heroImage);
 
-const all = (await getCollection('posts')).sort(
-  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-);
+const all = await getPublishedPosts();
 
 /* ------------------------------------------------------------------
    Onward navigation
@@ -92,6 +90,7 @@ const faqSchema = d.faqs?.length
   description={d.description}
   image={d.pinImage}
   imageWide={d.heroImage}
+  imageAlt={d.heroImageAlt ?? d.title}
   type="article"
   publishDate={d.publishDate.toISOString()}
   updatedDate={d.updatedDate?.toISOString()}
@@ -99,6 +98,7 @@ const faqSchema = d.faqs?.length
   keywords={d.tags ?? []}
   words={words}
   minutes={minutes}
+  noindex={d.noindex}
   schemas={faqSchema ? [faqSchema] : []}
 >
   <div id="progress" aria-hidden="true"></div>

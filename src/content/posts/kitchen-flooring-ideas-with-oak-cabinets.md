@@ -8,6 +8,7 @@ heroImage: "photo-1600489000022-c2086d79f9d4"
 heroImageAlt: "A thoughtfully styled kitchen flooring  with oak cabinets"
 pinImage: "photo-1556911220-bff31c812dba"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

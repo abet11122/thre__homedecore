@@ -1,6 +1,6 @@
 ---
 title: "Rustic Wedding Centerpiece Ideas for a Warm, Natural Reception"
-description: "Create beautiful rustic wedding centerpieces with ideas using wooden boxes, mason jars, wildflowers, lanterns, and natural materials that feel warm and genuinely handmade."
+description: "Rustic wedding centerpiece ideas using wooden boxes, mason jars, wildflowers, lanterns, and natural materials for a warm, handmade reception."
 category: seasonal
 tags: ["wedding decor", "rustic decor", "centerpieces", "table decor", "wedding ideas"]
 publishDate: 2026-02-05

@@ -1,6 +1,6 @@
 ---
 title: "Bridal Shower Table Decor Ideas for a Beautiful Celebration"
-description: "Set a stunning bridal shower table with ideas for runners, place settings, centerpieces, and personal touches that make every guest feel welcomed and every detail feel considered."
+description: "Style a bridal shower table with runners, place settings, centerpieces, and personal touches that make guests feel welcome and every detail considered."
 category: seasonal
 tags: ["bridal shower", "table decor", "entertaining", "party ideas", "centerpieces"]
 publishDate: 2026-02-15

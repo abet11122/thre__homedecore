@@ -8,6 +8,7 @@ heroImage: "photo-1552321554-5fefe8c9ef14"
 heroImageAlt: "A thoughtfully styled bathroom tray decor"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

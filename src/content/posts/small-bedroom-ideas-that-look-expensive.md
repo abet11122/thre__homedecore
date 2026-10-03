@@ -1,6 +1,6 @@
 ---
 title: "21 Small Bedroom Ideas That Look Expensive"
-description: "Discover 21 small bedroom ideas that look expensive without requiring a huge budget. From layered bedding to clever lighting and storage, these stylish ideas can make a tiny bedroom feel luxurious."
+description: "Discover 21 small bedroom ideas that look expensive, from layered bedding and polished lighting to clever storage that makes a tiny room feel luxurious."
 category: "bedroom"
 tags: ["bedroom", "small spaces", "decor", "lighting", "storage", "styling"]
 publishDate: 2026-09-02

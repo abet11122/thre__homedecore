@@ -1,6 +1,6 @@
 ---
 title: "Vintage Thanksgiving Decor Ideas for a Nostalgic Holiday Table"
-description: "Create a warm, nostalgic Thanksgiving with vintage decor ideas using antique linens, transferware, pressed leaves, and heirloom-style pieces that feel timeless and personal."
+description: "Create a nostalgic Thanksgiving with vintage decor ideas using antique linens, transferware, pressed leaves, and personal heirloom-style pieces."
 category: seasonal
 tags: ["thanksgiving", "vintage decor", "table decor", "seasonal decorating", "nostalgic decor", "fall decor"]
 publishDate: 2026-08-26

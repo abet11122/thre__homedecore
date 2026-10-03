@@ -4,7 +4,7 @@
  */
 
 export const SITE = {
-  name: 'smallcozyhome.store',
+  name: 'Small Cozy Home',
   tagline: 'Big ideas for small, cozy spaces',
   description:
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
@@ -230,6 +230,8 @@ const TAG_LABEL_OVERRIDES: Record<string, string> = {
   'renter-friendly': 'Renter-Friendly',
 };
 
+const CATEGORY_TAG_SLUGS = new Set<string>(CATEGORIES.map((category) => category.slug));
+
 export function tagSlug(tag: string): string {
   return tag
     .trim()
@@ -274,6 +276,7 @@ export function collectTags(
     }
   }
   return [...counts.entries()]
+    .filter(([slug]) => !CATEGORY_TAG_SLUGS.has(slug))
     .filter(([, count]) => count >= minCount)
     .map(([slug, count]) => ({ slug, label: tagLabel(slug), count }))
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));

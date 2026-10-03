@@ -1,12 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
 import { CATEGORIES, categoryName, formatDateShort } from '../site';
+import { getPublishedPosts } from '../lib/posts';
 
-const posts = (await getCollection('posts')).sort(
-  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-);
+const posts = await getPublishedPosts();
 
 // Prebuilt index — a plain array baked into the page, no fetch, no library.
 const index = posts.map((p) => ({

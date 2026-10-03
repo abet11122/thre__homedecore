@@ -1,6 +1,6 @@
 ---
 title: "Neutral Fall Decor Ideas for a Warm, Sophisticated Autumn Home"
-description: "Decorate your home for fall with neutral decor ideas using warm whites, natural textures, dried botanicals, and muted tones that feel seasonal without being obviously themed."
+description: "Try neutral fall decor with warm whites, natural textures, dried botanicals, and muted tones that feel seasonal without looking overly themed."
 category: seasonal
 tags: ["fall decor", "neutral decor", "seasonal decorating", "autumn decor", "cozy home"]
 publishDate: 2026-08-14

@@ -31,6 +31,8 @@ const posts = defineCollection({
     /** Vertical 2:3 image used for og:image and the Pinterest save button. */
     pinImage: z.string(),
     featured: z.boolean().default(false),
+    /** Keep unfinished or substantially repetitive content out of search. */
+    noindex: z.boolean().default(false),
     affiliateDisclosure: z.boolean().default(false),
     /**
      * Scannable summary rendered above the article and read by AI answer

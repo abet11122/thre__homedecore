@@ -8,6 +8,7 @@ heroImage: "photo-1558997519-83ea9252edf8"
 heroImageAlt: "A thoughtfully styled bookshelf"
 pinImage: "photo-1616486338812-3dadae4b4ace"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."
