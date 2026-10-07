@@ -41,7 +41,6 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
       <div class="idea-filters" aria-label="Filter ideas by room"><button data-room="all" aria-pressed="true">All ideas</button>{CATEGORIES.map(c => <button data-room={c.slug} aria-pressed="false">{c.name}</button>)}</div>
       <p id="idea-count" class="idea-count" aria-live="polite">Explore {posts.length} decorating guides.</p>
       <div class="ideas-grid">{posts.map(post => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}</div>
-      <button id="more-ideas" class="btn btn-primary more-ideas" hidden>Discover more ideas ↓</button>
     </div>
   </section>
   <div class="wrap"><AdSlot placement="feed" class="my-12" /></div>
@@ -52,19 +51,16 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
 <script>
   const filters = document.querySelectorAll<HTMLButtonElement>('[data-room]');
   const cards = [...document.querySelectorAll<HTMLElement>('[data-idea-room]')];
-  const more = document.querySelector<HTMLButtonElement>('#more-ideas')!;
-  let active = 'all'; let limit = 9;
+  let active = 'all';
   function render() {
     const matching = cards.filter(card => active === 'all' || card.dataset.ideaRoom === active);
     cards.forEach(card => { card.hidden = true; });
-    matching.slice(0,limit).forEach(card => { card.hidden = false; });
-    more.hidden = matching.length <= limit;
-    document.querySelector('#idea-count')!.textContent = `Showing ${Math.min(limit,matching.length)} of ${matching.length} ${matching.length === 1 ? 'guide' : 'guides'}`;
+    matching.forEach(card => { card.hidden = false; });
+    document.querySelector('#idea-count')!.textContent = `Showing all ${matching.length} ${matching.length === 1 ? 'guide' : 'guides'}`;
   }
   filters.forEach(button => button.addEventListener('click', () => {
-    active = button.dataset.room!; limit = 9;
+    active = button.dataset.room!;
     filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter === button))); render();
   }));
-  more.addEventListener('click', () => { const previous = limit; limit += 9; render(); cards.filter(card => active === 'all' || card.dataset.ideaRoom === active)[previous]?.querySelector('a')?.focus({preventScroll:true}); });
   render();
 </script>
