@@ -9,29 +9,28 @@ const postsDirectory = join(process.cwd(), 'src', 'content', 'posts');
 const postFiles = readdirSync(postsDirectory).filter((file) => file.endsWith('.md'));
 const noindexPostPaths = new Set(
   postFiles
-    .filter((file) => /^noindex:\s*true\s*$/m.test(readFileSync(join(postsDirectory, file), 'utf8')))
+    .filter((file) => {
+      const source = readFileSync(join(postsDirectory, file), 'utf8');
+      const date = source.match(/^publishDate:\s*(\d{4}-\d{2}-\d{2})\s*$/m)?.[1];
+      return (
+        /^noindex:\s*true\s*$/m.test(source) ||
+        !date ||
+        Date.parse(`${date}T00:00:00Z`) > Date.now()
+      );
+    })
     .map((file) => `/post/${basename(file, '.md')}/`)
 );
 
-const indexableCategories = new Set(
-  postFiles.flatMap((file) => {
-    const source = readFileSync(join(postsDirectory, file), 'utf8');
-    const date = source.match(/^publishDate:\s*(\d{4}-\d{2}-\d{2})\s*$/m)?.[1];
-    const category = source.match(/^category:\s*"?([^"\r\n]+)"?\s*$/m)?.[1];
-    const unavailable =
-      /^noindex:\s*true\s*$/m.test(source) ||
-      !date ||
-      Date.parse(`${date}T00:00:00Z`) > Date.now();
-    return category && !unavailable ? [category] : [];
-  })
-);
-const emptyCategoryPaths = new Set(
-  CATEGORIES.filter((category) => !indexableCategories.has(category.slug)).map(
-    (category) => `/category/${category.slug}/`
-  )
-);
-
-const noindexPaths = new Set(['/404/', '/404.html', '/saved/', '/search/']);
+const noindexPaths = new Set([
+  '/404/',
+  '/404.html',
+  '/saved/',
+  '/search/',
+  '/tag/diy-decor/',
+  '/tag/entryway/',
+  '/tag/seasonal/',
+  '/tag/small-spaces/',
+]);
 
 // https://astro.build/config
 export default defineConfig({
@@ -46,8 +45,7 @@ export default defineConfig({
         const path = new URL(page).pathname;
         return (
           !noindexPaths.has(path) &&
-          !noindexPostPaths.has(path) &&
-          !emptyCategoryPaths.has(path)
+          !noindexPostPaths.has(path)
         );
       },
     }),

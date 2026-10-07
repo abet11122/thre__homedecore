@@ -48,6 +48,8 @@ const sitemapUrls = new Set(
 const records = filesIn(dist, (path) => path.endsWith('.html')).map((path) => {
   const html = readFileSync(path, 'utf8');
   const file = relative(dist, path).split(sep).join('/');
+  const isRedirect = /<meta\s+http-equiv="refresh"/i.test(html);
+  if (isRedirect) return null;
   const title = first(html, /<title>(.*?)<\/title>/s);
   const description = first(html, /<meta\s+name="description"\s+content="([^"]*)"/i);
   const canonical = first(html, /<link\s+rel="canonical"\s+href="([^"]*)"/i);
@@ -76,7 +78,7 @@ const records = filesIn(dist, (path) => path.endsWith('.html')).map((path) => {
   }
 
   return { file, title, description, canonical, noindex };
-});
+}).filter(Boolean);
 
 const seenCanonicals = new Map();
 for (const record of records) {
@@ -118,7 +120,13 @@ for (const file of readdirSync(content).filter((name) => name.endsWith('.md'))) 
 
   if (date && Date.parse(`${date}T00:00:00Z`) > Date.now()) {
     scheduled += 1;
-    if (existsSync(output)) errors.push(`${file}: scheduled post was generated before ${date}`);
+    if (existsSync(output)) {
+      const html = readFileSync(output, 'utf8');
+      const robots = first(html, /<meta\s+name="robots"\s+content="([^"]*)"/i);
+      if (!/(?:^|,\s*)noindex(?:,|$)/i.test(robots)) {
+        errors.push(`${file}: scheduled post is indexable before ${date}`);
+      }
+    }
     if (canonical) errors.push(`${file}: scheduled post appears in sitemap`);
   } else if (isNoindex) {
     editorialNoindex += 1;

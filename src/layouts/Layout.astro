@@ -46,7 +46,10 @@ const {
   schemas = [],
 } = Astro.props;
 
-const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const brandedTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+// Keep the brand when it fits; on long editorial titles, preserve the useful
+// page topic instead of letting the repeated site name force truncation.
+const pageTitle = title && brandedTitle.length > 65 ? title : brandedTitle;
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 

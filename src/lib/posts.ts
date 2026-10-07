@@ -12,3 +12,11 @@ export async function getAvailablePosts(): Promise<Post[]> {
 export async function getPublishedPosts(): Promise<Post[]> {
   return getAvailablePosts();
 }
+
+/** Posts that search engines and syndication feeds may safely discover. */
+export async function getIndexablePosts(now = new Date()): Promise<Post[]> {
+  const cutoff = now.getTime();
+  return (await getAvailablePosts()).filter(
+    (post) => !post.data.noindex && post.data.publishDate.getTime() <= cutoff
+  );
+}

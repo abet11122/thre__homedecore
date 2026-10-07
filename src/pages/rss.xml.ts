@@ -1,7 +1,7 @@
 import rss from '@astrojs/rss';
 import { SITE, categoryName } from '../site';
 import type { APIContext } from 'astro';
-import { getPublishedPosts } from '../lib/posts';
+import { getIndexablePosts } from '../lib/posts';
 
 /**
  * Full-archive feed at /rss.xml.
@@ -11,7 +11,7 @@ import { getPublishedPosts } from '../lib/posts';
  * every page head points here.
  */
 export async function GET(context: APIContext) {
-  const posts = await getPublishedPosts();
+  const posts = await getIndexablePosts();
 
   return rss({
     title: `${SITE.name} — ${SITE.tagline}`,

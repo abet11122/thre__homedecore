@@ -1,6 +1,6 @@
 import { SITE, CATEGORIES, categoryName, collectTags } from '../site';
 import type { APIContext } from 'astro';
-import { getPublishedPosts } from '../lib/posts';
+import { getIndexablePosts } from '../lib/posts';
 
 /**
  * /llms.txt — a plain-text map of the archive for AI answer engines.
@@ -15,7 +15,7 @@ export async function GET(context: APIContext) {
   const origin = (context.site ?? new URL(SITE.url)).origin;
   const url = (path: string) => new URL(path, origin).href;
 
-  const posts = await getPublishedPosts();
+  const posts = await getIndexablePosts();
 
   const lines: string[] = [
     `# ${SITE.name}`,

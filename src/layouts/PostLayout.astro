@@ -29,6 +29,7 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+const isScheduled = d.publishDate.getTime() > Date.now();
 const productRecommendations = recommendationsForPost(post.id, d.category);
 const heroPhoto = articleImage(d.heroImage);
 
@@ -98,7 +99,7 @@ const faqSchema = d.faqs?.length
   keywords={d.tags ?? []}
   words={words}
   minutes={minutes}
-  noindex={d.noindex}
+  noindex={d.noindex || isScheduled}
   schemas={faqSchema ? [faqSchema] : []}
 >
   <div id="progress" aria-hidden="true"></div>
