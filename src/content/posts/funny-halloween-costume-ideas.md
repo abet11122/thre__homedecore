@@ -1,5 +1,5 @@
 ---
-title: "22 Funny Halloween Costume Ideas That Will Actually Make People Laugh"
+title: "22 Funny Halloween Costume Ideas for a Playful Party Look"
 description: "Get genuine laughs this Halloween with 22 funny costume ideas including puns, pop culture jokes, and clever concepts. Solo, duo, and group options included."
 category: seasonal
 tags: ["halloween costumes", "funny halloween costumes", "costume ideas", "halloween", "seasonal"]

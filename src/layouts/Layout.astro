@@ -2,7 +2,8 @@
 import '../styles/global.css';
 import '../styles/editorial.css';
 import SiteHeader from '../components/SiteHeader.astro';
-import { SITE, CATEGORIES } from '../site';
+import { SITE, CATEGORIES, serializeJsonLd } from '../site';
+import { articleImage } from '../lib/articleImages';
 
 interface Props {
   title?: string;
@@ -11,6 +12,7 @@ interface Props {
   image?: string;
   /** Horizontal hero — becomes twitter:image, which wants 1.91:1. */
   imageWide?: string;
+  imageAlt?: string;
   type?: 'website' | 'article';
   publishDate?: string;
   updatedDate?: string;
@@ -32,6 +34,7 @@ const {
   description = SITE.description,
   image,
   imageWide,
+  imageAlt = title || SITE.name,
   type = 'website',
   publishDate,
   updatedDate,
@@ -43,9 +46,17 @@ const {
   schemas = [],
 } = Astro.props;
 
-const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const brandedTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+// Keep the complete article title; omit repeated branding when it crowds the result.
+const pageTitle = title && brandedTitle.length > 65 ? title : brandedTitle;
+const cleanDescription = description.replace(/\s+/g, ' ').trim();
+const metaDescription = cleanDescription.length > 160
+  ? `${cleanDescription.slice(0, 157).replace(/\s+\S*$/, '').replace(/[.,;:!?—-]+$/, '')}…`
+  : cleanDescription;
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+const pathname = Astro.url.pathname === '/404/' ? '/404.html' : Astro.url.pathname.replace(/\/index\.html$/, '/');
+const canonicalPath = pathname.endsWith('/') || /\.[^/]+$/.test(pathname) ? pathname : `${pathname}/`;
+const canonical = new URL(canonicalPath, Astro.site ?? SITE.url).href;
 
 const abs = (path: string) => new URL(path, origin).href;
 
@@ -60,10 +71,12 @@ const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
 
 // og:image is the vertical pin when a post supplies one, so Pinterest saves
 // the 2:3 image rather than the horizontal hero.
-const ogImage = image ? photo(image, 1000, 1500) : photo(DEFAULT_PHOTO, 1200, 630);
+const ogSource = image || imageWide || DEFAULT_PHOTO;
+const ogImage = photo(ogSource, image ? 1000 : 1200, image ? 1500 : 630);
 const ogIsPin = Boolean(image);
-const ogW = ogIsPin ? 1000 : 1200;
-const ogH = ogIsPin ? 1500 : 630;
+const localOg = articleImage(ogSource);
+const ogW = localOg?.width ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1000 : 1200) : undefined);
+const ogH = localOg?.height ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1500 : 630) : undefined);
 
 // Twitter cards crop to 1.91:1, so a tall pin would be sliced through the
 // middle. Feed the horizontal hero there instead when we have one.
@@ -137,6 +150,7 @@ const articleNode =
     ? {
         '@type': 'BlogPosting',
         '@id': `${canonical}#article`,
+        url: canonical,
         headline: title,
         description,
         // Both crops: search engines pick whichever aspect ratio the
@@ -157,7 +171,20 @@ const articleNode =
       }
     : null;
 
-const graph = [orgNode, siteNode, authorNode, articleNode, ...schemas].filter(Boolean);
+const pageSchema = schemas.find(node => node['@type'] === 'CollectionPage' || node['@type'] === 'ProfilePage');
+const pageNode = {
+  '@type': 'WebPage',
+  url: canonical,
+  name: title || SITE.name,
+  description,
+  inLanguage: SITE.lang,
+  isPartOf: { '@id': SITE_ID },
+  primaryImageOfPage: { '@type': 'ImageObject', url: twitterImage },
+  ...(articleNode ? { mainEntity: { '@id': articleNode['@id'] } } : {}),
+  ...pageSchema,
+  '@id': canonical,
+};
+const graph = [orgNode, siteNode, authorNode, pageNode, articleNode, ...schemas.filter(node => node !== pageSchema)].filter(Boolean);
 const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
@@ -167,7 +194,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonical} />
     <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
     <meta name="theme-color" content="#FBF8F4" />
@@ -189,11 +216,11 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {/* Open Graph — og:image is the vertical 2:3 pin on post pages */}
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title || SITE.name} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content={String(ogW)} />
-    <meta property="og:image:height" content={String(ogH)} />
-    <meta property="og:image:alt" content={title || SITE.name} />
+    {ogW && <meta property="og:image:width" content={String(ogW)} />}
+    {ogH && <meta property="og:image:height" content={String(ogH)} />}
+    <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:locale" content={SITE.locale} />
@@ -203,15 +230,15 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {type === 'article' && updatedDate && (
       <meta property="article:modified_time" content={updatedDate} />
     )}
-    {type === 'article' && <meta property="article:author" content={SITE.author} />}
+    {type === 'article' && <meta property="article:author" content={abs(`/author/${SITE.authorSlug}/`)} />}
     {type === 'article' && section && <meta property="article:section" content={section} />}
     {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title || SITE.name} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={twitterImage} />
-    <meta name="twitter:image:alt" content={title || SITE.name} />
+    <meta name="twitter:image:alt" content={imageAlt} />
     {SITE.twitter && <meta name="twitter:site" content={SITE.twitter} />}
     {SITE.twitter && <meta name="twitter:creator" content={SITE.twitter} />}
 
@@ -224,7 +251,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
 
-    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    <script type="application/ld+json" set:html={serializeJsonLd(jsonLd)} />
 
     {/*
       Google Consent Mode v2 defaults — denied until the certified CMP

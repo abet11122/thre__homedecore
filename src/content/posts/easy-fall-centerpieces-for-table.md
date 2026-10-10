@@ -1,5 +1,5 @@
 ---
-title: "Easy Fall Centerpieces for the Table That Come Together in Minutes"
+title: "Easy Fall Centerpieces for the Table: Quick Styling Ideas"
 description: "Make a beautiful fall centerpiece for your table in minutes with simple ideas using candles, pumpkins, gourds, and natural materials you can find anywhere."
 category: seasonal
 tags: ["fall decor", "centerpieces", "table decor", "seasonal decorating", "easy decor"]

@@ -1,5 +1,5 @@
 ---
-title: "Vintage Christmas Decor Ideas for a Nostalgic, Timeless Holiday Home"
+title: "Vintage Christmas Decor Ideas for a Nostalgic Holiday Home"
 description: "Bring warmth and nostalgia to your home with vintage Christmas decor ideas using mercury glass, bottle brush trees, tinsel, and heirloom-style ornaments."
 category: seasonal
 tags: ["christmas decor", "vintage decor", "holiday decor", "seasonal decorating", "nostalgic decor"]

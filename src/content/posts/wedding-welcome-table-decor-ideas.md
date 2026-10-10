@@ -1,5 +1,5 @@
 ---
-title: "Wedding Welcome Table Decor Ideas for a Beautiful First Impression"
+title: "Wedding Welcome Table Decor Ideas for a Warm First Impression"
 description: "Style a stunning wedding welcome table with ideas for signage, flowers, seating charts, favours, and personal touches that greet guests warmly as they arrive."
 category: seasonal
 tags: ["wedding decor", "table decor", "entertaining", "wedding ideas", "party ideas"]

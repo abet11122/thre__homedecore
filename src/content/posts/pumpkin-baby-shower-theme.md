@@ -1,5 +1,5 @@
 ---
-title: "Pumpkin Baby Shower Theme Ideas for a Warm and Whimsical Celebration"
+title: "Pumpkin Baby Shower Theme Ideas for a Whimsical Celebration"
 description: "Plan a beautiful pumpkin baby shower with ideas for decorations, themes, games, food, and favours that blend autumn warmth with baby shower sweetness."
 category: seasonal
 tags: ["baby shower", "pumpkin decor", "fall decor", "holiday entertaining", "seasonal decorating", "party ideas"]

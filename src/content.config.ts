@@ -39,8 +39,8 @@ const posts = defineCollection({
     keyTakeaways: z.array(z.string()).max(6).optional(),
     /**
      * Questions readers actually ask, answered in 40-60 words each.
-     * Rendered as an accordion and emitted as FAQPage structured data,
-     * which is what makes the page eligible for the People Also Ask block.
+     * Rendered as an accordion and emitted as FAQPage structured data.
+     * This markup does not guarantee search features or rankings.
      */
     faqs: z
       .array(

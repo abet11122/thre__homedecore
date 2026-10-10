@@ -53,7 +53,7 @@ const [lead, ...others] = posts;
 // and a real signal to search engines about what the tag covers.
 const rooms = CATEGORIES.filter((c) => posts.some((p) => p.data.category === c.slug));
 
-const title = `${tag.label} Ideas`;
+const title = `${tag.label} Decorating Guides`;
 const description = `${posts.length} ${tag.label.toLowerCase()} ideas from the ${SITE.name} archive — practical, room-by-room decorating advice you can use this weekend.`;
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;

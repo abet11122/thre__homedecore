@@ -1,5 +1,5 @@
 ---
-title: "Funny Elf on the Shelf Ideas That Will Make Your Kids Laugh Every Morning"
+title: "Funny Elf on the Shelf Ideas to Make Your Kids Laugh"
 description: "Keep the magic alive with funny Elf on the Shelf ideas that are quick to set up, genuinely amusing, and safe for all ages — no mess, no stress."
 category: seasonal
 tags: ["elf on the shelf", "christmas decor", "holiday decor", "kids christmas", "seasonal decorating"]

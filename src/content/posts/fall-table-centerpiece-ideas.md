@@ -1,5 +1,5 @@
 ---
-title: "Fall Table Centerpiece Ideas for a Warm and Welcoming Autumn Table"
+title: "Fall Table Centerpiece Ideas for a Warm Autumn Table"
 description: "Create a beautiful fall table centerpiece with ideas using pumpkins, candles, greenery, and natural materials that suit any table size, style, or budget."
 category: seasonal
 tags: ["fall decor", "table decor", "centerpieces", "seasonal decorating", "autumn decor"]

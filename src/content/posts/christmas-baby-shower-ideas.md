@@ -1,5 +1,5 @@
 ---
-title: "Christmas Baby Shower Ideas for a Festive and Memorable Celebration"
+title: "Christmas Baby Shower Ideas for a Festive Celebration"
 description: "Plan a beautiful Christmas baby shower with ideas for decorations, themes, games, food, and favours that blend holiday magic with baby shower warmth."
 category: seasonal
 tags: ["baby shower", "christmas decor", "holiday entertaining", "seasonal decorating", "party ideas"]

@@ -1,5 +1,5 @@
 ---
-title: "Christmas Table Centerpieces That Look Expensive and Are Easy to Make"
+title: "Christmas Table Centerpieces: Easy Ideas for a Festive Table"
 description: "Create a stunning Christmas table with centerpiece ideas using candles, greenery, ornaments, and natural materials that suit any table size or budget."
 category: seasonal
 tags: ["christmas decor", "table decor", "centerpieces", "holiday decor", "christmas table"]

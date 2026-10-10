@@ -1,5 +1,5 @@
 ---
-title: "Wedding Centerpieces: Ideas for Every Style, Budget, and Table Size"
+title: "Wedding Centerpieces: Ideas by Style, Budget, and Table Size"
 description: "Find beautiful wedding centerpiece ideas for every style — from lush florals and greenery to candles, lanterns, and DIY options that suit any budget or venue."
 category: seasonal
 tags: ["wedding decor", "centerpieces", "table decor", "entertaining", "wedding ideas"]

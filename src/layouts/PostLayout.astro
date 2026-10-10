@@ -65,12 +65,7 @@ const tags = [...new Set((d.tags ?? []).map(tagSlug))]
 const words = wordCount(post.body ?? '');
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 
-/*
-  FAQPage markup. Google narrowed the *rich result* to health and government
-  sites in 2023, but the markup still tells every answer engine — AI Overviews,
-  ChatGPT search, Perplexity — exactly which passage answers which question,
-  and those are the surfaces citing this kind of content now.
-*/
+// Describe the questions and answers rendered below; search features are not guaranteed.
 const faqSchema = d.faqs?.length
   ? {
       '@type': 'FAQPage',
@@ -89,6 +84,7 @@ const faqSchema = d.faqs?.length
   description={d.description}
   image={d.pinImage}
   imageWide={d.heroImage}
+  imageAlt={d.heroImageAlt ?? d.title}
   type="article"
   publishDate={d.publishDate.toISOString()}
   updatedDate={d.updatedDate?.toISOString()}

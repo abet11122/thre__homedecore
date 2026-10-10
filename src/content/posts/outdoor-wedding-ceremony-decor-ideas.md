@@ -1,5 +1,5 @@
 ---
-title: "Outdoor Wedding Ceremony Decor Ideas for a Beautiful Alfresco Celebration"
+title: "Outdoor Wedding Ceremony Decor Ideas for an Alfresco Celebration"
 description: "Decorate an outdoor wedding ceremony with ideas for arches, aisles, seating, backdrops, and natural materials that create a stunning alfresco setting in any landscape."
 category: outdoor
 tags: ["wedding decor", "outdoor decor", "entertaining", "wedding ideas", "ceremony decor"]

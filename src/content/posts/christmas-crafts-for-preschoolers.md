@@ -1,5 +1,5 @@
 ---
-title: "Christmas Crafts for Preschoolers: Simple, Mess-Friendly Projects They Will Love"
+title: "Christmas Crafts for Preschoolers: Simple Hands-On Projects"
 description: "Keep preschoolers busy and creative this Christmas with simple crafts using paint, paper, and everyday materials that produce results they are genuinely proud of."
 category: diy-decor
 tags: ["christmas crafts", "kids christmas", "preschool crafts", "diy christmas", "seasonal decorating"]

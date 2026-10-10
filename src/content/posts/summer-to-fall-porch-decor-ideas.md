@@ -1,5 +1,5 @@
 ---
-title: "Summer to Fall Porch Decor Ideas: How to Transition Your Porch Seasonally"
+title: "Summer to Fall Porch Decor Ideas: A Seasonal Transition Guide"
 description: "Transition your porch from summer to fall with simple swaps and additions that feel seasonal without starting from scratch or spending a lot of money."
 category: outdoor
 tags: ["fall decor", "porch decor", "outdoor decor", "seasonal decorating", "summer decor"]

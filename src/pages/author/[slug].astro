@@ -42,20 +42,11 @@ const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const profileSchema = {
   '@type': 'ProfilePage',
   '@id': `${origin}/author/${SITE.authorSlug}/#profile`,
+  url: `${origin}/author/${SITE.authorSlug}/`,
+  name: SITE.author,
+  description,
   isPartOf: { '@id': `${origin}/#website` },
   mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
-  // The byline count is the signal that separates a real author page from a
-  // placeholder, so state it explicitly rather than leaving it implied.
-  mainEntityOfPage: {
-    '@type': 'ItemList',
-    numberOfItems: posts.length,
-    itemListElement: posts.slice(0, 20).map((post, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
-      name: post.data.title,
-    })),
-  },
 };
 ---
 

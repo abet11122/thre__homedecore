@@ -1,5 +1,5 @@
 ---
-title: "Backyard Wedding Decor Ideas for a Beautiful, Personal Celebration"
+title: "Backyard Wedding Decor Ideas for a Personal Celebration"
 description: "Decorate a backyard wedding with ideas for ceremony arches, reception tables, lighting, and personal touches that transform any garden into a stunning wedding venue."
 category: outdoor
 tags: ["wedding decor", "outdoor decor", "backyard decor", "entertaining", "wedding ideas"]

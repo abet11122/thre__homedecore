@@ -1,5 +1,5 @@
 ---
-title: "Christmas Crafts for Kids to Make: 15 Easy Projects They Will Love"
+title: "Christmas Crafts for Kids to Make: 15 Easy Projects"
 description: "Keep children busy and creative this Christmas with easy crafts they can make themselves — from salt dough ornaments to paper chains, cards, and gift wrapping."
 category: diy-decor
 tags: ["christmas crafts", "kids christmas", "diy christmas", "holiday decor", "seasonal decorating"]

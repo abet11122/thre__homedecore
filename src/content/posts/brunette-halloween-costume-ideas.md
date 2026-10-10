@@ -1,5 +1,5 @@
 ---
-title: "20 Brunette Halloween Costume Ideas That Work With Your Natural Hair"
+title: "20 Brunette Halloween Costume Ideas for Your Natural Hair"
 description: "Find a Halloween costume that works with dark hair with 20 brunette-friendly ideas. No wig required — these characters are canonically brunette."
 category: seasonal
 tags: ["halloween costumes", "brunette costumes", "costume ideas", "halloween", "seasonal"]
