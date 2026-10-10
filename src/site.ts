@@ -4,7 +4,7 @@
  */
 
 export const SITE = {
-  name: 'smallcozyhome.store',
+  name: 'Small Cozy Home',
   tagline: 'Big ideas for small, cozy spaces',
   description:
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
@@ -182,11 +182,7 @@ export function categoryName(slug: string): string {
 
 /** Rough reading time from a Markdown body. */
 export function readingTime(body: string): number {
-  const text = body
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1');
-  const words = text.trim().split(/\s+/).length;
+  const words = wordCount(body);
   return Math.max(1, Math.round(words / 220));
 }
 
@@ -284,5 +280,21 @@ export function postHasTag(post: { data: { tags?: string[] } }, slug: string): b
 
 /** Body word count — reported in Article schema, which Google reads. */
 export function wordCount(body: string): number {
-  return body.trim().split(/\s+/).filter(Boolean).length;
+  return plainText(body).split(/\s+/).filter(Boolean).length;
+}
+
+/** Count prose rather than Markdown syntax, URLs, and HTML attributes. */
+function plainText(body: string): string {
+  return body
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[#*_`>~|]/g, ' ')
+    .trim();
+}
+
+/** Escape HTML-sensitive characters before embedding JSON in a script tag. */
+export function serializeJsonLd(value: unknown): string {
+  return JSON.stringify(value).replace(/</g, '\\u003c');
 }
