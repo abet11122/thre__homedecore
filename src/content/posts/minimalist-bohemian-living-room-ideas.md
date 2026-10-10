@@ -8,6 +8,7 @@ heroImage: "photo-1600210492486-724fe5c67fb0"
 heroImageAlt: "A thoughtfully styled minimalist bohemian living room"
 pinImage: "photo-1618221195710-dd6b41faaea6"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

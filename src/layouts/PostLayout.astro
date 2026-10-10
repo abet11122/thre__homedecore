@@ -1,5 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from './Layout.astro';
 import Img from '../components/Img.astro';
 import SaveIdea from '../components/SaveIdea.astro';
@@ -9,6 +8,7 @@ import KeyTakeaways from '../components/KeyTakeaways.astro';
 import Faq from '../components/Faq.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
+import ProductRecommendations from '../components/ProductRecommendations.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
@@ -18,6 +18,8 @@ import ReadingTools from '../components/ReadingTools.astro';
 import '../styles/reading.css';
 import { articleImage } from '../lib/articleImages';
 import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
+import { recommendationsForPost } from '../data/affiliateProducts';
+import { getPublishedPosts } from '../lib/posts';
 
 interface Props {
   post: any;
@@ -27,11 +29,11 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+const isScheduled = d.publishDate.getTime() > Date.now();
+const productRecommendations = recommendationsForPost(post.id, d.category);
 const heroPhoto = articleImage(d.heroImage);
 
-const all = (await getCollection('posts')).sort(
-  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-);
+const all = await getPublishedPosts();
 
 /* ------------------------------------------------------------------
    Onward navigation
@@ -92,6 +94,7 @@ const faqSchema = d.faqs?.length
   keywords={d.tags ?? []}
   words={words}
   minutes={minutes}
+  noindex={d.noindex || isScheduled}
   schemas={faqSchema ? [faqSchema] : []}
 >
   <div id="progress" aria-hidden="true"></div>
@@ -160,7 +163,7 @@ const faqSchema = d.faqs?.length
       </aside>
 
       <div class="post-body mx-auto w-full max-w-reading">
-        {d.affiliateDisclosure && <AffiliateDisclosure />}
+        {(d.affiliateDisclosure || productRecommendations.length > 0) && <AffiliateDisclosure />}
 
         {d.keyTakeaways?.length > 0 && <KeyTakeaways items={d.keyTakeaways} />}
 
@@ -174,6 +177,8 @@ const faqSchema = d.faqs?.length
         <div class="article reading-article" id="article-body" tabindex="-1">
           <slot />
         </div>
+
+        <ProductRecommendations products={productRecommendations} />
 
         <a class="reading-back-top" href="#post-title" aria-label="Back to article title" hidden><span>Back to the top</span><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a>
 

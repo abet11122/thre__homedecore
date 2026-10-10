@@ -1,10 +1,29 @@
-import type { APIContext } from 'astro';
+import type { APIRoute } from 'astro';
 import { SITE } from '../site';
 
-export function GET({ site }: APIContext) {
-  // Crawlers must access search and saved pages to read their noindex tags.
-  const sitemap = new URL('/sitemap-index.xml', site ?? SITE.url).href;
-  return new Response(`User-agent: *\nAllow: /\n\nSitemap: ${sitemap}\n`, {
+const agents = [
+  'GPTBot',
+  'OAI-SearchBot',
+  'ChatGPT-User',
+  'PerplexityBot',
+  'ClaudeBot',
+  'Google-Extended',
+  'Applebot-Extended',
+];
+
+export const GET: APIRoute = ({ site }) => {
+  const origin = site ?? new URL(SITE.url);
+  const sitemap = new URL('/sitemap-index.xml', origin).href;
+  const rules = [
+    'User-agent: *',
+    'Allow: /',
+    '',
+    ...agents.flatMap((agent) => [`User-agent: ${agent}`, 'Allow: /', '']),
+    `Sitemap: ${sitemap}`,
+    '',
+  ];
+
+  return new Response(rules.join('\n'), {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
-}
+};

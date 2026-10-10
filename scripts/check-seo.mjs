@@ -23,6 +23,19 @@ for (const file of files) {
   const get = name => meta.find(tag => tag.name === name || tag.property === name)?.content;
   const canonicals = [...html.matchAll(/<link\b[^>]*>/g)].map(match => attrs(match[0])).filter(tag => tag.rel === 'canonical');
   const canonical = canonicals[0]?.href;
+  const redirect = meta.find(tag => tag['http-equiv']?.toLowerCase() === 'refresh');
+  if (redirect) {
+    const target = redirect.content?.match(/(?:^|;)\s*url=(.+)$/i)?.[1];
+    if (!target || !canonical) fail(route, 'Redirect lacks target or canonical');
+    else {
+      const targetUrl = new URL(target, canonical);
+      if (targetUrl.href !== canonical) fail(route, 'Redirect target differs from canonical');
+      if (sitemapUrls.has(new URL(route, canonical).href)) fail(route, 'Redirect source appears in sitemap');
+      if (!/noindex/.test(get('robots') ?? '')) fail(route, 'Redirect lacks noindex');
+    }
+    pages.set(route, { html, canonical, ids: new Set(), redirect: true });
+    continue;
+  }
   if (canonicals.length !== 1) fail(route, 'Expected one canonical URL');
   if (!canonical || !/^https?:\/\//.test(canonical)) fail(route, 'Canonical must be absolute');
   else {
@@ -50,9 +63,12 @@ for (const file of files) {
   for (const match of html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)) {
     try {
       const schema = JSON.parse(match[1]);
-      for (const node of schema['@graph'] ?? [schema]) {
+      const nodes = schema['@graph'] ?? [schema];
+      for (const node of nodes) {
         if (node['@type'] === 'BlogPosting') {
-          if (node.mainEntityOfPage?.['@id'] !== canonical) fail(route, 'Article page reference differs from canonical');
+          const pageReference = node.mainEntityOfPage?.['@id'];
+          const referencedPage = nodes.find(item => item['@id'] === pageReference);
+          if (pageReference !== canonical && referencedPage?.url !== canonical) fail(route, 'Article page reference does not resolve to canonical');
           if (!node.headline || !node.datePublished || !node.author || !node.image?.length) fail(route, 'Incomplete article structured data');
           if (new Date(node.dateModified) < new Date(node.datePublished)) fail(route, 'Article updated before publication');
         }

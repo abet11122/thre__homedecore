@@ -8,6 +8,7 @@ heroImage: "photo-1595526114035-0d45ed16cfbf"
 heroImageAlt: "A thoughtfully styled cozy neutral bedroom"
 pinImage: "photo-1616486338812-3dadae4b4ace"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

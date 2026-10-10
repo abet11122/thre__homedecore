@@ -12,6 +12,7 @@ interface Props {
   image?: string;
   /** Horizontal hero — becomes twitter:image, which wants 1.91:1. */
   imageWide?: string;
+  /** Human-readable description of the social preview image. */
   imageAlt?: string;
   type?: 'website' | 'article';
   publishDate?: string;
@@ -34,7 +35,7 @@ const {
   description = SITE.description,
   image,
   imageWide,
-  imageAlt = title || SITE.name,
+  imageAlt,
   type = 'website',
   publishDate,
   updatedDate,
@@ -81,8 +82,9 @@ const ogH = localOg?.height ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1500 
 // Twitter cards crop to 1.91:1, so a tall pin would be sliced through the
 // middle. Feed the horizontal hero there instead when we have one.
 const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
+const socialImageAlt = imageAlt || title || SITE.name;
 
-const adsenseId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
+const adsenseId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || SITE.adsenseClientId;
 
 /*
   Which room the reader is standing in. A category page marks its own item;
@@ -107,6 +109,8 @@ const currentCategory =
 const ORG_ID = `${origin}/#organization`;
 const SITE_ID = `${origin}/#website`;
 const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#person`;
+const PAGE_ID = `${canonical}#webpage`;
+const PRIMARY_IMAGE_ID = `${canonical}#primaryimage`;
 
 const orgNode = {
   '@type': 'Organization',
@@ -117,6 +121,8 @@ const orgNode = {
   logo: {
     '@type': 'ImageObject',
     url: abs(SITE.logo),
+    width: 512,
+    height: 512,
     caption: SITE.name,
   },
   sameAs: [SITE.pinterest, SITE.instagram].filter(url => url && new URL(url).pathname !== '/'),
@@ -145,6 +151,30 @@ const authorNode = {
   ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
 };
 
+const primaryImageNode = {
+  '@type': 'ImageObject',
+  '@id': PRIMARY_IMAGE_ID,
+  url: ogImage,
+  contentUrl: ogImage,
+  width: ogW,
+  height: ogH,
+  caption: socialImageAlt,
+};
+
+const pageSchema = schemas.find(node => node['@type'] === 'CollectionPage' || node['@type'] === 'ProfilePage');
+const pageNode = {
+  '@type': 'WebPage',
+  url: canonical,
+  name: pageTitle,
+  description,
+  inLanguage: SITE.lang,
+  isPartOf: { '@id': SITE_ID },
+  primaryImageOfPage: { '@id': PRIMARY_IMAGE_ID },
+  ...(type === 'article' ? { mainEntity: { '@id': `${canonical}#article` } } : {}),
+  ...pageSchema,
+  '@id': PAGE_ID,
+};
+
 const articleNode =
   type === 'article'
     ? {
@@ -161,7 +191,7 @@ const articleNode =
         author: { '@id': AUTHOR_ID },
         publisher: { '@id': ORG_ID },
         isPartOf: { '@id': SITE_ID },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+        mainEntityOfPage: { '@id': PAGE_ID },
         inLanguage: SITE.lang,
         isAccessibleForFree: true,
         ...(section ? { articleSection: section } : {}),
@@ -171,20 +201,7 @@ const articleNode =
       }
     : null;
 
-const pageSchema = schemas.find(node => node['@type'] === 'CollectionPage' || node['@type'] === 'ProfilePage');
-const pageNode = {
-  '@type': 'WebPage',
-  url: canonical,
-  name: title || SITE.name,
-  description,
-  inLanguage: SITE.lang,
-  isPartOf: { '@id': SITE_ID },
-  primaryImageOfPage: { '@type': 'ImageObject', url: twitterImage },
-  ...(articleNode ? { mainEntity: { '@id': articleNode['@id'] } } : {}),
-  ...pageSchema,
-  '@id': canonical,
-};
-const graph = [orgNode, siteNode, authorNode, pageNode, articleNode, ...schemas.filter(node => node !== pageSchema)].filter(Boolean);
+const graph = [orgNode, siteNode, authorNode, primaryImageNode, pageNode, articleNode, ...schemas.filter(node => node !== pageSchema)].filter(Boolean);
 const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
@@ -196,7 +213,13 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <title>{pageTitle}</title>
     <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
+    <meta
+      name="robots"
+      content={noindex
+        ? 'noindex, follow'
+        : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
+    />
+    {type === 'article' && <meta name="author" content={SITE.author} />}
     <meta name="theme-color" content="#FBF8F4" />
     <meta name="generator" content={Astro.generator} />
 
@@ -220,7 +243,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <meta property="og:image" content={ogImage} />
     {ogW && <meta property="og:image:width" content={String(ogW)} />}
     {ogH && <meta property="og:image:height" content={String(ogH)} />}
-    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:image:alt" content={socialImageAlt} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:locale" content={SITE.locale} />
@@ -238,7 +261,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <meta name="twitter:title" content={title || SITE.name} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={twitterImage} />
-    <meta name="twitter:image:alt" content={imageAlt} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     {SITE.twitter && <meta name="twitter:site" content={SITE.twitter} />}
     {SITE.twitter && <meta name="twitter:creator" content={SITE.twitter} />}
 
@@ -271,6 +294,14 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
         wait_for_update: 500,
       });
     </script>
+    {/* Keep the AdSense loader in the head, after the consent defaults. */}
+    {adsenseId && (
+      <script
+        is:inline
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
+        crossorigin="anonymous"></script>
+    )}
   </head>
 
   <body>
@@ -333,6 +364,8 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             <ul class="mt-4 space-y-2.5">
               <li><a href="/privacy-policy/" class="text-sm text-paper/65 hover:text-clay-soft">Privacy Policy</a></li>
               <li><a href="/disclosure/" class="text-sm text-paper/65 hover:text-clay-soft">Disclosure</a></li>
+              <li><a href="/terms-and-conditions/" class="text-sm text-paper/65 hover:text-clay-soft">Terms</a></li>
+              <li><a href="/disclaimer/" class="text-sm text-paper/65 hover:text-clay-soft">Disclaimer</a></li>
             </ul>
           </div>
         </div>
@@ -349,16 +382,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     </footer>
 
     <slot name="after-footer" />
-
-    {/* AdSense — deferred so it never competes with the main content paint */}
-    {adsenseId && (
-      <script
-        is:inline
-        async
-        defer
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
-        crossorigin="anonymous"></script>
-    )}
 
     {/* Pinterest save button — deferred, ~14KB, loads after paint */}
     <script is:inline async defer data-pin-hover="true" src="https://assets.pinterest.com/js/pinit.js"></script>

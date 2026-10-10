@@ -1,6 +1,6 @@
 ---
 title: "Fall Flower Arrangement Ideas for a Warm and Seasonal Home"
-description: "Create beautiful fall flower arrangements at home with ideas using dahlias, sunflowers, dried grasses, and seasonal foliage that look warm, abundant, and genuinely autumnal."
+description: "Create fall flower arrangements at home with dahlias, sunflowers, dried grasses, and seasonal foliage for a warm, abundant autumn display."
 category: seasonal
 tags: ["fall decor", "flower arrangements", "seasonal decorating", "autumn decor", "floral design"]
 publishDate: 2026-08-09

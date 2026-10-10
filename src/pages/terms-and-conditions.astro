@@ -1,0 +1,82 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+
+const domain = SITE.email.split('@')[1];
+---
+
+<PageLayout
+  title="Terms & Conditions"
+  eyebrow="Legal"
+  description={`Read the terms and conditions for using ${SITE.name}, including content ownership, affiliate links, liability and acceptable use.`}
+  lede="The rules for using this website, stated plainly."
+  updated="August 29, 2026"
+>
+  <p>
+    By accessing or using {SITE.name} at <strong>{SITE.url}</strong>, you agree to these terms.
+    If you do not agree, please do not use the site.
+  </p>
+
+  <h2>Use of content</h2>
+  <p>
+    All content on this site — articles, photographs, graphics and code — is the property of
+    {SITE.name} or its licensors. You may read, share links to, and quote short excerpts (with
+    attribution and a link back) for personal, non-commercial purposes. You may not reproduce
+    entire articles, scrape the site, or republish content without written permission.
+  </p>
+
+  <h2>No professional advice</h2>
+  <p>
+    Content on {SITE.name} is for informational and inspirational purposes only. Nothing here
+    constitutes professional design, structural, legal, financial or safety advice. Always consult
+    a qualified professional before undertaking building work or making significant financial
+    decisions.
+  </p>
+
+  <h2>Affiliate links and advertising</h2>
+  <p>
+    Some links are affiliate links and some pages carry advertising. See our
+    <a href="/disclosure/">disclosure policy</a> for full details. We are not responsible for the
+    content, pricing or availability of third-party websites we link to.
+  </p>
+
+  <h2>User conduct</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Use the site for any unlawful purpose.</li>
+    <li>Attempt to gain unauthorised access to any part of the site or its infrastructure.</li>
+    <li>Transmit spam, malware or any harmful code.</li>
+    <li>Misrepresent your identity or affiliation when contacting us.</li>
+  </ul>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the fullest extent permitted by law, {SITE.name} is not liable for any direct, indirect,
+    incidental or consequential loss arising from your use of, or inability to use, this site or
+    any content on it.
+  </p>
+
+  <h2>External links</h2>
+  <p>
+    We link to third-party sites for convenience and reference. We do not control those sites and
+    are not responsible for their content, privacy practices or availability.
+  </p>
+
+  <h2>Changes to these terms</h2>
+  <p>
+    We may update these terms at any time. Continued use of the site after changes are posted
+    constitutes acceptance of the revised terms.
+  </p>
+
+  <h2>Governing law</h2>
+  <p>
+    These terms are governed by the laws of the jurisdiction in which {SITE.name} is registered.
+    Any disputes will be subject to the exclusive jurisdiction of the courts of that jurisdiction.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about these terms: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+  </p>
+
+</PageLayout>

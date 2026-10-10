@@ -8,6 +8,7 @@ heroImage: "photo-1765766599670-a625d0fef258"
 heroImageAlt: "A thoughtfully styled trinket shelf"
 pinImage: "photo-1600566753190-17f0baa2a6c3"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

@@ -8,6 +8,7 @@ heroImage: "photo-1555854877-bab0e564b8d5"
 heroImageAlt: "A thoughtfully styled pink and blue dorm room"
 pinImage: "photo-1522708323590-d24dbb6b0267"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."

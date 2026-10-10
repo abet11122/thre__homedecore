@@ -10,7 +10,9 @@ export const SITE = {
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
   // Interim: swap for your real domain once purchased — this is the only
   // place it needs to change (astro.config.mjs reads it from here).
-  url: 'https://smallcozyhome.store',
+  url: 'https://www.smallspaceorganizationidea.site',
+  /** Public AdSense publisher ID; keep public/ads.txt in sync when changing it. */
+  adsenseClientId: 'ca-pub-8497285724891966',
   author: 'Sophie Lane',
   authorRole: 'Editor & Home Stylist',
   authorBio:
@@ -23,7 +25,7 @@ export const SITE = {
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
-  googleVerification: '',
+  googleVerification: '3YA4irBEBM26ScyVh4js0nLs2kw3MBl0a04u1ivQgL8',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'sophie-lane',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
@@ -224,6 +226,8 @@ const TAG_LABEL_OVERRIDES: Record<string, string> = {
   'renter-friendly': 'Renter-Friendly',
 };
 
+const CATEGORY_TAG_SLUGS = new Set<string>(CATEGORIES.map((category) => category.slug));
+
 export function tagSlug(tag: string): string {
   return tag
     .trim()
@@ -268,6 +272,7 @@ export function collectTags(
     }
   }
   return [...counts.entries()]
+    .filter(([slug]) => !CATEGORY_TAG_SLUGS.has(slug))
     .filter(([, count]) => count >= minCount)
     .map(([slug, count]) => ({ slug, label: tagLabel(slug), count }))
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));

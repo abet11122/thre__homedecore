@@ -9,6 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "seo:check": "node scripts/check-seo.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "check:seo": "npm run build && npm run seo:audit",
     "preview": "astro preview",
     "astro": "astro"
   },

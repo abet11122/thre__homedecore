@@ -1,6 +1,6 @@
 ---
 title: "Baby Shower Table Decor Ideas for a Beautiful Celebration"
-description: "Set a stunning baby shower table with ideas for runners, centerpieces, place settings, and personal touches that make every guest feel welcomed and every detail feel special."
+description: "Style a beautiful baby shower table with coordinated runners, centerpieces, place settings, and thoughtful personal touches for every guest."
 category: seasonal
 tags: ["baby shower", "table decor", "centerpieces", "entertaining", "party ideas"]
 publishDate: 2026-02-18

@@ -8,6 +8,7 @@ heroImage: "photo-1626806787461-102c1bfaaea1"
 heroImageAlt: "A thoughtfully styled small narrow laundry room"
 pinImage: "photo-1558618666-fcd25c85cd64"
 featured: false
+noindex: true
 keyTakeaways:
   - "Measure the space and solve the biggest practical problem before buying decor."
   - "Repeat a limited palette and a few materials for a more cohesive result."
