@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use warm white lights throughout for a consistent, cozy atmosphere."
   - "Layer greenery across one main surface before adding ornaments."
   - "Choose a simple holiday color palette and repeat it through the whole room."
+noindex: true
 ---
 
 If you are looking for cozy Christmas living room ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

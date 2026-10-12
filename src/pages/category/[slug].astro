@@ -9,7 +9,9 @@ import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
 import { getPublishedPosts } from '../../lib/posts';
 
 export async function getStaticPaths() {
-  return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
+  const posts = await getPublishedPosts();
+  return CATEGORIES.filter(c => posts.some(post => post.data.category === c.slug))
+    .map((c) => ({ params: { slug: c.slug } }));
 }
 
 const { slug } = Astro.params;
@@ -21,7 +23,7 @@ const posts = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 
 const [lead, ...others] = posts;
-const otherCategories = CATEGORIES.filter((c) => c.slug !== slug);
+const otherCategories = CATEGORIES.filter((c) => c.slug !== slug && allPosts.filter(post => post.data.category === c.slug).length >= 2);
 
 // Thin rooms were rendering a single card stranded in a three-column row with
 // two-thirds of the row empty. Match the column count to what is actually left:
@@ -65,7 +67,7 @@ const listSchema = {
   description={category.blurb}
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage ?? category.image}
-  noindex={posts.length === 0}
+  noindex={posts.length < 2}
   schemas={[listSchema]}
 >
   <header class="room-header">

@@ -114,28 +114,6 @@ export const productRecommendations: Record<string, AffiliateProduct[]> = {
   'how-to-decorate-around-a-tv': [products.slatWall],
 };
 
-/*
- * Every post in a matching category receives a small, useful shopping edit.
- * A post-specific match above wins when its topic calls for a tighter choice.
- */
-const categoryRecommendations: Record<string, AffiliateProduct[]> = {
-  bathroom: [products.bathroomUnderSink, products.vintageWallpaper],
-  kitchen: [products.bakersRackCompact, products.sinkCaddy],
-  bedroom: [products.daisyDecals, products.sageWallpaper],
-  'living-room': [products.slatWall],
-  renter: [products.sageWallpaper, products.vintageWallpaper],
-  'diy-decor': [products.daisyDecals, products.slatWall],
-  'small-spaces': [products.bakersRackCompact, products.bathroomUnderSink],
-  'organization-storage': [products.bathroomUnderSink, products.bakersRackCompact, products.sinkCaddy],
-  entryway: [products.kitchenRunner],
-  'laundry-mudroom': [products.kitchenRunner],
-  'dorm-college': [products.daisyDecals, products.bakersRackCompact],
-};
-
-export function recommendationsForPost(postId: string, category: string): AffiliateProduct[] {
-  return (
-    productRecommendations[postId.replace(/\.md$/, '')] ??
-    categoryRecommendations[category] ??
-    []
-  );
+export function recommendationsForPost(postId: string, _category: string): AffiliateProduct[] {
+  return productRecommendations[postId.replace(/\.md$/, '')] ?? [];
 }

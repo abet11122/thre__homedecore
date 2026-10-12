@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use U-shaped drawers or shelves designed to fit around plumbing."
   - "Keep cleaning products in a separate bin from personal care items."
   - "Declutter before organizing — remove expired and unused products first."
+noindex: true
 ---
 
 If you are looking for under sink bathroom organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

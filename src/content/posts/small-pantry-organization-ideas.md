@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use shelf risers for cans to create a second level and double the visible storage."
   - "Add turntables in deep corners so items at the back are always reachable."
   - "Decant only the foods that genuinely benefit from it — not everything needs a jar."
+noindex: true
 ---
 
 If you are looking for small pantry organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -14,14 +14,14 @@ export const SITE = {
   /** Public AdSense publisher ID; keep public/ads.txt in sync when changing it. */
   adsenseClientId: 'ca-pub-8497285724891966',
   author: 'Sophie Lane',
-  authorRole: 'Editor & Home Stylist',
+  authorRole: 'Contributor',
   authorBio:
-    'Sophie has spent a decade turning compact apartments and small houses into warm, intentional homes. She believes a cozy room is never about size — it is about the choices you make inside it.',
+    'Sophie Lane contributes guides to Small Cozy Home. Please send corrections or questions through the contact page.',
   authorAvatar:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
+    '/favicon.svg',
   pinterest: 'https://pinterest.com/smallcozyhome',
   instagram: 'https://instagram.com/smallcozyhome',
-  email: 'hello@smallcozyhome.store',
+  email: 'mmubasharshahzad40@gmail.com',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */

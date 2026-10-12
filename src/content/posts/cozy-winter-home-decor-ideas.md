@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use warm lamps in dark corners to create a cozy atmosphere without overhead lighting."
   - "Create a blanket basket in the living room for accessible, practical warmth."
   - "Keep winter decor less themed so it works through January and February."
+noindex: true
 ---
 
 If you are looking for cozy winter home decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

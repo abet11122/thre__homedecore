@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use matte pumpkins, taper candles, and dried branches for a sophisticated seasonal look."
   - "Create one spooky focal point and keep the rest of the room calm."
   - "Choose pieces that store flat and work with your normal decor to keep costs low."
+noindex: true
 ---
 
 Elegant Halloween decor is about restraint. A few well-chosen pieces in a limited palette create more atmosphere than a room covered in themed products. The goal is to bring in the season without making the space feel like a temporary display.

@@ -5,10 +5,10 @@ The homepage now offers room filters, a progressively revealed guide archive, an
 ## Account setup
 
 - Set the production `SITE_URL` when deploying. Keep `src/site.ts` aligned with the public domain.
-- Replace the generic Pinterest and Instagram URLs, example email, and author details in `src/site.ts` with verified business information. Check the About, Contact, and Privacy pages against your actual business practices.
+- Verify the Pinterest and Instagram accounts in `src/site.ts` are controlled by the publisher. The public contact mailbox and named contributor have been confirmed; update them only with verified details. Check the About, Contact, and Privacy pages against actual practices.
 - Claim the domain on Pinterest using `pinterestVerification`, and set `googleVerification` for Search Console. Submit `/sitemap-index.xml` to Search Console.
 - Configure `PUBLIC_ADSENSE_CLIENT_ID` and each intended `PUBLIC_ADSENSE_SLOT_*` from the AdSense account. Manual units stay hidden until both client and slot are configured. Add the ads.txt entry supplied by your own account; do not use an invented publisher ID.
-- Finish the consent-provider integration described in README before serving ads where required. Confirm placements and account approval in AdSense before launch.
+- The publisher has confirmed that its certified CMP is published in AdSense. Test its regional visitor flow, and confirm placements and account approval in AdSense before launch.
 
 ## Content and measurement
 

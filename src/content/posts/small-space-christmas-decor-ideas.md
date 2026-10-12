@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use window and wall space for lights and garlands instead of floor displays."
   - "Keep gift wrap in one slim container to prevent seasonal clutter."
   - "Choose a simple holiday color palette and repeat it through the whole space."
+noindex: true
 ---
 
 If you are looking for small space Christmas decor ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use and the styling supports everyday life instead of getting in the way.

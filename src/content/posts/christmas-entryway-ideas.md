@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use a slim garland on the console for a festive surface without clutter."
   - "Create a small basket for winter accessories to keep the entryway tidy."
   - "Add warm battery lights for atmosphere without needing a power outlet."
+noindex: true
 ---
 
 If you are looking for Christmas entryway ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -57,6 +57,16 @@ const records = filesIn(dist, (path) => path.endsWith('.html')).map((path) => {
   const h1s = (html.match(/<h1(?:\s|>)/gi) ?? []).length;
   const noindex = /(?:^|,\s*)noindex(?:,|$)/i.test(robots);
 
+  for (const match of html.matchAll(/<a\b[^>]*\bhref="(\/[^"]*)"/gi)) {
+    const pathname = decode(match[1]).split(/[?#]/, 1)[0];
+    if (!pathname || pathname === '/') continue;
+    const cleanPath = pathname.replace(/^\/+/, '');
+    const hasTarget = existsSync(join(dist, cleanPath)) ||
+      existsSync(join(dist, cleanPath, 'index.html')) ||
+      existsSync(join(dist, `${cleanPath}.html`));
+    if (!hasTarget) errors.push(`${file}: broken internal link ${pathname}`);
+  }
+
   if (!title) errors.push(`${file}: missing title`);
   if (!description) errors.push(`${file}: missing meta description`);
   if (!canonical) errors.push(`${file}: missing canonical URL`);
@@ -118,6 +128,18 @@ for (const file of readdirSync(content).filter((name) => name.endsWith('.md'))) 
   const output = join(dist, 'post', slug, 'index.html');
   const canonical = [...sitemapUrls].find((url) => new URL(url).pathname === `/post/${slug}/`);
 
+  if (!isNoindex && date && Date.parse(`${date}T00:00:00Z`) <= Date.now()) {
+    const body = source.split(/^---\s*$/m).slice(2).join('---');
+    const paragraphs = body.split(/\n\s*\n/)
+      .map((paragraph) => paragraph.replace(/\s+/g, ' ').trim())
+      .filter((paragraph) => paragraph.length > 100 && !paragraph.startsWith('#'));
+    const counts = new Map();
+    for (const paragraph of paragraphs) counts.set(paragraph, (counts.get(paragraph) ?? 0) + 1);
+    if ([...counts.values()].some((count) => count >= 3)) {
+      errors.push(`${file}: substantial paragraph repeats at least three times`);
+    }
+  }
+
   if (date && Date.parse(`${date}T00:00:00Z`) > Date.now()) {
     scheduled += 1;
     if (existsSync(output)) {
@@ -130,7 +152,9 @@ for (const file of readdirSync(content).filter((name) => name.endsWith('.md'))) 
     if (canonical) errors.push(`${file}: scheduled post appears in sitemap`);
   } else if (isNoindex) {
     editorialNoindex += 1;
-    if (!existsSync(output)) errors.push(`${file}: published noindex post was not generated`);
+    if (existsSync(output) && !/<meta\s+http-equiv="refresh"/i.test(readFileSync(output, 'utf8'))) {
+      errors.push(`${file}: unpublished editorial draft was generated`);
+    }
     if (canonical) errors.push(`${file}: editorial noindex post appears in sitemap`);
   }
 }

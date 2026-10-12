@@ -12,6 +12,7 @@ keyTakeaways:
   - "Install a hanging rail for air-drying clothes to avoid a separate drying rack."
   - "Sort laundry before it hits the floor with one hamper per category."
   - "Store detergent in one easy-reach zone so the workflow stays efficient."
+noindex: true
 ---
 
 If you are looking for small laundry room organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

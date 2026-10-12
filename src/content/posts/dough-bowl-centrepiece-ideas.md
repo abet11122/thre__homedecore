@@ -9,7 +9,7 @@ pinImage: "photo-1508193638397-1c4234db14d8"
 featured: false
 keyTakeaways:
   - "Start with a generous greenery or botanical base before adding any other elements."
-  - "Odd numbers of candles and accent objects always look more natural than even numbers."
+  - "Use flameless candles when the arrangement includes greenery, paper, or dried botanicals."
   - "A dough bowl centrepiece works on a dining table, coffee table, mantelpiece, or sideboard."
   - "The organic shape of the bowl does much of the work — fill it generously and let it spill slightly."
 faqs:
@@ -30,7 +30,7 @@ The ideas below cover every season and every style, from a simple everyday arran
 Regardless of the season or style, a dough bowl centrepiece is built in the same order:
 
 1. **Base layer:** greenery, dried botanicals, or fabric fill
-2. **Candles:** odd number, varying heights
+2. **Light:** use battery-operated LED candles when arranging greenery, fabric, or dried material
 3. **Accent objects:** seasonal items tucked among the base
 4. **Natural accents:** pine cones, dried fruit, cinnamon sticks, or berries
 5. **Ribbon or fabric:** optional finishing touch
@@ -51,7 +51,7 @@ See the dedicated [dough bowl centrepiece ideas for fall](/post/dough-bowl-centr
 
 A base of fresh pine, cedar, and eucalyptus, three candles in cream or deep red, small ornaments in one or two colours, pine cones, and a length of velvet ribbon woven through the arrangement.
 
-See the [dough bowl centrepiece for Christmas](/post/dough-bowl-centrepiece-for-christmas/) post for a full guide.
+Keep fresh greenery watered or replace it as it dries, and use flameless lights near the foliage.
 
 ## Spring Dough Bowl Centrepiece
 

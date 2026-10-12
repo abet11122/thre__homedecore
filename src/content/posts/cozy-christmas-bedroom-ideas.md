@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use warm white string lights safely for a cozy holiday atmosphere."
   - "Add greenery to one surface rather than decorating every area."
   - "Choose a small neutral holiday palette so the bedroom stays restful."
+noindex: true
 ---
 
 If you are looking for cozy Christmas bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

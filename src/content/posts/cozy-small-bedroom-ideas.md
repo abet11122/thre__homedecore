@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use warm 2700K bedside lighting instead of a single bright ceiling light."
   - "Keep the color palette calm — one base color and one or two accents."
   - "Choose multi-purpose furniture and use vertical space to keep the floor open."
+noindex: true
 ---
 
 If you are looking for cozy small bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

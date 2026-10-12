@@ -4,7 +4,7 @@ description: "Refresh your home for spring with simple decor ideas using fresh f
 category: seasonal
 tags: ["spring decor", "seasonal decorating", "home decor", "spring home", "refresh"]
 publishDate: 2026-02-01
-heroImage: "photo-1490750967868-88df5691cc5e"
+heroImage: "photo-1462275646964-a0e3386b89fa"
 pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:

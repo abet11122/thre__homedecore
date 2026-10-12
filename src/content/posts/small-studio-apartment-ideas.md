@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use an open shelf as a light room divider to separate zones without blocking light."
   - "Keep one consistent color palette throughout to make the space feel larger."
   - "Choose furniture that does more than one job in every zone."
+noindex: true
 ---
 
 If you are looking for small studio apartment ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use removable hooks and renter-friendly options to avoid wall damage."
   - "Create one seasonal focal point rather than decorating every surface."
   - "Layer textiles and warm lighting before adding any seasonal objects."
+noindex: true
 ---
 
 If you are looking for fall apartment decor ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

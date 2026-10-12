@@ -1,8 +1,8 @@
-# Hearth & Grain — a Pinterest-first home decor blog
+# Small Cozy Home
 
-A static, editorial-styled interiors blog built with **Astro 7** and **Tailwind CSS 3**, tuned for the two numbers that decide AdSense income: **page speed** and **pageviews per session**.
+A static interiors and organization site built with Astro and Tailwind CSS.
 
-Ships **zero JavaScript bundles** — the only scripts on the page are a handful of inline snippets totalling well under 2KB, plus the deferred AdSense and Pinterest tags.
+The public archive includes only reviewed posts whose publication dates have arrived.
 
 ---
 
@@ -13,18 +13,16 @@ npm install
 ```
 
 ```bash
-cp .env.example .env
+npx astro dev --background
 ```
 
-```bash
-npm run dev
-```
+Use `npx astro dev status`, `npx astro dev logs`, and `npx astro dev stop` to manage the background server.
 
-Open the URL it prints (usually `http://localhost:4321`). Ads render as labelled placeholders until you add your AdSense ID — at the exact same size, so the layout you see in dev is the layout you get in production.
+Open the URL it prints (usually `http://localhost:4321`). Manual ads remain hidden unless slot IDs are configured.
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Dev server with hot reload |
+| `npx astro dev --background` | Background dev server with hot reload |
 | `npm run build` | Static build into `dist/` |
 | `npm run preview` | Serve the built site locally |
 
@@ -226,18 +224,25 @@ Tag slugs are normalised, so `small spaces`, `Small Spaces` and `small-spaces` c
 
 ### Before launch
 
-- Set `SITE_URL` in `.env` **and** the `Sitemap:` line in `public/robots.txt`
+- Set `SITE.url` in `src/site.ts`, or override it with `SITE_URL` for the deployment. The robots endpoint derives its sitemap URL from that setting.
 - Add your Search Console code to `googleVerification` in `src/site.ts`
 - Submit `https://yourdomain.com/sitemap-index.xml` to Search Console
-- Fill in `authorLinks` in `src/site.ts` with real profiles — `Person.sameAs` is an E-E-A-T signal, and an empty author page is worse than none
+- Add only verified author profiles to `authorLinks` in `src/site.ts`.
+
+### Editorial publication check
+
+- Keep a draft at `noindex: true` until its instructions, examples, image rights, title, and links have been reviewed. A draft has no public article route.
+- Set a real `publishDate`. Future-dated posts are excluded from the built public site, archives, search, and RSS. Rebuild and deploy on or after the publication date; static output will not change by itself.
+- Run `npm run check:seo` before deployment. The audit checks sitemap/indexing consistency and internal links in the generated site.
+- Review archive and tag pages whenever several articles cover the same task. Merge overlapping drafts rather than publishing keyword variants.
 
 ---
 
 ## GDPR consent
 
-`Layout.astro` sets **Google Consent Mode v2** defaults to `denied` for all ad and analytics storage, with `wait_for_update: 500`. Nothing is stored until a choice is made.
+`Layout.astro` sets **Google Consent Mode v2** defaults to `denied` for ad and analytics storage, with `wait_for_update: 500`. The saved-ideas feature separately stores choices in the visitor's browser.
 
-To switch on the banner: in AdSense go to **Privacy & messaging → GDPR**, create a message, publish it, and Google serves the certified CMP to EEA/UK/Swiss visitors automatically through the AdSense tag already on the page. No code change needed.
+The certified regional consent message is managed in AdSense **Privacy & messaging**. Verify its published state and test the visitor experience for the EEA, UK, and Switzerland whenever the account setup or ad code changes.
 
 ---
 
@@ -263,9 +268,9 @@ Both free tiers serve this comfortably — it is pure static output with no serv
 
 ---
 
-## Connecting the demo forms
+## Contact and saved ideas
 
-The newsletter and contact forms are **not wired up**; they show a note saying so.
+The contact form opens the visitor's email application. The saved-ideas feature uses browser storage. There is no newsletter signup.
 
 **Netlify Forms** — add `netlify` and `name="contact"` to the `<form>` in `src/pages/contact.astro`, plus a hidden `form-name` input, and remove the inline `submit` handler at the bottom of the file.
 
@@ -348,4 +353,4 @@ src/
 
 ## Licence
 
-Template code is free to use and modify. The sample posts are placeholder editorial content — replace them with your own. Photography is from [Unsplash](https://unsplash.com/license) under the Unsplash License.
+The site uses licensed illustrative stock photography, including Unsplash and Pexels images. Check each image's source and applicable licence before reuse. Posts marked `noindex: true` are excluded from public article routes and archives until reviewed.

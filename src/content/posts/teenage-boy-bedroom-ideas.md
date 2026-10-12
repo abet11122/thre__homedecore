@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use a more grown-up color palette: navy, charcoal, sage, or warm white."
   - "Add closed storage for tech and cables to keep the room looking tidy."
   - "Use wall art that can change over time rather than fixed themed products."
+noindex: true
 ---
 
 If you are looking for teenage boy bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

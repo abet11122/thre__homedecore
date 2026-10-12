@@ -4,7 +4,7 @@ description: "Plan bridal shower decorations at home with flowers, balloons, tab
 category: seasonal
 tags: ["bridal shower", "party decor", "entertaining", "table decor", "party ideas"]
 publishDate: 2026-02-13
-heroImage: "photo-1490750967868-88df5691cc5e"
+heroImage: "photo-1462275646964-a0e3386b89fa"
 pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:

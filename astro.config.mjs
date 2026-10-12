@@ -20,12 +20,22 @@ const noindexPostPaths = new Set(
     })
     .map((file) => `/post/${basename(file, '.md')}/`)
 );
+const publishedCategoryCounts = new Map();
+for (const file of postFiles) {
+  const source = readFileSync(join(postsDirectory, file), 'utf8');
+  const date = source.match(/^publishDate:\s*(\d{4}-\d{2}-\d{2})\s*$/m)?.[1];
+  const category = source.match(/^category:\s*["']?([a-z-]+)["']?\s*$/m)?.[1];
+  if (!category || !date || /^noindex:\s*true\s*$/m.test(source)) continue;
+  if (Date.parse(`${date}T00:00:00Z`) > Date.now()) continue;
+  publishedCategoryCounts.set(category, (publishedCategoryCounts.get(category) ?? 0) + 1);
+}
 
 const noindexPaths = new Set([
   '/404/',
   '/404.html',
   '/saved/',
   '/search/',
+  '/tags/',
   '/tag/diy-decor/',
   '/tag/entryway/',
   '/tag/seasonal/',
@@ -44,6 +54,8 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname;
         return (
+          !path.startsWith('/tag/') &&
+          !(path.startsWith('/category/') && (publishedCategoryCounts.get(path.split('/')[2]) ?? 0) < 2) &&
           !noindexPaths.has(path) &&
           !noindexPostPaths.has(path)
         );
@@ -51,6 +63,7 @@ export default defineConfig({
     }),
   ],
   redirects: {
+    '/post/affordable-fall-porch-styling-ideas': '/post/fall-porch-decor-ideas/',
     '/tag/diy-decor': '/category/diy-decor/',
     '/tag/entryway': '/category/entryway/',
     '/tag/seasonal': '/category/seasonal/',

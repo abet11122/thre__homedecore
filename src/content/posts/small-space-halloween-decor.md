@@ -12,6 +12,7 @@ keyTakeaways:
   - "Choose tabletop pumpkins and small trays rather than large floor displays."
   - "Hang decor instead of using floor space to keep walkways clear."
   - "Stick to a restrained palette of black, cream, and muted orange."
+noindex: true
 ---
 
 If you are looking for small space Halloween decor ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use and the styling supports everyday life instead of getting in the way.

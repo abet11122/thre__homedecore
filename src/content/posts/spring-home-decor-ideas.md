@@ -5,7 +5,7 @@ category: seasonal
 tags: ["spring decor", "seasonal decorating", "home decor", "spring home", "interior styling"]
 publishDate: 2026-02-02
 heroImage: "photo-1462275646964-a0e3386b89fa"
-pinImage: "photo-1490750967868-88df5691cc5e"
+pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:
   - "Spring home decor works room by room — start with the spaces you use most."

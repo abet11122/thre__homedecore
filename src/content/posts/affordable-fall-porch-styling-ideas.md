@@ -4,6 +4,7 @@ description: "Style a beautiful fall porch on a budget with ideas for mums, pump
 category: outdoor
 tags: ["fall decor", "porch decor", "outdoor decor", "seasonal decorating", "budget decor"]
 publishDate: 2026-08-02
+noindex: true
 heroImage: "photo-1507003211169-0a1dd7228f2d"
 pinImage: "photo-1508193638397-1c4234db14d8"
 featured: false

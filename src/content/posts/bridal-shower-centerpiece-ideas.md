@@ -5,7 +5,7 @@ category: seasonal
 tags: ["bridal shower", "centerpieces", "table decor", "entertaining", "party ideas"]
 publishDate: 2026-02-14
 heroImage: "photo-1462275646964-a0e3386b89fa"
-pinImage: "photo-1490750967868-88df5691cc5e"
+pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:
   - "Fresh flowers are the most effective bridal shower centerpiece material."

@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use a round coffee table for easier movement in a tight space."
   - "Add wall-mounted lighting to free up floor space from floor lamps."
   - "Use one large rug instead of several small ones to anchor the seating area."
+noindex: true
 ---
 
 If you are looking for small apartment living room ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

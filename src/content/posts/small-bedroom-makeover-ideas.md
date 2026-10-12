@@ -12,6 +12,7 @@ keyTakeaways:
   - "Change the bedding for the biggest visual impact at the lowest cost."
   - "Paint one wall or refresh the whole room to transform the atmosphere."
   - "Swap bulky furniture for slimmer pieces to open up the floor space."
+noindex: true
 ---
 
 If you are looking for small bedroom makeover ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

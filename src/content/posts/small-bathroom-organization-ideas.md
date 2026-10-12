@@ -4,6 +4,7 @@ description: "Discover 17 small bathroom organization ideas that make better use
 category: bathroom
 tags: ["small bathrooms","bathroom organization","storage","decluttering","small spaces"]
 publishDate: 2026-09-06
+updatedDate: 2026-10-12
 heroImage: "/images/posts/small-bathroom-organization-ideas/hero.webp"
 heroImageAlt: "Built-in bathroom shelves holding folded towels and baskets beside a white tiled bathtub."
 pinImage: "/images/posts/small-bathroom-organization-ideas/pin.webp"
@@ -18,6 +19,16 @@ keyTakeaways:
 Small bathrooms become cluttered quickly because a lot of everyday items have to fit into very little space. Skincare, towels, cleaning products, toiletries, and hair tools can make even a good vanity feel overloaded.
 
 The goal is not to cover every wall with storage. A better small bathroom organization plan starts by removing what you do not use, then improving the hardest-working areas: drawers, the under-sink cabinet, the wall above the toilet, and the back of the door.
+
+Measure a proposed organizer against the cabinet opening with the [storage fit checker](/tools/storage-fit-checker/) before buying it.
+
+## Make a storage map before shopping
+
+Count daily toiletries, towels, cleaning products, and backups separately. Then record the usable width, depth, and height of each drawer and cabinet. Measure around pipes rather than treating the under-sink cabinet as an empty rectangle. Open the bathroom door and every cabinet door before deciding where a cart, hook, or over-door organizer might go.
+
+For example, if an under-sink opening is 50 cm wide but plumbing occupies the middle 20 cm, a single wide pull-out organizer may be unusable even though the cabinet itself is wide enough. Two narrower bins at the sides could be easier to remove. These numbers are an *illustrative fit calculation*, not dimensions measured in a particular bathroom. Allow for hinges and the organizer's handles when checking your own opening.
+
+Assign daily products to the easiest-to-reach drawer or shelf, spare products to a labeled backup bin, and towels to a spot where they can dry or stay dry. If one category exceeds its allotted space, reduce duplicates before adding another organizer. Keep medicines and cleaning products in storage appropriate for the people in your household and follow their packaging instructions.
 
 ## 1. Declutter Before Buying Organizers
 

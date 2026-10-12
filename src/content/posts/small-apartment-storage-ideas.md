@@ -12,6 +12,7 @@ keyTakeaways:
   - "Choose furniture with hidden storage: drawer beds, storage ottomans, and lift-top tables."
   - "Use narrow gaps beside furniture for slim rolling carts or pull-out storage."
   - "Take storage up the wall with tall bookcases and wall-mounted shelves."
+noindex: true
 ---
 
 If you are looking for small apartment storage ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use a tray for oils and salt to group everyday items and make them easy to move."
   - "Style a cutting board vertically as a functional decorative element."
   - "Add one small plant or herb pot for life and color without clutter."
+noindex: true
 ---
 
 If you are looking for kitchen countertop decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

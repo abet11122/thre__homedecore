@@ -12,6 +12,7 @@ keyTakeaways:
   - "Choose graphic art instead of character bedding for a look that ages well."
   - "Add black details in small amounts for a modern, grown-up feel."
   - "Keep storage practical with floating shelves, pegboards, and under-bed drawers."
+noindex: true
 ---
 
 If you are looking for modern boys bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

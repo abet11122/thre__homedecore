@@ -12,6 +12,7 @@ keyTakeaways:
   - "Add toy bins with simple labels so putting things away is fast enough to stick."
   - "Use a pegboard for sports equipment, tech, and items that change frequently."
   - "Create a school-bag drop zone near the door to prevent bags on the floor."
+noindex: true
 ---
 
 If you are looking for boys bedroom storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

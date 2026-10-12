@@ -4,7 +4,7 @@ description: "Plan a stunning outdoor bridal shower with ideas for decorations, 
 category: outdoor
 tags: ["bridal shower", "outdoor decor", "garden party", "entertaining", "party ideas"]
 publishDate: 2026-02-17
-heroImage: "photo-1490750967868-88df5691cc5e"
+heroImage: "photo-1462275646964-a0e3386b89fa"
 pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:

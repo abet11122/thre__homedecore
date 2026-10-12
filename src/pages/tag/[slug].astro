@@ -2,7 +2,6 @@
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
 import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug } from '../../site';
 import { getPublishedPosts } from '../../lib/posts';
@@ -82,6 +81,7 @@ const listSchema = {
   description={description}
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage}
+  noindex
   schemas={[listSchema]}
 >
   <header class="border-b border-rule bg-sand/40">
@@ -118,10 +118,6 @@ const listSchema = {
       </div>
     )}
   </section>
-
-  <div class="wrap">
-    <AdSlot placement="feed" class="mb-14" />
-  </div>
 
   {rooms.length > 0 && (
     <section class="wrap border-t border-rule pt-10" aria-labelledby="tag-rooms">

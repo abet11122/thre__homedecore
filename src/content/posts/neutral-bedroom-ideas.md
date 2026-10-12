@@ -12,6 +12,7 @@ keyTakeaways:
   - "Layer three or four neutral tones — cream, oatmeal, taupe, and sand — for depth."
   - "Mix wood, linen, and wool for texture without adding color."
   - "Add one dark accent for contrast to prevent the room from feeling flat."
+noindex: true
 ---
 
 If you are looking for neutral bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

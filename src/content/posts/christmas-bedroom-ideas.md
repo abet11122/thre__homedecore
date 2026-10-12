@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use warm string lights safely — keep them away from bedding and curtains."
   - "Hang a simple wreath above the bed as a seasonal focal point."
   - "Choose a simple holiday palette and repeat it through bedding and accessories."
+noindex: true
 ---
 
 If you are looking for Christmas bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

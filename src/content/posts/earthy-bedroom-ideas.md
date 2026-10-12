@@ -12,6 +12,7 @@ keyTakeaways:
   - "Add natural wood furniture for warmth and organic texture."
   - "Layer linen and cotton bedding for a relaxed, lived-in look."
   - "Bring in one or two plants to add life and a connection to nature."
+noindex: true
 ---
 
 If you are looking for earthy bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -4,7 +4,7 @@ description: "Style a bridal shower table with runners, place settings, centerpi
 category: seasonal
 tags: ["bridal shower", "table decor", "entertaining", "party ideas", "centerpieces"]
 publishDate: 2026-02-15
-heroImage: "photo-1490750967868-88df5691cc5e"
+heroImage: "photo-1462275646964-a0e3386b89fa"
 pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:

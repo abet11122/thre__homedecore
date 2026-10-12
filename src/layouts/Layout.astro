@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/editorial.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import { SITE, CATEGORIES } from '../site';
+import { getPublishedPosts } from '../lib/posts';
 
 interface Props {
   title?: string;
@@ -89,6 +90,8 @@ const pathSlug = Astro.url.pathname.split('/').filter(Boolean)[0] === 'category'
   : undefined;
 const currentCategory =
   pathSlug ?? (section ? CATEGORIES.find((c) => c.name === section)?.slug : undefined);
+const publishedPosts = await getPublishedPosts();
+const activeCategories = CATEGORIES.filter(c => publishedPosts.filter(post => post.data.category === c.slug).length >= 2);
 
 /* ------------------------------------------------------------------
    Structured data
@@ -136,9 +139,7 @@ const authorNode = {
   '@id': AUTHOR_ID,
   name: SITE.author,
   url: abs(`/author/${SITE.authorSlug}/`),
-  jobTitle: SITE.authorRole,
   description: SITE.authorBio,
-  image: SITE.authorAvatar,
   worksFor: { '@id': ORG_ID },
   ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
 };
@@ -325,7 +326,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             <p class="eyebrow-muted text-paper/50">Rooms</p>
             {/* Two columns so the full category list stays a readable block */}
             <ul class="mt-4 grid grid-cols-2 gap-x-6 gap-y-2.5">
-              {CATEGORIES.map((c) => (
+              {activeCategories.map((c) => (
                 <li>
                   <a href={`/category/${c.slug}/`} class="text-sm text-paper/65 hover:text-clay-soft">{c.name}</a>
                 </li>
@@ -346,6 +347,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
               </li>
               <li><a href="/contact/" class="text-sm text-paper/65 hover:text-clay-soft">Contact</a></li>
               <li><a href="/search/" class="text-sm text-paper/65 hover:text-clay-soft">Search</a></li>
+              <li><a href="/tools/storage-fit-checker/" class="text-sm text-paper/65 hover:text-clay-soft">Storage fit checker</a></li>
             </ul>
           </div>
 
@@ -364,9 +366,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
           <p class="text-xs text-paper/45">
             © {new Date().getFullYear()} {SITE.name}. All rights reserved.
           </p>
-          <p class="text-xs text-paper/45">
-            As an Amazon Associate we earn from qualifying purchases.
-          </p>
+          <p class="text-xs text-paper/45"><a href="/disclosure/">Advertising and affiliate disclosure</a></p>
         </div>
       </div>
     </footer>

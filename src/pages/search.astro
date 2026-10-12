@@ -5,6 +5,7 @@ import { CATEGORIES, categoryName, formatDateShort } from '../site';
 import { getPublishedPosts } from '../lib/posts';
 
 const posts = await getPublishedPosts();
+const categories = CATEGORIES.filter(c => posts.some(post => post.data.category === c.slug));
 
 // Prebuilt index — a plain array baked into the page, no fetch, no library.
 const index = posts.map((p) => ({
@@ -26,7 +27,7 @@ const index = posts.map((p) => ({
       <p class="eyebrow-muted">The archive</p>
       <h1 class="mt-4 font-display text-4xl leading-tight text-ink sm:text-5xl">Search</h1>
       <p class="mt-4 text-ink-60">
-        {posts.length} stories across {CATEGORIES.length} rooms. Start typing to filter.
+        {posts.length} stories across {categories.length} rooms. Start typing to filter.
       </p>
 
       <div class="relative mt-8">
@@ -49,7 +50,7 @@ const index = posts.map((p) => ({
 
       <div class="mt-6 flex flex-wrap justify-center gap-2">
         <button type="button" data-filter="" class="chip is-active">All</button>
-        {CATEGORIES.map((c) => (
+        {categories.map((c) => (
           <button type="button" data-filter={c.slug} class="chip">{c.name}</button>
         ))}
       </div>

@@ -1,6 +1,9 @@
 ---
 import { SITE, CATEGORIES } from '../site';
+import { getPublishedPosts } from '../lib/posts';
 const { currentCategory } = Astro.props;
+const published = await getPublishedPosts();
+const categories = CATEGORIES.filter(c => published.filter(post => post.data.category === c.slug).length >= 2);
 const isArticle = Astro.url.pathname.startsWith('/post/');
 ---
 
@@ -23,7 +26,7 @@ const isArticle = Astro.url.pathname.startsWith('/post/');
           </div>
           <a href="/" class="mobile-home-link" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>The home edit <span aria-hidden="true">&nearr;</span></a>
           <div class="mobile-category-links">
-            {CATEGORIES.map(c => (
+            {categories.map(c => (
               <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>
                 {c.name}<span aria-hidden="true">&nearr;</span>
               </a>
@@ -52,7 +55,7 @@ const isArticle = Astro.url.pathname.startsWith('/post/');
   </div>
   <nav class="room-navigation" aria-label="Primary">
     <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Home</a>
-    {CATEGORIES.map(c => <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>{c.name}</a>)}
+    {categories.map(c => <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>{c.name}</a>)}
   </nav>
 </header>
 

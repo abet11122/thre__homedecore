@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use one small candle group rather than covering the whole table."
   - "Add a bowl of pinecones or ornaments for a natural, low-effort centerpiece."
   - "Keep at least half the table free for everyday use."
+noindex: true
 ---
 
 If you are looking for Christmas coffee table decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

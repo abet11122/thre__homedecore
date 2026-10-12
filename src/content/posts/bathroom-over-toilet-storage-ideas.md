@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use a freestanding over-toilet unit if you cannot drill into the wall."
   - "Add a closed wall cabinet to hide items you do not want on open display."
   - "Use baskets to hide extra toilet paper and keep the shelves looking tidy."
+noindex: true
 ---
 
 If you are looking for bathroom over the toilet storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

@@ -12,10 +12,11 @@ import { getPublishedPosts } from '../lib/posts';
  * and it gives every tag hub one strong internal link from a crawlable page.
  */
 const posts = await getPublishedPosts();
+const categories = CATEGORIES.filter(c => posts.filter(post => post.data.category === c.slug).length >= 2);
 const tags = collectTags(posts);
 const max = tags[0]?.count ?? 1;
 
-const description = `Browse ${SITE.name} by topic — ${tags.length} themes running across ${CATEGORIES.length} rooms, from storage and lighting to renter-friendly fixes.`;
+const description = `Browse ${SITE.name} by topic — ${tags.length} themes running across ${categories.length} rooms, from storage and lighting to renter-friendly fixes.`;
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 
@@ -47,7 +48,7 @@ function scale(count: number) {
 }
 ---
 
-<Layout title="All topics" description={description} schemas={[listSchema]}>
+<Layout title="All topics" description={description} noindex schemas={[listSchema]}>
   <header class="border-b border-rule bg-sand/40">
     <div class="wrap py-10 lg:py-14">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tags' }]} />
@@ -85,7 +86,7 @@ function scale(count: number) {
   <section class="wrap border-t border-rule pt-10" aria-labelledby="tag-rooms-index">
     <h2 id="tag-rooms-index" class="eyebrow-muted">Or browse by room</h2>
     <div class="mt-5 flex flex-wrap gap-x-7 gap-y-3">
-      {CATEGORIES.map((c) => (
+      {categories.map((c) => (
         <a href={`/category/${c.slug}/`} class="font-display text-xl text-ink transition-colors hover:text-clay sm:text-2xl">
           {c.name}
         </a>

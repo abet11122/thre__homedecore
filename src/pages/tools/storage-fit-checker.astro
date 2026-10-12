@@ -1,0 +1,114 @@
+﻿---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+
+<Layout
+  title="Storage Organizer Fit Checker"
+  description="Compare a cabinet or shelf opening with an organizer's outside dimensions before buying. Enter your own measurements in centimeters or inches."
+>
+  <div class="wrap fit-page">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Storage fit checker' }]} />
+    <header>
+      <p class="eyebrow">Practical tool</p>
+      <h1>Will that organizer fit?</h1>
+      <p>Compare the clear space you measured with a product's <strong>outside</strong> dimensions. Use the same unit for every number. This calculation is a first check, not a replacement for a physical fit test.</p>
+    </header>
+
+    <form id="fit-form" class="fit-form">
+      <fieldset>
+        <legend>Clear space or cabinet opening</legend>
+        <p>Measure the narrowest usable opening, allowing for hinges, pipes, trim, and other obstructions.</p>
+        <div class="fit-grid">
+          <label>Width <input name="spaceWidth" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+          <label>Depth <input name="spaceDepth" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+          <label>Height <input name="spaceHeight" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Organizer outside dimensions</legend>
+        <p>Use the maker's full dimensions, including feet, handles, rails, or a lid where relevant.</p>
+        <div class="fit-grid">
+          <label>Width <input name="itemWidth" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+          <label>Depth <input name="itemDepth" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+          <label>Height <input name="itemHeight" type="number" min="0.1" step="0.1" inputmode="decimal" required /></label>
+        </div>
+      </fieldset>
+      <label class="unit-label">Unit
+        <select name="unit"><option value="cm">centimeters</option><option value="in">inches</option></select>
+      </label>
+      <button class="btn btn-primary" type="submit">Check dimensions</button>
+    </form>
+
+    <section id="fit-result" class="fit-result" aria-live="polite" hidden></section>
+
+    <section class="fit-notes">
+      <h2>What the numbers cannot check</h2>
+      <ul>
+        <li>Whether a rigid product can pass through a narrower door opening even if it fits the space behind it.</li>
+        <li>Whether a pull-out drawer has room to extend or a lid has room to open.</li>
+        <li>Whether a shelf can support the filled weight or fixings suit your wall.</li>
+        <li>Whether bathroom moisture, heat, or cleaning products suit the material.</li>
+      </ul>
+      <p>Measure twice, check the manufacturer's instructions, and leave the access you need to use the space comfortably. For a worked storage plan, see the <a href="/post/small-apartment-organization-ideas/">small apartment guide</a> or <a href="/post/small-bathroom-organization-ideas/">bathroom guide</a>.</p>
+    </section>
+  </div>
+</Layout>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('#fit-form');
+  const result = document.querySelector<HTMLElement>('#fit-result');
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (!form.reportValidity() || !result) return;
+    const data = new FormData(form);
+    const read = (key: string) => Number(data.get(key));
+    const unit = data.get('unit') === 'in' ? 'in' : 'cm';
+    const rows = [
+      { name: 'Width', remaining: read('spaceWidth') - read('itemWidth') },
+      { name: 'Depth', remaining: read('spaceDepth') - read('itemDepth') },
+      { name: 'Height', remaining: read('spaceHeight') - read('itemHeight') },
+    ];
+    const fits = rows.every(row => row.remaining >= 0);
+    result.replaceChildren();
+    const heading = document.createElement('h2');
+    heading.textContent = fits ? 'The listed dimensions fit on paper.' : 'The listed dimensions do not fit.';
+    result.append(heading);
+    const list = document.createElement('ul');
+    for (const row of rows) {
+      const item = document.createElement('li');
+      item.textContent = `${row.name}: ${Math.abs(row.remaining).toFixed(1)} ${unit} ${row.remaining >= 0 ? 'remaining' : 'too large'}`;
+      list.append(item);
+    }
+    result.append(list);
+    const note = document.createElement('p');
+    note.textContent = fits
+      ? 'Recheck hinges, handles, door swing, and pull-out space before ordering. A zero margin means there is no tolerance for measurement error.'
+      : 'Choose a smaller product or a different position. Check whether the product must pass through a narrower opening to reach the space.';
+    result.append(note);
+    result.hidden = false;
+    result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+</script>
+
+<style>
+  .fit-page { max-width: 840px; padding-block: 3rem 5rem; }
+  header { margin: 2rem 0; }
+  h1 { margin-top: .8rem; font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.1; color: #344b3c; }
+  header > p:last-child, .fit-notes p { max-width: 42rem; margin-top: 1rem; line-height: 1.75; color: #615e55; }
+  .fit-form { display: grid; gap: 1.5rem; }
+  fieldset { border: 1px solid #dfd9ce; padding: 1.25rem; }
+  legend, h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; color: #344b3c; }
+  fieldset > p { color: #615e55; margin: .5rem 0 1rem; line-height: 1.6; }
+  .fit-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  label { display: grid; gap: .45rem; color: #344b3c; font-weight: 600; }
+  input, select { width: 100%; min-height: 44px; border: 1px solid #a9a69d; border-radius: 2px; padding: .5rem .7rem; background: white; color: #252d26; }
+  .unit-label { max-width: 13rem; }
+  button { justify-self: start; }
+  .fit-result { padding: 1.5rem; background: #e8ece2; border-left: 3px solid #344b3c; }
+  .fit-result :global(ul), .fit-notes ul { margin: 1rem 0; padding-left: 1.5rem; list-style: disc; line-height: 1.8; }
+  .fit-result :global(p) { line-height: 1.6; }
+  .fit-notes { margin-top: 3rem; }
+  .fit-notes a { text-decoration: underline; }
+  @media (max-width: 540px) { .fit-grid { grid-template-columns: 1fr; } }
+</style>

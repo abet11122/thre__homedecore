@@ -12,6 +12,7 @@ keyTakeaways:
   - "Use under-bed storage first — it is the most underused space in most bedrooms."
   - "Take storage up the wall with floating shelves and tall units to keep the floor open."
   - "Measure before buying and keep daily items at an easy height."
+noindex: true
 ---
 
 If you are looking for small bedroom storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

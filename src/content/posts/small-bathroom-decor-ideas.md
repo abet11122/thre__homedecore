@@ -12,6 +12,7 @@ keyTakeaways:
   - "Choose light, warm wall colors to open up a compact space."
   - "Keep the shower curtain light and simple to avoid visual heaviness."
   - "Add one small plant or branch for life and texture without clutter."
+noindex: true
 ---
 
 If you are looking for small bathroom decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

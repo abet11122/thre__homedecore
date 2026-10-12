@@ -12,6 +12,7 @@ keyTakeaways:
   - "Add a small wreath to a cabinet door for a festive touch with no surface space used."
   - "Use a bowl of oranges and greenery as a natural, functional centerpiece."
   - "Keep food-prep surfaces completely clear of seasonal decorations."
+noindex: true
 ---
 
 If you are looking for Christmas kitchen decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

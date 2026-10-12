@@ -32,8 +32,7 @@ const beats = CATEGORIES.map((c) => ({
   .filter((c) => c.count > 0)
   .sort((a, b) => b.count - a.count);
 
-const oldest = posts[posts.length - 1];
-const description = `${SITE.author} is the ${SITE.authorRole.toLowerCase()} at ${SITE.name}, sharing practical small-space styling, storage and room-by-room decorating advice.`;
+const description = `${SITE.author} contributes small-space styling and organization guides to ${SITE.name}.`;
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 
@@ -71,7 +70,7 @@ const profileSchema = {
         <div class="lg:col-span-2">
           <img
             src={SITE.authorAvatar}
-            alt={SITE.author}
+            alt={`${SITE.name} site mark`}
             width="160"
             height="160"
             loading="eager"
@@ -97,14 +96,6 @@ const profileSchema = {
               <dt class="eyebrow-muted">Rooms covered</dt>
               <dd class="mt-1.5 font-display text-2xl text-ink">{beats.length}</dd>
             </div>
-            {oldest && (
-              <div>
-                <dt class="eyebrow-muted">Writing since</dt>
-                <dd class="mt-1.5 font-display text-2xl text-ink">
-                  {oldest.data.publishDate.getUTCFullYear()}
-                </dd>
-              </div>
-            )}
             <div>
               <dt class="eyebrow-muted">Get in touch</dt>
               <dd class="mt-1.5">
@@ -149,7 +140,7 @@ const profileSchema = {
       <SectionHead
         id="author-archive"
         kicker="The back catalogue"
-        title="More from Sophie"
+        title={`More from ${SITE.author}`}
         href="/tags/"
         hrefLabel="Browse all"
       />

@@ -12,6 +12,7 @@ keyTakeaways:
   - "Add narrow pull-out storage beside appliances or in slim gaps."
   - "Use vertical dividers for trays, chopping boards, and pan lids."
   - "Store mugs on a small rail or hooks to free up an entire cabinet shelf."
+noindex: true
 ---
 
 If you are looking for small kitchen storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.

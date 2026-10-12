@@ -5,7 +5,7 @@ category: seasonal
 tags: ["baby shower", "table decor", "centerpieces", "entertaining", "party ideas"]
 publishDate: 2026-02-18
 heroImage: "photo-1462275646964-a0e3386b89fa"
-pinImage: "photo-1490750967868-88df5691cc5e"
+pinImage: "photo-1462275646964-a0e3386b89fa"
 featured: false
 keyTakeaways:
   - "A consistent colour palette across linens, flowers, and tableware creates a cohesive look."
