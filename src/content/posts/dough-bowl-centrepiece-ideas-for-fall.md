@@ -1,5 +1,5 @@
 ---
-title: "Dough Bowl Centrepiece Ideas for Fall: How to Style One That Looks Stunning"
+title: "Dough Bowl Centrepiece Ideas for Fall: A Styling Guide"
 description: "Create a beautiful fall dough bowl centrepiece with pumpkins, candles, dried leaves, and natural materials that look warm, layered, and genuinely autumnal."
 category: seasonal
 tags: ["fall decor", "centerpieces", "dough bowl", "table decor", "seasonal decorating", "autumn decor"]

@@ -1,5 +1,5 @@
 ---
-title: "Farmhouse Fall Porch Decor Ideas for a Warm, Unpretentious Welcome"
+title: "Farmhouse Fall Porch Decor Ideas for a Warm Welcome"
 description: "Create a beautiful farmhouse fall porch with lanterns, galvanised metal, plaid, natural wood, and seasonal materials that look warm, honest, and genuinely welcoming."
 category: outdoor
 tags: ["fall decor", "farmhouse decor", "porch decor", "outdoor decor", "seasonal decorating"]

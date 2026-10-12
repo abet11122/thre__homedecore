@@ -1,5 +1,5 @@
 ---
-title: "Hot Cocoa Bar Ideas for a Cozy Christmas Station Everyone Will Love"
+title: "Hot Cocoa Bar Ideas for a Cozy Christmas Station"
 description: "Set up a beautiful hot cocoa bar at home with ideas for toppings, containers, signage, and styling that works for parties, family nights, and holiday entertaining."
 category: seasonal
 tags: ["christmas decor", "holiday entertaining", "hot cocoa bar", "seasonal decorating", "cozy home"]

@@ -1,5 +1,5 @@
 ---
-title: "Small Apartment Christmas Decor Ideas That Feel Big on Festive Cheer"
+title: "Small Apartment Christmas Decor Ideas for Festive Cheer"
 description: "Decorate a small apartment for Christmas with space-smart ideas for trees, lighting, greenery, and decor that add festive warmth without crowding your home."
 category: small-spaces
 tags: ["christmas decor", "small spaces", "apartment decor", "holiday decor", "seasonal decorating"]

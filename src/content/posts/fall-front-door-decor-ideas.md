@@ -1,5 +1,5 @@
 ---
-title: "Fall Front Door Decor Ideas for a Warm and Welcoming Autumn Entrance"
+title: "Fall Front Door Decor Ideas for a Welcoming Entrance"
 description: "Decorate your front door for fall with ideas for wreaths, garlands, lanterns, and seasonal accents that make a beautiful first impression from the street."
 category: outdoor
 tags: ["fall decor", "front door decor", "outdoor decor", "seasonal decorating", "autumn decor"]

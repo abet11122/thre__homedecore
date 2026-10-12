@@ -1,5 +1,5 @@
 ---
-title: "14 Halloween Centerpieces That Look Expensive and Take Under an Hour"
+title: "14 Halloween Centerpieces for a Spooky Table"
 description: "Create a striking Halloween centerpiece with 14 ideas using pumpkins, candles, dark florals, and trays. Styled for dining tables, coffee tables, and consoles."
 category: seasonal
 tags: ["halloween decor", "halloween centerpieces", "seasonal decorating", "table styling", "home styling"]

@@ -1,5 +1,5 @@
 ---
-title: "Thanksgiving Table Decor Ideas for a Warm and Memorable Holiday Table"
+title: "Thanksgiving Table Decor Ideas for a Warm Holiday Table"
 description: "Set a beautiful Thanksgiving table with centerpieces, linens, place settings, and seasonal accents that make guests feel welcome."
 category: seasonal
 tags: ["thanksgiving", "table decor", "centerpieces", "seasonal decorating", "entertaining", "fall decor"]

@@ -1,5 +1,5 @@
 ---
-title: "Bridal Shower Decorations at Home: Ideas for a Beautiful Celebration"
+title: "Bridal Shower Decorations at Home: Simple Styling Ideas"
 description: "Plan bridal shower decorations at home with flowers, balloons, table settings, backdrops, and personal touches for a warm, memorable celebration."
 category: seasonal
 tags: ["bridal shower", "party decor", "entertaining", "table decor", "party ideas"]

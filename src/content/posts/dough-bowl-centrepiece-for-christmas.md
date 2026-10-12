@@ -1,5 +1,5 @@
 ---
-title: "Dough Bowl Centrepiece for Christmas: How to Style One That Looks Stunning"
+title: "Dough Bowl Centrepiece for Christmas: A Styling Guide"
 description: "Create a beautiful dough bowl centrepiece for Christmas using greenery, candles, ornaments, and natural materials that look warm, layered, and genuinely festive."
 category: seasonal
 tags: ["christmas decor", "centerpieces", "dough bowl", "holiday decor", "christmas table", "seasonal decorating"]

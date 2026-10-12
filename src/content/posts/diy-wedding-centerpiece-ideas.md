@@ -1,5 +1,5 @@
 ---
-title: "DIY Wedding Centerpiece Ideas That Look Professional on Any Budget"
+title: "DIY Wedding Centerpiece Ideas for Different Budgets"
 description: "Make DIY wedding centerpieces with floral arrangements, candle displays, greenery runners, and mason jars that look polished on a realistic budget."
 category: diy-decor
 tags: ["wedding decor", "diy decor", "centerpieces", "table decor", "wedding ideas"]

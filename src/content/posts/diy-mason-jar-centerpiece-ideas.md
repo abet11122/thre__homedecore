@@ -1,5 +1,5 @@
 ---
-title: "DIY Mason Jar Centerpiece Ideas for Weddings, Showers, and Parties"
+title: "DIY Mason Jar Centerpiece Ideas for Weddings and Parties"
 description: "Make beautiful DIY mason jar centerpieces for any occasion with ideas for flowers, candles, greenery, and seasonal fillings that look charming and cost very little."
 category: diy-decor
 tags: ["diy decor", "centerpieces", "mason jar", "wedding decor", "entertaining"]

@@ -1,5 +1,5 @@
 ---
-title: "How to Decorate a Small Living Room for Christmas Without It Feeling Cluttered"
+title: "How to Decorate a Small Living Room for Christmas"
 description: "Decorate a small living room for Christmas with smart ideas for trees, lighting, greenery, and decor that add festive warmth without making the space feel cramped."
 category: living-room
 tags: ["christmas decor", "small spaces", "living room decor", "holiday decor", "seasonal decorating"]

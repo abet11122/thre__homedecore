@@ -1,5 +1,5 @@
 ---
-import { SITE } from '../site';
+import { SITE, serializeJsonLd } from '../site';
 
 interface Crumb {
   label: string;
@@ -16,11 +16,12 @@ const site = Astro.site?.href ?? `${SITE.url}/`;
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
+  '@id': `${new URL(Astro.url.pathname, site).href}#breadcrumbs`,
   itemListElement: items.map((item, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     name: item.label,
-    ...(item.href ? { item: new URL(item.href, site).href } : {}),
+    item: new URL(item.href ?? Astro.url.pathname, site).href,
   })),
 };
 ---
@@ -40,4 +41,4 @@ const schema = {
   </ol>
 </nav>
 
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<script type="application/ld+json" set:html={serializeJsonLd(schema)} />

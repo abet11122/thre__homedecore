@@ -1,5 +1,5 @@
 ---
-title: "Fall Decorations Indoor: Room-by-Room Ideas for a Warm Autumn Home"
+title: "Indoor Fall Decorations: Room-by-Room Ideas for Autumn"
 description: "Decorate your home for fall with natural materials, warm textiles, candles, and simple seasonal accents that make every room feel cozy and intentional."
 category: seasonal
 tags: ["fall decor", "indoor decor", "seasonal decorating", "autumn decor", "cozy home"]

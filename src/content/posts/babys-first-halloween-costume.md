@@ -1,5 +1,5 @@
 ---
-title: "20 Baby's First Halloween Costume Ideas That Are Adorable and Comfortable"
+title: "20 Baby's First Halloween Costume Ideas for a Comfortable Fit"
 description: "Find the perfect baby's first Halloween costume with 20 ideas that are soft, safe, and easy to put on. Organized by theme and age from newborn to 12 months."
 category: seasonal
 tags: ["halloween costumes", "baby halloween", "first halloween", "seasonal", "baby gifts"]
