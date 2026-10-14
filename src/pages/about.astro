@@ -1,23 +1,17 @@
-﻿---
+---
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
 ---
-
-<PageLayout
-  title="About"
-  eyebrow="About this site"
-  description={`How ${SITE.name} approaches small-space decorating and organization guides.`}
-  lede="Practical ideas for making a small home easier to use."
->
-  <p>{SITE.name} publishes guides to organizing and decorating compact rooms. Our aim is to help readers assess their own space, compare options, and make changes they can maintain.</p>
-  <p><a href={`/author/${SITE.authorSlug}/`}>{SITE.author}</a> contributes to the guides. Author information is limited to what we can verify; an illustrative site mark is used in place of a personal portrait.</p>
-
-  <h2>How to use the guides</h2>
-  <p>Room dimensions, building conditions, budgets, and household routines vary. Measure your own space, check product specifications, and follow manufacturer instructions before buying or installing anything. Where an article gives an example layout, treat it as an illustration rather than a tested project in your home.</p>
-
-  <h2>Images and recommendations</h2>
-  <p>Some articles use licensed stock photography for illustration. An image does not show a project built by this publication unless the article explicitly documents that project. Product links may earn a commission; see our <a href="/disclosure/">disclosure</a>.</p>
-
-  <h2>Corrections</h2>
-  <p>If a guide is unclear, an image is credited incorrectly, or a link stops working, please <a href="/contact/">contact us</a> with the page URL and the issue. We review corrections as the archive is maintained.</p>
+<PageLayout title="About" eyebrow="About this site" description="How Small Cozy Home creates its decorating guides, uses stock photography and distinguishes general inspiration from documented projects." lede="Decorating references, with clear limits on what they demonstrate.">
+  <p>{SITE.name} publishes home decorating and organization guides. The name <a href={'/author/' + SITE.authorSlug + '/'}>Editorial Team</a> is a publication byline. It is not a personal identity, professional qualification, or claim that a particular designer has tested these ideas.</p>
+  <h2>How the archive is made</h2>
+  <p>The archive includes programmatically generated drafts. A content review identified repeated passages and overlapping topics. Those drafts are excluded from the current archive while useful existing material is consolidated. A published guide offers general planning references; it should not be read as a record of an owner's personal project.</p>
+  <p>A first-hand project, measurement, price, time estimate, review or quotation needs a traceable source before it can be presented as such. We do not supply invented personal experience or qualifications. Publication dates are the dates stored with the guides, rather than evidence of when a photographed room was built.</p>
+  <h2>What the photographs show</h2>
+  <p>The current guides use stock photographs for illustration. A stock photograph does not show work completed by this publication, and may illustrate a general atmosphere rather than every detail of a suggested layout. Hosting a copy on this site does not make it an original photograph. Source and license links accompany article photo credits where available.</p>
+  <h2>Using a guide in your own home</h2>
+  <p>Measure doors, drawers, walkways and the actual product before buying. Building conditions, lease terms and budgets vary. Follow the manufacturer's installation instructions and load limits, and ask a qualified installer when the wall construction or fixing method is uncertain.</p>
+  <h2>Funding and corrections</h2>
+  <p>Some product links earn a commission; a disclosure appears near those recommendations. Advertising is currently disabled. Read the <a href="/disclosure/">disclosure</a> and <a href="/privacy-policy/">privacy policy</a> for details.</p>
+  <p>Send a correction, question about ownership, or image-credit concern through the <a href="/contact/">contact page</a>, including the relevant URL and supporting information.</p>
 </PageLayout>

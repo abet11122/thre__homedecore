@@ -152,8 +152,8 @@ for (const file of readdirSync(content).filter((name) => name.endsWith('.md'))) 
     if (canonical) errors.push(`${file}: scheduled post appears in sitemap`);
   } else if (isNoindex) {
     editorialNoindex += 1;
-    if (existsSync(output) && !/<meta\s+http-equiv="refresh"/i.test(readFileSync(output, 'utf8'))) {
-      errors.push(`${file}: unpublished editorial draft was generated`);
+    if (existsSync(output) && !/<meta\s+http-equiv="refresh"/i.test(readFileSync(output, 'utf8')) && !/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(readFileSync(output, 'utf8'))) {
+      errors.push(`${file}: unpublished editorial draft was generated without noindex`);
     }
     if (canonical) errors.push(`${file}: editorial noindex post appears in sitemap`);
   }

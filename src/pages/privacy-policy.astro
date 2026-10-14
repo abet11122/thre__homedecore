@@ -1,111 +1,19 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
-
 ---
-
-<PageLayout
-  title="Privacy Policy"
-  eyebrow="Legal"
-  description={`Learn what information ${SITE.name} collects, why it is used, how it is protected and what privacy choices are available to you.`}
-  lede="What we collect, why we collect it, and how to tell us to stop."
-  updated="October 12, 2026"
->
-  <p>
-    This policy explains how {SITE.name} ("we", "us") handles information when you visit
-    <strong>{SITE.url}</strong>. We have tried to write it in plain language. If anything is
-    unclear, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will explain.
-  </p>
-
-  <h2>Information we collect</h2>
-  <p>We keep this deliberately minimal. There is no account system and no login on this site.</p>
-  <ul>
-    <li>
-      <strong>Information you give us.</strong> If you email us, we receive your email address and
-      whatever you write. The contact form opens your own email application; it does not submit
-      information to this website.
-    </li>
-    <li>
-      <strong>Technical data.</strong> Our hosting provider may process server requests and technical
-      information needed to deliver the pages. We do not currently offer an account or newsletter signup.
-    </li>
-    <li>
-      <strong>Browser storage and advertising technologies.</strong> Saved ideas are stored in your
-      browser. Google advertising code may use cookies, web beacons, IP addresses, or other identifiers
-      as described below.
-    </li>
-  </ul>
-  <p>
-    We do not collect payment details, government identifiers, or health information, and we do not
-    knowingly collect information from children under 13.
-  </p>
-
-  <h2>How we use it</h2>
-  <ul>
-    <li>To publish and improve the site, and to understand which articles are useful.</li>
-    <li>To reply to messages you send us.</li>
-    <li>To provide the saved-ideas feature in your browser.</li>
-    <li>To display advertising if ad serving is enabled.</li>
-  </ul>
-
-  <h2>Advertising and Google AdSense</h2>
-  <p>
-    Google AdSense code is present on this site. If ads are served, Google and other third parties
-    may place and read cookies on your browser or use web beacons and IP addresses to collect
-    information as a result of ad serving. This may be used to deliver and measure ads, subject to
-    your available choices and applicable consent requirements. Learn more about
-    <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites that use its services</a>.
-  </p>
-  <p>
-    You can opt out of personalised advertising by visiting
-    <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a>,
-    or opt out of third-party vendor cookies at
-    <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info</a>.
-  </p>
-
-  <h2>Consent in the EEA, UK and Switzerland</h2>
-  <p>
-    A Google-certified consent management platform has been published in our AdSense account for
-    visitors in the European Economic Area, the United Kingdom, and Switzerland. It provides
-    choices for advertising data use where applicable. If you do not see an expected choice or
-    need help changing one, contact us at the address below.
-  </p>
-
-  <h2>Who we share it with</h2>
-  <p>We do not sell your personal information. We share data only with:</p>
-  <ul>
-    <li><strong>Google AdSense</strong> — advertising delivery and measurement.</li>
-    <li><strong>Our hosting provider</strong> — to serve the site.</li>
-    <li><strong>Legal authorities</strong> — where we are legally required to.</li>
-  </ul>
-
-  <h2>Your rights</h2>
-  <p>
-    Depending on where you live, you may have the right to access, correct, export or delete the
-    personal information we hold about you, and to object to certain processing. Residents of the
-    EEA and UK have these rights under the GDPR; California residents have comparable rights under
-    the CCPA/CPRA, including the right not to be discriminated against for exercising them.
-  </p>
-  <p>
-    To make a request, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We will
-    respond within 30 days.
-  </p>
-
-  <h2>Retention and security</h2>
-  <p>
-    We keep email messages for as long as needed to handle the conversation. The site is served over HTTPS. No method of transmission
-    over the internet is completely secure, and we cannot guarantee absolute security.
-  </p>
-
-  <h2>Changes</h2>
-  <p>
-    We will update this page when our practices change, and we will move the "last updated" date at
-    the top. Material changes will be noted on the homepage.
-  </p>
-
-  <h2>Contact</h2>
-  <p>
-    Questions about this policy: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
-  </p>
-
+<PageLayout title="Privacy Policy" eyebrow="Legal" description="How Small Cozy Home handles browser-saved ideas, email enquiries and technical requests. Advertising and analytics scripts are currently disabled." lede="The data involved in reading this site and saving ideas." updated="October 14, 2026">
+  <p>This policy covers {SITE.name} at {SITE.url}. Contact <a href={'mailto:' + SITE.email}>{SITE.email}</a> with privacy questions or requests.</p>
+  <h2>Reading and saving ideas</h2>
+  <p>There is no account, login or newsletter signup. The saved-ideas feature stores article identifiers in your browser's local storage. Clear saved ideas or site data in your browser to remove them; clearing storage can also remove other preferences for this site.</p>
+  <h2>Email enquiries</h2>
+  <p>Contact links open your email application rather than submitting a web form. If you send an email, the recipient and email service process your address, message and any attachments. Send only the information needed for your enquiry.</p>
+  <h2>Technical requests</h2>
+  <p>Delivering this site requires requests to its hosting provider, which may process IP addresses, browser information, request times and access logs. This page does not claim a particular hosting provider or retention period without owner confirmation.</p>
+  <h2>Advertising, analytics and external services</h2>
+  <p>This version does not load advertising or analytics scripts. It does not load the Pinterest tracking script or remote font stylesheets. Illustrative images are served from this site's own assets.</p>
+  <p>Affiliate and other external links lead to websites with their own privacy policies. Using a Pinterest share button opens Pinterest only after you choose to use it. See the <a href="/disclosure/">disclosure</a> for information about affiliate links.</p>
+  <h2>Requests and changes</h2>
+  <p>You may contact the publication about information you have supplied or rights available under applicable law. The owner must verify the relevant records before responding; this policy makes no unsupported promise about a consent platform or automatic deletion service.</p>
+  <p>This policy should be reviewed whenever the site's data practices change. Advertising or tracking must not be enabled on the basis of an unverified claim that consent tools are configured.</p>
 </PageLayout>

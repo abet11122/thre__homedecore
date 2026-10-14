@@ -22,9 +22,9 @@ export async function GET(context: APIContext) {
     '',
     `> ${SITE.description}`,
     '',
-    `Written and edited by ${SITE.author}, ${SITE.authorRole}. ${SITE.authorBio}`,
+    `Publication byline: ${SITE.author}. ${SITE.authorBio}`,
     '',
-    `${posts.length} articles across ${CATEGORIES.length} rooms. Every article is free to read, carries a published and last-updated date, and states its measurements and costs explicitly.`,
+    `${posts.length} current articles. Stock photographs are illustrative; the guides are not evidence of tested personal projects.`,
     '',
   ];
 

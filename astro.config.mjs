@@ -4,15 +4,23 @@ import sitemap from '@astrojs/sitemap';
 import { readdirSync, readFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 import { SITE, CATEGORIES } from './src/site.ts';
+import { policy, keptSourceIsPublic } from './src/lib/contentPolicy.mjs';
+import remarkPrivateNotes from './src/lib/remarkPrivateNotes.mjs';
+import { satteri } from '@astrojs/markdown-satteri';
 
 const postsDirectory = join(process.cwd(), 'src', 'content', 'posts');
 const postFiles = readdirSync(postsDirectory).filter((file) => file.endsWith('.md'));
+const publicPostSlugs = new Set(postFiles.filter(file => keptSourceIsPublic(basename(file, '.md'), readFileSync(join(postsDirectory, file), 'utf8'))).map(file => basename(file, '.md')));
+const approvedRedirects = Object.fromEntries(Object.entries(policy)
+  .filter(([, entry]) => entry.action === 'MERGE' && publicPostSlugs.has(entry.target))
+  .map(([slug, entry]) => [`/post/${slug}`, { destination: `/post/${entry.target}/`, status: 301 }]));
 const noindexPostPaths = new Set(
   postFiles
     .filter((file) => {
       const source = readFileSync(join(postsDirectory, file), 'utf8');
       const date = source.match(/^publishDate:\s*(\d{4}-\d{2}-\d{2})\s*$/m)?.[1];
       return (
+        !publicPostSlugs.has(basename(file, '.md')) ||
         /^noindex:\s*true\s*$/m.test(source) ||
         !date ||
         Date.parse(`${date}T00:00:00Z`) > Date.now()
@@ -22,6 +30,7 @@ const noindexPostPaths = new Set(
 );
 const publishedCategoryCounts = new Map();
 for (const file of postFiles) {
+  if (!publicPostSlugs.has(basename(file, '.md'))) continue;
   const source = readFileSync(join(postsDirectory, file), 'utf8');
   const date = source.match(/^publishDate:\s*(\d{4}-\d{2}-\d{2})\s*$/m)?.[1];
   const category = source.match(/^category:\s*["']?([a-z-]+)["']?\s*$/m)?.[1];
@@ -49,6 +58,7 @@ export default defineConfig({
   site: process.env.SITE_URL || SITE.url,
   output: 'static',
   trailingSlash: 'always',
+  markdown: { processor: satteri({ mdastPlugins: [remarkPrivateNotes] }) },
   integrations: [
     sitemap({
       filter: (page) => {
@@ -63,7 +73,7 @@ export default defineConfig({
     }),
   ],
   redirects: {
-    '/post/affordable-fall-porch-styling-ideas': '/post/fall-porch-decor-ideas/',
+    ...approvedRedirects,
     '/tag/diy-decor': '/category/diy-decor/',
     '/tag/entryway': '/category/entryway/',
     '/tag/seasonal': '/category/seasonal/',
@@ -72,4 +82,5 @@ export default defineConfig({
   build: {
     inlineStylesheets: 'auto',
   },
+  vite: { cacheDir: './.audit-vite-cache' },
 });

@@ -5,6 +5,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 import { SITE, CATEGORIES, serializeJsonLd } from '../site';
 import { articleImage } from '../lib/articleImages';
 import { getPublishedPosts } from '../lib/posts';
+import { localImageSource } from '../lib/stockImages';
 
 interface Props {
   title?: string;
@@ -64,9 +65,7 @@ const abs = (path: string) => new URL(path, origin).href;
 
 /** Unsplash id → CDN URL at the crop we want; absolute URLs pass through. */
 function photo(src: string, w: number, h: number) {
-  return src.startsWith('photo-')
-    ? `https://images.unsplash.com/${src}?w=${w}&h=${h}&fit=crop&auto=format&q=75`
-    : abs(src);
+  return abs(localImageSource(src));
 }
 
 const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
@@ -76,7 +75,7 @@ const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
 const ogSource = image || imageWide || DEFAULT_PHOTO;
 const ogImage = photo(ogSource, image ? 1000 : 1200, image ? 1500 : 630);
 const ogIsPin = Boolean(image);
-const localOg = articleImage(ogSource);
+const localOg = articleImage(localImageSource(ogSource));
 const ogW = localOg?.width ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1000 : 1200) : undefined);
 const ogH = localOg?.height ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1500 : 630) : undefined);
 
@@ -85,7 +84,6 @@ const ogH = localOg?.height ?? (ogSource.startsWith('photo-') ? (ogIsPin ? 1500 
 const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
 const socialImageAlt = imageAlt || title || SITE.name;
 
-const adsenseId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || SITE.adsenseClientId;
 
 /*
   Which room the reader is standing in. A category page marks its own item;
@@ -111,7 +109,7 @@ const activeCategories = CATEGORIES.filter(c => publishedPosts.filter(post => po
 ------------------------------------------------------------------- */
 const ORG_ID = `${origin}/#organization`;
 const SITE_ID = `${origin}/#website`;
-const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#person`;
+const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#editorial-team`;
 const PAGE_ID = `${canonical}#webpage`;
 const PRIMARY_IMAGE_ID = `${canonical}#primaryimage`;
 
@@ -128,7 +126,6 @@ const orgNode = {
     height: 512,
     caption: SITE.name,
   },
-  sameAs: [SITE.pinterest, SITE.instagram].filter(url => url && new URL(url).pathname !== '/'),
 };
 
 const siteNode = {
@@ -143,12 +140,12 @@ const siteNode = {
 };
 
 const authorNode = {
-  '@type': 'Person',
+  '@type': 'Organization',
   '@id': AUTHOR_ID,
   name: SITE.author,
   url: abs(`/author/${SITE.authorSlug}/`),
   description: SITE.authorBio,
-  worksFor: { '@id': ORG_ID },
+  parentOrganization: { '@id': ORG_ID },
   ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
 };
 
@@ -228,15 +225,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — latest stories`} href="/rss.xml" />
 
-    {/* Fonts: preconnect + swap so text paints instantly and never reflows */}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
-    />
-
     {/* Open Graph — og:image is the vertical 2:3 pin on post pages */}
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title || SITE.name} />
@@ -277,32 +265,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 
     <script type="application/ld+json" set:html={serializeJsonLd(jsonLd)} />
 
-    {/*
-      Google Consent Mode v2 defaults — denied until the certified CMP
-      (Privacy & messaging / UMP) records a choice. Required for EEA, UK and CH.
-      See README → "GDPR consent" for the one line you paste to switch it on.
-    */}
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('consent', 'default', {
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied',
-        analytics_storage: 'denied',
-        wait_for_update: 500,
-      });
-    </script>
-    {/* Keep the AdSense loader in the head, after the consent defaults. */}
-    {adsenseId && (
-      <script
-        is:inline
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
-        crossorigin="anonymous"></script>
-    )}
   </head>
 
   <body>
@@ -325,8 +287,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             <p class="font-display text-display-4 text-paper">{SITE.name}</p>
             <p class="mt-3 max-w-sm text-sm leading-relaxed text-paper/65">{SITE.description}</p>
             <div class="mt-6 flex gap-4">
-              <a href={SITE.pinterest} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted text-paper/60 hover:text-clay-soft">Pinterest</a>
-              <a href={SITE.instagram} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted text-paper/60 hover:text-clay-soft">Instagram</a>
               <a href={`mailto:${SITE.email}`} class="eyebrow-muted text-paper/60 hover:text-clay-soft">Email</a>
               <a href="/rss.xml" class="eyebrow-muted text-paper/60 hover:text-clay-soft">RSS</a>
             </div>
@@ -366,7 +326,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             <ul class="mt-4 space-y-2.5">
               <li><a href="/privacy-policy/" class="text-sm text-paper/65 hover:text-clay-soft">Privacy Policy</a></li>
               <li><a href="/disclosure/" class="text-sm text-paper/65 hover:text-clay-soft">Disclosure</a></li>
-              <li><a href="/terms-and-conditions/" class="text-sm text-paper/65 hover:text-clay-soft">Terms</a></li>
+              <li><a href="/terms-and-conditions/" class="text-sm text-paper/65 hover:text-clay-soft">Terms of Service</a></li>
               <li><a href="/disclaimer/" class="text-sm text-paper/65 hover:text-clay-soft">Disclaimer</a></li>
             </ul>
           </div>
@@ -383,7 +343,5 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 
     <slot name="after-footer" />
 
-    {/* Pinterest save button — deferred, ~14KB, loads after paint */}
-    <script is:inline async defer data-pin-hover="true" src="https://assets.pinterest.com/js/pinit.js"></script>
   </body>
 </html>

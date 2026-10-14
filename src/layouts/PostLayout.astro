@@ -13,13 +13,13 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import Newsletter from '../components/Newsletter.astro';
-import AdSlot from '../components/AdSlot.astro';
 import ReadingTools from '../components/ReadingTools.astro';
 import '../styles/reading.css';
 import { articleImage } from '../lib/articleImages';
 import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
 import { recommendationsForPost } from '../data/affiliateProducts';
 import { getPublishedPosts } from '../lib/posts';
+import { localImageSource } from '../lib/stockImages';
 
 interface Props {
   post: any;
@@ -31,7 +31,7 @@ const { post, headings, minutes } = Astro.props;
 const d = post.data;
 const isScheduled = d.publishDate.getTime() > Date.now();
 const productRecommendations = recommendationsForPost(post.id, d.category);
-const heroPhoto = articleImage(d.heroImage);
+const heroPhoto = articleImage(localImageSource(d.heroImage));
 
 const all = await getPublishedPosts();
 
@@ -137,7 +137,7 @@ const faqSchema = d.faqs?.length
         <div class="frame post-hero-image">
           <Img src={d.heroImage} alt={d.heroImageAlt ?? d.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 1440px) 580px, (min-width: 900px) 44vw, (min-width: 640px) 85vw, 100vw" />
         </div>
-        <figcaption><span>Illustrative image</span>{heroPhoto && <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Photo: {heroPhoto.photographer}</a>}</figcaption>
+        <figcaption><span>Stock photograph — illustration, not a documented project</span>{heroPhoto && <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {heroPhoto.photographer}</a>}</figcaption>
       </figure>
     </div>
 
@@ -163,6 +163,7 @@ const faqSchema = d.faqs?.length
       </aside>
 
       <div class="post-body mx-auto w-full max-w-reading">
+        <p class="mb-6 text-sm leading-relaxed text-ink-60">This guide uses stock photographs for illustration. It is general planning guidance, not a record of a tested personal project. <a href="/about/">How these guides are made</a>.</p>
         {(d.affiliateDisclosure || productRecommendations.length > 0) && <AffiliateDisclosure />}
 
         {d.keyTakeaways?.length > 0 && <KeyTakeaways items={d.keyTakeaways} />}
@@ -170,7 +171,7 @@ const faqSchema = d.faqs?.length
         {/* The rail carries the contents from xl up; below that it sits inline. */}
         <div id="article-contents" class="xl:hidden"><TableOfContents headings={headings} /></div>
 
-        <AdSlot placement="in-article-top" class="my-10" />
+        
 
         <ReadingTools minutes={minutes} />
 
@@ -195,7 +196,7 @@ const faqSchema = d.faqs?.length
           </div>
         )}
 
-        <AdSlot placement="in-article-mid" class="my-12" />
+        
 
         <Faq items={d.faqs ?? []} />
 
@@ -217,16 +218,10 @@ const faqSchema = d.faqs?.length
         <PostNav prev={prev} next={next} />
       </div>
 
-      {/* A configured sidebar ad gets a separate rail only on wide screens. */}
-      <aside class="post-aside hidden 2xl:block">
-        <div class="sticky top-28">
-          <AdSlot placement="sidebar" />
-        </div>
-      </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
-      <AdSlot placement="before-related" class="mt-14" />
+      
       <RelatedPosts category={d.category} currentId={post.id} />
     </div>
   </article>
@@ -235,17 +230,4 @@ const faqSchema = d.faqs?.length
     <Newsletter />
   </div>
 
-  {/* Reserve space for a configured mobile anchor ad. */}
-  <div class="anchor-ad" slot="after-footer">
-    <AdSlot placement="anchor" />
-  </div>
 </Layout>
-
-<style is:global>
-  /* Room for the mobile anchor ad */
-  @media (max-width: 767px) {
-    body:has(.anchor-ad .ad) {
-      padding-bottom: 60px;
-    }
-  }
-</style>

@@ -2,7 +2,7 @@
 title: "Bathroom Storage Ideas for Small Spaces"
 description: "Small bathroom storage ideas with real depths and heights — over-toilet, vanity, shower and wall storage that fits without crowding the room."
 category: "bathroom"
-tags: ["bathroom", "small spaces", "storage", "shelving", "renter-friendly"]
+tags: ["small spaces","storage","shelving","renter-friendly"]
 publishDate: 2026-08-20
 heroImage: "photo-1515938541268-cb8a388444b4"
 pinImage: "photo-1618579252366-f431305ada51"
@@ -28,12 +28,23 @@ faqs:
   - q: "How do I stop open bathroom shelving looking cluttered?"
     a: "Aim for roughly 70% closed storage to 30% open, use matching baskets with one per category, decant soap and lotion into matching bottles, roll towels rather than folding them, and leave some shelf deliberately empty."
 ---
+<!-- OWNER INPUT — not rendered publicly. No experience or credentials may be invented.
+Proposed structure: Measured layout walkthrough
+[MY PHOTO: photograph your own Bathroom Storage Ideas for Small Spaces setup, wide view and detail of the main constraint; credit the photographer]
+[MY MEASUREMENTS / COST / TIME: record dimensions, currency and dated receipts, active and elapsed time; label estimates]
+[WHAT I TRIED AND WHAT WENT WRONG: describe the actual attempt, failed choice, correction and remaining limitation]
+[MY OPINION: which idea I would pick and why, based on my room and constraints]
+For each idea: For each retained idea add the specific constraint, material/installation needs, tradeoff, who should skip it, maintenance and evidence; omit unsupported prices or claims
+Photo status: ALL_REFERENCED_PHOTOS_STOCK. Replace with documented originals when available.
+-->
 
 Small bathrooms have almost no floor to give up, so nearly every storage solution has to be shallow, wall-mounted, or hidden inside something that's already there.
 
 Here's what fits, with the depths that make the difference.
 
 ## The depths that work
+
+<!-- IDEA 1: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 - **Over-toilet shelving:** 8–10 inches deep. Any more and you'll knock your head.
 - **Wall cabinet:** 6–8 inches. Enough for bottles, shallow enough not to intrude.
@@ -44,6 +55,8 @@ Here's what fits, with the depths that make the difference.
 **Clearance to protect:** 21 inches of clear floor in front of the toilet, and 30 inches in front of the vanity.
 
 ## 1. Over the toilet
+
+<!-- IDEA 2: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 The most reliable dead space in any bathroom. Roughly 30 inches of wall doing nothing.
 
@@ -57,6 +70,8 @@ Keep it 8–10 inches deep so nobody bumps their head standing up.
 
 ## 2. Recess into the wall
 
+<!-- IDEA 3: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 The space between studs is 3.5 inches deep and costs nothing but the work.
 
 - **A shower niche** — replaces the shelf full of bottles and looks built-in
@@ -66,6 +81,8 @@ The space between studs is 3.5 inches deep and costs nothing but the work.
 Check for pipes and wiring before cutting. Not for external walls in cold climates.
 
 ## 3. Under the sink
+
+<!-- IDEA 4: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Usually a chaotic void with a pipe through it.
 
@@ -79,6 +96,8 @@ Even a pedestal sink can take a small basket underneath.
 
 ## 4. The back of the door
 
+<!-- IDEA 5: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 Four inches of usable depth that most people ignore.
 
 - Over-door hooks for towels and robes
@@ -87,9 +106,13 @@ Four inches of usable depth that most people ignore.
 
 ## 5. Corner shelving
 
+<!-- IDEA 6: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 Corners are the least useful space in any room. Stacked corner shelves — in the shower or beside it — turn dead space into storage without touching the walkway.
 
 ## 6. Vertical wall storage
+
+<!-- IDEA 7: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 - **A ladder shelf** leaning against the wall — no drilling, holds towels and baskets
 - **Floating shelves** above the toilet or beside the mirror
@@ -98,6 +121,8 @@ Corners are the least useful space in any room. Stacked corner shelves — in th
 - **Magnetic strip** inside a cabinet for tweezers and clippers
 
 ## 7. Shower storage
+
+<!-- IDEA 8: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 The bottles-on-the-floor problem.
 
@@ -108,6 +133,8 @@ The bottles-on-the-floor problem.
 - **A shower stool** that doubles as storage
 
 ## 8. Towel storage
+
+<!-- IDEA 9: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Towels take more room than people plan for.
 
@@ -121,6 +148,8 @@ Hooks over rails is the single best small-bathroom towel decision.
 
 ## 9. Reduce what's in there
 
+<!-- IDEA 10: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 The most effective small-bathroom storage strategy isn't a product.
 
 Most bathrooms hold three times more than they need — sample bottles, half-empty products, expired medicine, spare toiletries.
@@ -128,6 +157,8 @@ Most bathrooms hold three times more than they need — sample bottles, half-emp
 Keep the things you use weekly in the bathroom. Everything else goes in a linen cupboard or a bedroom. A small bathroom with 15 items feels spacious; the same room with 60 feels chaotic no matter how good the shelving is.
 
 ## 10. Baskets and containers
+
+<!-- IDEA 11: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Loose items are what makes open shelving look cluttered.
 
@@ -140,6 +171,8 @@ Uniform containers turn visual mess into a clean line, and they cost very little
 
 ## Renter-friendly, no drilling
 
+<!-- IDEA 12: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 - Freestanding over-toilet étagère
 - Leaning ladder shelf
 - Tension rods and tension caddies
@@ -149,6 +182,8 @@ Uniform containers turn visual mess into a clean line, and they cost very little
 - Rolling cart in a gap beside the vanity
 
 ## Making storage look intentional
+
+<!-- IDEA 13: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 - **70% closed, 30% open.** Bathrooms fill with visually busy products.
 - **Decant** hand soap and lotion into matching bottles
@@ -169,3 +204,70 @@ Uniform containers turn visual mess into a clean line, and they cost very little
 | Narrow floor cabinet | 10–12 inches |
 | Clear floor at toilet | 21 inches |
 | Clear floor at vanity | 30 inches |
+
+## More options for this space
+
+<!-- IDEA 14: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+### Prioritize the Vanity and Under-Sink Area
+
+<!-- IDEA 15: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+The vanity and under-sink cabinet are the highest-impact storage zones in a small bathroom. Measure the space carefully and choose containers that fit around the plumbing.
+
+Measure width, depth, and height before choosing containers, especially around plumbing. Use low or pull-out bins when possible so items at the back remain easy to reach.
+
+### Use Shallow Wall Shelves
+
+<!-- IDEA 16: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+Shallow floating shelves above the toilet or beside the mirror add storage without reducing floor space. Use them for everyday items you reach for often.
+
+Measure the wall before drilling or ordering storage, and check that doors, cabinets, and people can still move comfortably.
+
+### Install Two Shallow Floating Shelves
+
+<!-- IDEA 17: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+Two shallow floating shelves above the toilet create a clean, open look and provide useful storage for towels, plants, and bathroom accessories. Keep the lower shelf at a comfortable height.
+
+### Use a Freestanding Over-Toilet Unit
+
+<!-- IDEA 18: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+A freestanding over-toilet unit requires no drilling and can be moved if needed. It is a good option for rentals or bathrooms where wall drilling is not permitted.
+
+Before buying anything, measure the available area and think about how the item will be used every day.
+
+### Make a storage map before shopping
+
+<!-- IDEA 19: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+Count daily toiletries, towels, cleaning products, and backups separately. Then record the usable width, depth, and height of each drawer and cabinet. Measure around pipes rather than treating the under-sink cabinet as an empty rectangle. Open the bathroom door and every cabinet door before deciding where a cart, hook, or over-door organizer might go.
+
+For example, if an under-sink opening is 50 cm wide but plumbing occupies the middle 20 cm, a single wide pull-out organizer may be unusable even though the cabinet itself is wide enough. Two narrower bins at the sides could be easier to remove. These numbers are an *illustrative fit calculation*, not dimensions measured in a particular bathroom. Allow for hinges and the organizer's handles when checking your own opening.
+
+Assign daily products to the easiest-to-reach drawer or shelf, spare products to a labeled backup bin, and towels to a spot where they can dry or stay dry. If one category exceeds its allotted space, reduce duplicates before adding another organizer. Keep medicines and cleaning products in storage appropriate for the people in your household and follow their packaging instructions.
+
+### Declutter Before Buying Organizers
+
+<!-- IDEA 20: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+Empty the drawers, vanity, and open shelves before you shop for bins. Remove expired products, nearly empty duplicates, and items that belong somewhere else.
+
+This prevents a common mistake: buying storage to organize things you do not actually need. It also helps you measure the real amount of storage required.
+
+### Measure Around Pipes First
+
+<!-- IDEA 21: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+Before buying any under-sink organizer, measure the available space carefully, including the height, width, and depth around the pipes. Many standard organizers will not fit without modification.
+
+### Use U-Shaped Drawers or Shelves
+
+<!-- IDEA 22: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
+U-shaped drawers and shelves are designed to fit around the plumbing pipe. They make efficient use of the space on either side of the pipe without requiring any modification.
+
+Measure the wall before drilling or ordering storage.
+

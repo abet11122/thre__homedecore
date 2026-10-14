@@ -1,0 +1,1752 @@
+{
+  "above-couch-decor-ideas": {
+    "action": "MERGE",
+    "target": "living-room-gallery-wall-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "above-kitchen-cabinet-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "above-kitchen-cabinets-decor-ideas": {
+    "action": "MERGE",
+    "target": "above-kitchen-cabinet-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "affordable-fall-porch-styling-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "apartment-christmas-door-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "apartment-decor-ideas-budget": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "autumn-mantel-styling": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "baby-shower-centerpiece-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "baby-shower-table-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "babys-first-halloween-costume": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "back-to-school-entryway-ideas": {
+    "action": "MERGE",
+    "target": "small-entryway-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "backyard-halloween-party-ideas": {
+    "action": "MERGE",
+    "target": "halloween-yard-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "backyard-wedding-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "balcony-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "bathroom-christmas-decor": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-closet-organization-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-counter-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-gallery-wall-ideas": {
+    "action": "MERGE",
+    "target": "living-room-gallery-wall-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-organization-ideas-small-spaces": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-over-the-toilet-storage-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-over-toilet-storage-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-shelf-decor-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bathroom-storage-ideas-small-spaces": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "bathroom-tray-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "best-friend-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "boo-basket-ideas-for-him": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "bookshelf-ideas": {
+    "action": "MERGE",
+    "target": "diy-floating-shelves",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "boys-bedroom-storage-ideas": {
+    "action": "MERGE",
+    "target": "small-boys-bedroom-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "breakfast-bar-ideas-for-small-kitchens": {
+    "action": "MERGE",
+    "target": "small-kitchen-living-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "bridal-shower-centerpiece-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "bridal-shower-decorations-at-home": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "bridal-shower-table-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "brunette-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "budget-friendly-boho-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-baby-shower-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "christmas-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-centerpieces": {
+    "action": "MERGE",
+    "target": "christmas-table-centerpieces",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-coffee-table-decor-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-craft-ideas-for-adults": {
+    "action": "MERGE",
+    "target": "diy-christmas-ornaments",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-crafts-for-kids-to-make": {
+    "action": "MERGE",
+    "target": "diy-christmas-ornaments",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-crafts-for-preschoolers": {
+    "action": "MERGE",
+    "target": "diy-christmas-ornaments",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-entryway-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-kitchen-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-table-centerpieces": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "christmas-table-settings": {
+    "action": "MERGE",
+    "target": "christmas-table-centerpieces",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "christmas-window-decor": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "classy-halloween-costumes": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "clever-back-of-toilet-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "coastal-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "coffee-station-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "coffee-table-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "coffee-table-decorating-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "coffee-table-tray-decor-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "college-cork-board-ideas": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "college-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "colorful-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "couple-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "cozy-christmas-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "cozy-christmas-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "cozy-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "cozy-neutral-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "cozy-small-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "cozy-winter-home-decor-ideas": {
+    "action": "MERGE",
+    "target": "spring-home-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dark-boho-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "decorating-above-kitchen-cabinets": {
+    "action": "MERGE",
+    "target": "above-kitchen-cabinet-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "diy-christmas-craft-ideas": {
+    "action": "MERGE",
+    "target": "diy-christmas-ornaments",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "diy-christmas-ornaments": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "diy-floating-shelves": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "diy-halloween-decor-outdoor": {
+    "action": "MERGE",
+    "target": "halloween-yard-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "diy-mason-jar-centerpiece-ideas": {
+    "action": "MERGE",
+    "target": "dough-bowl-centrepiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "diy-wedding-centerpiece-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "dorm-decorating-ideas-for-guys": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dorm-desk-ideas": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dorm-room-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "dorm-room-storage-ideas": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dough-bowl-centrepiece-for-christmas": {
+    "action": "MERGE",
+    "target": "christmas-table-centerpieces",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dough-bowl-centrepiece-ideas-for-fall": {
+    "action": "MERGE",
+    "target": "dough-bowl-centrepiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "dough-bowl-centrepiece-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "drop-zone-ideas": {
+    "action": "MERGE",
+    "target": "small-entryway-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "earthy-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "easy-fall-centerpieces-for-table": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "elegant-halloween-decor": {
+    "action": "MERGE",
+    "target": "small-apartment-halloween-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "elf-on-the-shelf-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "empty-corner-in-living-room-ideas": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "entryway-organization-ideas-for-small-spaces": {
+    "action": "MERGE",
+    "target": "small-entryway-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "entryway-table-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "fall-apartment-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-coffee-station-ideas": {
+    "action": "MERGE",
+    "target": "coffee-station-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-coffee-table-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-crafts-for-adults": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "fall-crafts-for-kids": {
+    "action": "MERGE",
+    "target": "fall-crafts-for-adults",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-decorations-indoor": {
+    "action": "MERGE",
+    "target": "fall-living-room-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-entryway-decor-ideas": {
+    "action": "MERGE",
+    "target": "entryway-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-entryway-table-decor-ideas": {
+    "action": "MERGE",
+    "target": "entryway-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-flower-arrangement-ideas": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-front-door-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-kitchen-countertop-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-kitchen-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-kitchen-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "fall-kitchen-decorations": {
+    "action": "MERGE",
+    "target": "fall-kitchen-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-living-room-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "fall-porch-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "fall-porch-sign-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-table-centerpiece-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "fall-table-setting-ideas": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-tablescape-ideas": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-tiered-tray-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-tray-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-table-centerpiece-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-vignette-ideas": {
+    "action": "MERGE",
+    "target": "entryway-table-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fall-wreath-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "farmhouse-christmas-decor-ideas": {
+    "action": "MERGE",
+    "target": "vintage-christmas-decor-ideas",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "farmhouse-christmas-porch-decor-ideas": {
+    "action": "MERGE",
+    "target": "outdoor-christmas-decor-ideas",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "farmhouse-coffee-bar-ideas": {
+    "action": "MERGE",
+    "target": "coffee-station-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "farmhouse-fall-porch-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "first-apartment-living-room-ideas": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "flooring-ideas-for-white-kitchen-cabinets": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "friendsgiving-decor-ideas": {
+    "action": "MERGE",
+    "target": "thanksgiving-table-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "fun-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "funny-couple-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "funny-elf-on-the-shelf-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "funny-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "funny-halloween-costumes-for-families": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "funny-outdoor-halloween-decorations": {
+    "action": "MERGE",
+    "target": "halloween-yard-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "garden-bridal-shower-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "green-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "grey-couch-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "group-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "guest-bathroom-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-boo-basket-ideas-for-her": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "halloween-centerpieces": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "halloween-costume-ideas-for-guys": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "halloween-costume-ideas-for-women": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "halloween-crafts-for-adults": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "halloween-crafts-for-children": {
+    "action": "MERGE",
+    "target": "halloween-crafts-for-adults",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-door-decor-ideas": {
+    "action": "MERGE",
+    "target": "halloween-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-door-decorations": {
+    "action": "MERGE",
+    "target": "halloween-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-fireplace-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-halloween-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-gift-baskets": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "halloween-living-room-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-halloween-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "halloween-porch-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "halloween-yard-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "hallway-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-entryway-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "homework-station-ideas-for-small-spaces": {
+    "action": "MERGE",
+    "target": "small-home-office-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "hot-cocoa-bar-ideas": {
+    "action": "MERGE",
+    "target": "coffee-station-ideas",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "how-to-arrange-l-shaped-sofa-in-living-room": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "how-to-decorate-a-narrow-living-room": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "how-to-decorate-around-a-tv": {
+    "action": "MERGE",
+    "target": "living-room-gallery-wall-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "how-to-decorate-small-living-room-for-christmas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "how-to-organize-small-pantry-deep-shelves": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "ideas-for-kitchen-window-sills": {
+    "action": "MERGE",
+    "target": "kitchen-window-sill-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kid-friendly-pumpkin-carving-ideas": {
+    "action": "MERGE",
+    "target": "halloween-crafts-for-adults",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-counter-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "kitchen-counter-organization-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-counter-styling-ideas": {
+    "action": "MERGE",
+    "target": "kitchen-counter-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-countertop-decor-ideas": {
+    "action": "MERGE",
+    "target": "kitchen-counter-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-flooring-ideas-with-oak-cabinets": {
+    "action": "MERGE",
+    "target": "flooring-ideas-for-white-kitchen-cabinets",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-open-shelving-styling": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "kitchen-window-decor-ideas": {
+    "action": "MERGE",
+    "target": "kitchen-window-sill-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "kitchen-window-sill-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "laundry-room-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "laundry-room-mudroom-combo-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "leopard-print-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "little-girls-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "living-room-gallery-wall-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "minimalist-bohemian-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "minimalist-living-room-guide": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "modern-boys-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-boys-bedroom-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "modern-farmhouse-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "moody-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "moody-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "mudroom-laundry-room-combo-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "neutral-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "neutral-fall-decor": {
+    "action": "MERGE",
+    "target": "fall-living-room-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "neutral-fall-porch-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "neutral-nursery-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "nightstand-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "open-concept-kitchen-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "outdoor-bridal-shower-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "outdoor-christmas-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "outdoor-wedding-ceremony-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "over-the-refrigerator-storage-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "pink-and-blue-dorm-room-ideas": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "pink-and-green-dorm-room-ideas": {
+    "action": "MERGE",
+    "target": "dorm-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "pool-towel-and-float-storage-ideas": {
+    "action": "MERGE",
+    "target": "balcony-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "pumpkin-baby-shower-theme": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "pumpkin-painting-ideas": {
+    "action": "MERGE",
+    "target": "halloween-crafts-for-adults",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "renter-friendly-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "rustic-wedding-centerpiece-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "rustic-wedding-table-decorations": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "skateboard-wall-decor": {
+    "action": "MERGE",
+    "target": "diy-floating-shelves",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-apartment-christmas-decor": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-apartment-halloween-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-apartment-living-room-ideas": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-apartment-organization-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-apartment-storage-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bathroom-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bathroom-organization-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bedroom-decor-ideas-for-kids": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bedroom-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-bedroom-ideas-that-look-expensive": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bedroom-makeover-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-bedroom-storage-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-boys-bedroom-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-entryway-organization-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-front-porch-fall-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-home-office-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-kitchen-cabinet-organization-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-kitchen-living-room-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-kitchen-organization-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "small-kitchen-storage-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-laundry-room-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-laundry-room-organization-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-living-room-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "small-narrow-laundry-room-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-pantry-organization-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-space-christmas-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-apartment-christmas-decor",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-space-halloween-decor": {
+    "action": "MERGE",
+    "target": "small-apartment-halloween-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "small-studio-apartment-ideas": {
+    "action": "MERGE",
+    "target": "studio-apartment-zoning",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "sofa-table-decor-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "space-themed-bedroom": {
+    "action": "MERGE",
+    "target": "small-boys-bedroom-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "spooky-basket-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "spring-decor-ideas": {
+    "action": "MERGE",
+    "target": "spring-home-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "spring-home-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "stacked-washer-and-dryer-ideas": {
+    "action": "MERGE",
+    "target": "small-laundry-room-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "studio-apartment-ideas": {
+    "action": "MERGE",
+    "target": "studio-apartment-zoning",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "studio-apartment-zoning": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "summer-bedroom-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "summer-coffee-table-decor-ideas": {
+    "action": "MERGE",
+    "target": "coffee-table-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "summer-kitchen-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "summer-to-fall-porch-decor-ideas": {
+    "action": "MERGE",
+    "target": "fall-porch-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "teenage-boy-bedroom-ideas": {
+    "action": "MERGE",
+    "target": "small-boys-bedroom-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "thanksgiving-table-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": true
+  },
+  "toilet-tank-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "top-of-dresser-decor-ideas": {
+    "action": "MERGE",
+    "target": "small-bedroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "trinket-shelf-ideas": {
+    "action": "MERGE",
+    "target": "diy-floating-shelves",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "trio-halloween-costume-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Off-topic costume or gift guide; no equivalent home-decor destination",
+    "publicationReady": false
+  },
+  "under-bathroom-sink-organization-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "under-kitchen-sink-organization-ideas": {
+    "action": "MERGE",
+    "target": "small-kitchen-organization-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "under-sink-bathroom-organization-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "very-small-living-room-ideas": {
+    "action": "MERGE",
+    "target": "small-living-room-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "very-small-open-plan-kitchen-living-room-ideas": {
+    "action": "MERGE",
+    "target": "minimalist-living-room-guide",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "very-small-powder-room-storage-ideas": {
+    "action": "MERGE",
+    "target": "bathroom-storage-ideas-small-spaces",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "vintage-christmas-decor-ideas": {
+    "action": "KEEP+IMPROVE",
+    "target": null,
+    "originalStatus": "SCHEDULED_NO_ROUTE",
+    "reason": "Distinct destination in focused archive; not approval-ready until evidence and editorial work complete",
+    "publicationReady": false
+  },
+  "vintage-thanksgiving-decor-ideas": {
+    "action": "MERGE",
+    "target": "thanksgiving-table-decor-ideas",
+    "originalStatus": "PUBLISHED",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  },
+  "wedding-aisle-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "wedding-centerpieces": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "wedding-reception-table-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "wedding-welcome-table-decor-ideas": {
+    "action": "REMOVE",
+    "target": null,
+    "originalStatus": "PUBLISHED",
+    "reason": "Event/party or activity focus outside proposed home-decor archive; not prohibited content",
+    "publicationReady": false
+  },
+  "whimsy-bathroom-ideas": {
+    "action": "MERGE",
+    "target": "small-bathroom-decor-ideas",
+    "originalStatus": "WITHHELD_NO_ROUTE",
+    "reason": "Overlapping intent; transfer only useful distinct material; verify intent equivalence before enabling a 301",
+    "publicationReady": false
+  }
+}

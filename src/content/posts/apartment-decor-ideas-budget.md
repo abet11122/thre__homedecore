@@ -2,19 +2,30 @@
 title: "Apartment Decor Ideas on a Budget"
 description: "Budget apartment decor ideas in order of impact — the cheap changes that transform a rental, what's worth spending on, and what to skip entirely."
 category: "renter"
-tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
+tags: ["renter-friendly","lighting"]
 publishDate: 2026-08-29
 heroImage: "photo-1665249934445-1de680641f50"
 pinImage: "photo-1650137938625-11576502aecd"
 featured: false
 affiliateDisclosure: false
 ---
+<!-- OWNER INPUT — not rendered publicly. No experience or credentials may be invented.
+Proposed structure: One project with steps and failure notes
+[MY PHOTO: photograph your own Apartment Decor Ideas on a Budget setup, wide view and detail of the main constraint; credit the photographer]
+[MY MEASUREMENTS / COST / TIME: record dimensions, currency and dated receipts, active and elapsed time; label estimates]
+[WHAT I TRIED AND WHAT WENT WRONG: describe the actual attempt, failed choice, correction and remaining limitation]
+[MY OPINION: which idea I would pick and why, based on my room and constraints]
+For each idea: For each retained idea add the specific constraint, material/installation needs, tradeoff, who should skip it, maintenance and evidence; omit unsupported prices or claims
+Photo status: ALL_REFERENCED_PHOTOS_STOCK. Replace with documented originals when available.
+-->
 
 Most budget decorating advice is a list of thrifted objects. But an apartment doesn't look better because of more objects — it looks better because of light, textiles and a few structural fixes.
 
 Here's the list in order of impact per pound spent.
 
 ## 1. Change every bulb — the cheapest transformation
+
+<!-- IDEA 1: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 **2700K warm white**, everywhere.
 
@@ -24,6 +35,8 @@ If you do one thing on this list, do this one.
 
 ## 2. Add lamps and stop using the overhead
 
+<!-- IDEA 2: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 The second-biggest change, and it follows from the first.
 
 Two or three lamps at different heights in a room — a table lamp, a floor lamp, something on a shelf — makes a rental feel like a home. The single ceiling light makes it feel like a rental.
@@ -31,6 +44,8 @@ Two or three lamps at different heights in a room — a table lamp, a floor lamp
 Thrift the lamp bases, buy new shades. A cheap base with a good linen shade looks far better than the reverse.
 
 ## 3. Rehang the curtains
+
+<!-- IDEA 3: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Free, and most people have never done it.
 
@@ -42,6 +57,8 @@ If you're buying: plain linen-look panels in cream or a warm neutral. Long ones.
 
 ## 4. Get a big enough rug
 
+<!-- IDEA 4: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 The most common budget mistake is buying a rug that's too small, which makes a room look smaller and cheaper.
 
 **Living room:** at minimum, the front legs of all seating should sit on it. Usually 5 x 8 feet or larger.
@@ -52,6 +69,8 @@ A large cheap rug looks better than a small expensive one. Prioritise size over 
 
 ## 5. Textiles do the decorating
 
+<!-- IDEA 5: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 - A throw over the sofa arm
 - Cushion covers — buy covers, not cushions, and keep the inserts
 - A duvet cover with texture rather than pattern
@@ -61,6 +80,8 @@ Textiles are cheap, they're what you touch, and they move with you to the next f
 
 ## 6. One large piece of art per room
 
+<!-- IDEA 6: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 Six small frames cost more than one large print and look busier. A single large piece makes a room feel bigger and more considered.
 
 **Cheap sources:** print-on-demand sites, museum shop downloads printed locally, a large fabric or tapestry, or your own photographs printed big.
@@ -68,6 +89,8 @@ Six small frames cost more than one large print and look busier. A single large 
 **Hang it at 57 inches to centre.** Too high is the most common error.
 
 ## 7. Plants
+
+<!-- IDEA 7: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 The cheapest thing that makes a room feel alive.
 
@@ -78,6 +101,8 @@ The cheapest thing that makes a room feel alive.
 Put them in charity shop ceramic pots or baskets, not the plastic nursery pot.
 
 ## 8. Fix the hardware
+
+<!-- IDEA 8: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Small changes that make builder-grade fittings look intentional:
 
@@ -91,6 +116,8 @@ Keep the originals in a box for move-out.
 
 ## 9. Peel-and-stick, selectively
 
+<!-- IDEA 9: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 - Floor tiles in a small bathroom or laundry
 - A splashback behind a kitchen sink
 - Wallpaper on one wall
@@ -99,6 +126,8 @@ Keep the originals in a box for move-out.
 
 ## 10. Hide what you can't change
 
+<!-- IDEA 10: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 - **A rug over bad flooring**
 - **A large plant in front of an awkward corner**
 - **A slipcover on a dated sofa**
@@ -106,6 +135,8 @@ Keep the originals in a box for move-out.
 - **Baskets over open shelving**
 
 ## Where to spend rather than save
+
+<!-- IDEA 11: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Some things are worth real money because you use them daily and they last through several flats:
 
@@ -117,6 +148,8 @@ Some things are worth real money because you use them daily and they last throug
 
 ## Where to save
 
+<!-- IDEA 12: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
+
 - Side tables, shelving, storage — thrift or flat-pack
 - Cushion covers
 - Art — prints, not originals
@@ -125,6 +158,8 @@ Some things are worth real money because you use them daily and they last throug
 - Anything trend-driven
 
 ## Free changes worth doing first
+
+<!-- IDEA 13: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 Before spending anything:
 
@@ -137,6 +172,8 @@ Before spending anything:
 Those five take an afternoon, cost nothing, and often make more difference than the next £200 you spend.
 
 ## The order I'd do it in
+
+<!-- IDEA 14: [MY MEASUREMENTS / COST / TIME: record constraints for this option]. [WHAT I TRIED AND WHAT WENT WRONG: actual result only]. Add suitability, tradeoff, installation and maintenance evidence. -->
 
 | Priority | Change | Rough cost |
 |---|---|---|
@@ -152,3 +189,4 @@ Those five take an afternoon, cost nothing, and often make more difference than 
 ---
 
 The pattern behind all of it: **light, soft things, and fewer objects arranged better.** Almost nothing on this list is a decoration, and that's the point.
+

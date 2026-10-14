@@ -13,14 +13,14 @@ export const SITE = {
   url: 'https://www.smallspaceorganizationidea.site',
   /** Public AdSense publisher ID; keep public/ads.txt in sync when changing it. */
   adsenseClientId: 'ca-pub-8497285724891966',
-  author: 'Sophie Lane',
-  authorRole: 'Contributor',
+  author: 'Editorial Team',
+  authorRole: 'Publication byline',
   authorBio:
-    'Sophie Lane contributes guides to Small Cozy Home. Please send corrections or questions through the contact page.',
+    'Editorial Team is the publication byline for Small Cozy Home, not an individual designer or a claim of professional credentials. Stock images illustrate ideas unless a documented original project is identified.',
   authorAvatar:
     '/favicon.svg',
-  pinterest: 'https://pinterest.com/smallcozyhome',
-  instagram: 'https://instagram.com/smallcozyhome',
+  pinterest: '',
+  instagram: '',
   email: 'mmubasharshahzad40@gmail.com',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
@@ -35,7 +35,7 @@ export const SITE = {
   /** Square mark used for Organization.logo in structured data. */
   logo: '/favicon.svg',
   /** Twitter/X handle including the @, e.g. '@smallcozyhome'. Optional. */
-  twitter: '@smallcozyhome',
+  twitter: '',
 } as const;
 
 export type CategorySlug =
@@ -291,6 +291,7 @@ export function wordCount(body: string): number {
 /** Count prose rather than Markdown syntax, URLs, and HTML attributes. */
 function plainText(body: string): string {
   return body
+    .replace(/<!--[\s\S]*?-->/g, ' ')
     .replace(/```[\s\S]*?```/g, ' ')
     .replace(/<[^>]*>/g, ' ')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')

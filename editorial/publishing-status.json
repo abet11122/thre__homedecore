@@ -1,0 +1,1146 @@
+{
+  "generatedAt": "2026-10-14T19:14:45.682Z",
+  "kept": 48,
+  "published": 27,
+  "withheldKeep": 21,
+  "activeMergeRedirects": 81,
+  "pendingMerges": 84,
+  "removed": 37,
+  "redirects": [
+    {
+      "source": "/post/affordable-fall-porch-styling-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/back-to-school-entryway-ideas/",
+      "destination": "/post/small-entryway-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/backyard-halloween-party-ideas/",
+      "destination": "/post/halloween-yard-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/bathroom-closet-organization-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/bathroom-organization-ideas-small-spaces/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/bathroom-over-the-toilet-storage-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/bathroom-over-toilet-storage-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/bathroom-shelf-decor-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/bookshelf-ideas/",
+      "destination": "/post/diy-floating-shelves/",
+      "status": 301
+    },
+    {
+      "source": "/post/boys-bedroom-storage-ideas/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/budget-friendly-boho-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/coastal-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/colorful-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/cozy-christmas-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/cozy-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/cozy-winter-home-decor-ideas/",
+      "destination": "/post/spring-home-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/diy-halloween-decor-outdoor/",
+      "destination": "/post/halloween-yard-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/diy-mason-jar-centerpiece-ideas/",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-ideas-for-fall/",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/drop-zone-ideas/",
+      "destination": "/post/small-entryway-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/easy-fall-centerpieces-for-table/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/elegant-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/entryway-organization-ideas-for-small-spaces/",
+      "destination": "/post/small-entryway-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-apartment-decor-ideas/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-crafts-for-kids/",
+      "destination": "/post/fall-crafts-for-adults/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-decorations-indoor/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-entryway-decor-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-entryway-table-decor-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-flower-arrangement-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-front-door-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-porch-sign-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-table-setting-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-tablescape-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-tiered-tray-decor-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-tray-decor-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-vignette-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/fall-wreath-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/farmhouse-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/friendsgiving-decor-ideas/",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/funny-outdoor-halloween-decorations/",
+      "destination": "/post/halloween-yard-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/grey-couch-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/halloween-crafts-for-children/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "status": 301
+    },
+    {
+      "source": "/post/halloween-door-decor-ideas/",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/halloween-door-decorations/",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/halloween-fireplace-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/halloween-living-room-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/hallway-decor-ideas/",
+      "destination": "/post/small-entryway-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/homework-station-ideas-for-small-spaces/",
+      "destination": "/post/small-home-office-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/how-to-organize-small-pantry-deep-shelves/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/kid-friendly-pumpkin-carving-ideas/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "status": 301
+    },
+    {
+      "source": "/post/kitchen-counter-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/minimalist-bohemian-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/modern-boys-bedroom-ideas/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/moody-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/neutral-fall-decor/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/neutral-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/open-concept-kitchen-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/over-the-refrigerator-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/pool-towel-and-float-storage-ideas/",
+      "destination": "/post/balcony-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/pumpkin-painting-ideas/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "status": 301
+    },
+    {
+      "source": "/post/skateboard-wall-decor/",
+      "destination": "/post/diy-floating-shelves/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-apartment-storage-ideas/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-bathroom-organization-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-front-porch-fall-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-kitchen-cabinet-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-kitchen-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-pantry-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-space-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-studio-apartment-ideas/",
+      "destination": "/post/studio-apartment-zoning/",
+      "status": 301
+    },
+    {
+      "source": "/post/space-themed-bedroom/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/spring-decor-ideas/",
+      "destination": "/post/spring-home-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/studio-apartment-ideas/",
+      "destination": "/post/studio-apartment-zoning/",
+      "status": 301
+    },
+    {
+      "source": "/post/summer-to-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/teenage-boy-bedroom-ideas/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/trinket-shelf-ideas/",
+      "destination": "/post/diy-floating-shelves/",
+      "status": 301
+    },
+    {
+      "source": "/post/under-bathroom-sink-organization-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/under-kitchen-sink-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/under-sink-bathroom-organization-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/very-small-open-plan-kitchen-living-room-ideas/",
+      "destination": "/post/minimalist-living-room-guide/",
+      "status": 301
+    },
+    {
+      "source": "/post/very-small-powder-room-storage-ideas/",
+      "destination": "/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301
+    },
+    {
+      "source": "/post/vintage-thanksgiving-decor-ideas/",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "status": 301
+    }
+  ],
+  "archived": [
+    {
+      "url": "/post/above-couch-decor-ideas/",
+      "action": "MERGE",
+      "target": "living-room-gallery-wall-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/above-kitchen-cabinets-decor-ideas/",
+      "action": "MERGE",
+      "target": "above-kitchen-cabinet-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/baby-shower-centerpiece-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/baby-shower-table-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/babys-first-halloween-costume/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/backyard-wedding-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bathroom-christmas-decor/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bathroom-counter-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bathroom-gallery-wall-ideas/",
+      "action": "MERGE",
+      "target": "living-room-gallery-wall-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bathroom-tray-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/best-friend-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/boo-basket-ideas-for-him/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/breakfast-bar-ideas-for-small-kitchens/",
+      "action": "MERGE",
+      "target": "small-kitchen-living-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bridal-shower-centerpiece-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bridal-shower-decorations-at-home/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/bridal-shower-table-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/brunette-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-baby-shower-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-centerpieces/",
+      "action": "MERGE",
+      "target": "christmas-table-centerpieces",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-coffee-table-decor-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-craft-ideas-for-adults/",
+      "action": "MERGE",
+      "target": "diy-christmas-ornaments",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-crafts-for-kids-to-make/",
+      "action": "MERGE",
+      "target": "diy-christmas-ornaments",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-crafts-for-preschoolers/",
+      "action": "MERGE",
+      "target": "diy-christmas-ornaments",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-entryway-ideas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-kitchen-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/christmas-table-settings/",
+      "action": "MERGE",
+      "target": "christmas-table-centerpieces",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/classy-halloween-costumes/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/clever-back-of-toilet-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/coffee-table-decorating-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/coffee-table-tray-decor-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/college-cork-board-ideas/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/college-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/couple-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/cozy-christmas-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/cozy-neutral-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/cozy-small-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/dark-boho-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/decorating-above-kitchen-cabinets/",
+      "action": "MERGE",
+      "target": "above-kitchen-cabinet-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/diy-christmas-craft-ideas/",
+      "action": "MERGE",
+      "target": "diy-christmas-ornaments",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/diy-wedding-centerpiece-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/dorm-decorating-ideas-for-guys/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/dorm-desk-ideas/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/dorm-room-storage-ideas/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/dough-bowl-centrepiece-for-christmas/",
+      "action": "MERGE",
+      "target": "christmas-table-centerpieces",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/earthy-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/elf-on-the-shelf-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/empty-corner-in-living-room-ideas/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fall-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fall-coffee-station-ideas/",
+      "action": "MERGE",
+      "target": "coffee-station-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fall-coffee-table-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fall-kitchen-countertop-decor-ideas/",
+      "action": "MERGE",
+      "target": "fall-kitchen-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fall-kitchen-decorations/",
+      "action": "MERGE",
+      "target": "fall-kitchen-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/farmhouse-christmas-decor-ideas/",
+      "action": "MERGE",
+      "target": "vintage-christmas-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/farmhouse-christmas-porch-decor-ideas/",
+      "action": "MERGE",
+      "target": "outdoor-christmas-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/farmhouse-coffee-bar-ideas/",
+      "action": "MERGE",
+      "target": "coffee-station-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/first-apartment-living-room-ideas/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/fun-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/funny-couple-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/funny-elf-on-the-shelf-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/funny-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/funny-halloween-costumes-for-families/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/garden-bridal-shower-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/green-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/group-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/guest-bathroom-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/halloween-boo-basket-ideas-for-her/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/halloween-costume-ideas-for-guys/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/halloween-costume-ideas-for-women/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/halloween-gift-baskets/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/hot-cocoa-bar-ideas/",
+      "action": "MERGE",
+      "target": "coffee-station-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/how-to-arrange-l-shaped-sofa-in-living-room/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/how-to-decorate-a-narrow-living-room/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/how-to-decorate-around-a-tv/",
+      "action": "MERGE",
+      "target": "living-room-gallery-wall-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/how-to-decorate-small-living-room-for-christmas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/ideas-for-kitchen-window-sills/",
+      "action": "MERGE",
+      "target": "kitchen-window-sill-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/kitchen-counter-styling-ideas/",
+      "action": "MERGE",
+      "target": "kitchen-counter-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/kitchen-countertop-decor-ideas/",
+      "action": "MERGE",
+      "target": "kitchen-counter-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/kitchen-flooring-ideas-with-oak-cabinets/",
+      "action": "MERGE",
+      "target": "flooring-ideas-for-white-kitchen-cabinets",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/kitchen-window-decor-ideas/",
+      "action": "MERGE",
+      "target": "kitchen-window-sill-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/laundry-room-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/laundry-room-mudroom-combo-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/leopard-print-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/little-girls-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/modern-farmhouse-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/moody-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/mudroom-laundry-room-combo-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/neutral-bedroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/neutral-nursery-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/nightstand-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/outdoor-bridal-shower-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/outdoor-wedding-ceremony-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/pink-and-blue-dorm-room-ideas/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/pink-and-green-dorm-room-ideas/",
+      "action": "MERGE",
+      "target": "dorm-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/pumpkin-baby-shower-theme/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/renter-friendly-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/rustic-wedding-centerpiece-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/rustic-wedding-table-decorations/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-apartment-living-room-ideas/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-bedroom-decor-ideas-for-kids/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-bedroom-ideas-that-look-expensive/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-bedroom-makeover-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-bedroom-storage-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-laundry-room-organization-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-narrow-laundry-room-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/small-space-christmas-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-apartment-christmas-decor",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/sofa-table-decor-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/spooky-basket-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/stacked-washer-and-dryer-ideas/",
+      "action": "MERGE",
+      "target": "small-laundry-room-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/summer-bedroom-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/summer-coffee-table-decor-ideas/",
+      "action": "MERGE",
+      "target": "coffee-table-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/toilet-tank-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/top-of-dresser-decor-ideas/",
+      "action": "MERGE",
+      "target": "small-bedroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/trio-halloween-costume-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/very-small-living-room-ideas/",
+      "action": "MERGE",
+      "target": "small-living-room-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/wedding-aisle-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/wedding-centerpieces/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/wedding-reception-table-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/wedding-welcome-table-decor-ideas/",
+      "action": "REMOVE",
+      "target": null,
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    },
+    {
+      "url": "/post/whimsy-bathroom-ideas/",
+      "action": "MERGE",
+      "target": "small-bathroom-decor-ideas",
+      "handling": "noindex,follow retirement notice; original article retained privately"
+    }
+  ],
+  "linksRewritten": 0,
+  "linksUnlinked": 0
+}

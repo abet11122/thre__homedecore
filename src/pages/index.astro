@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
 import PostCard from '../components/PostCard.astro';
-import AdSlot from '../components/AdSlot.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { CATEGORIES, PRIMARY_CATEGORIES, categoryName } from '../site';
 import { getPublishedPosts } from '../lib/posts';
@@ -25,7 +24,7 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
     </div>
     <div class="hero-composition">{featured && <a class="hero-feature" href={`/post/${featured.id}/`}>
       <Img src={featured.data.heroImage} alt={featured.data.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 900px) 48vw, 100vw" />
-      <span class="feature-label"><span aria-hidden="true">✳</span> The editor’s pick</span>
+      <span class="feature-label"><span aria-hidden="true">✳</span> Featured guide</span>
       <div class="feature-caption"><span>{categoryName(featured.data.category)} / The considered home</span><h2>{featured.data.title}</h2><span class="feature-arrow" aria-hidden="true">↗</span></div>
     </a>}<span class="hero-margin-note" aria-hidden="true">Spaces to settle into.</span></div>
   </section>
@@ -45,7 +44,7 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
       <div class="ideas-grid">{posts.map(post => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}</div>
     </div>
   </section>
-  <div class="wrap"><AdSlot placement="feed" class="my-12" /></div>
+  <div class="wrap"></div>
   {weekend && <section class="wrap weekend-section" aria-labelledby="weekend-title"><a class="weekend-photo frame" href={`/post/${weekend.id}/`}><Img src={weekend.data.heroImage} alt={weekend.data.title} width={900} height={680} sizes="(min-width: 900px) 48vw, 100vw" /></a><div class="weekend-copy"><p class="eyebrow">The weekend project</p><span class="weekend-number" aria-hidden="true">Made by you.</span><h2 id="weekend-title">A small project.<br />A lovely difference.</h2><p>A quiet afternoon, a few simple materials, and a corner that feels a little more yours. Start with our guide to floating shelves.</p><a class="link-arrow" href={`/post/${weekend.id}/`}>Make something lovely <span aria-hidden="true">↗</span></a></div></section>}
   {picks.length > 0 && <section class="wrap budget-section" aria-labelledby="budget-title"><div class="home-section-head"><div><p class="eyebrow">Little changes, lovely results</p><h2 id="budget-title">Big on style. Kind to your budget.</h2></div><a class="quiet-link" href="/category/small-spaces/">Explore small-space ideas ↗</a></div><div class="grid gap-8 md:grid-cols-3">{picks.map(post => <PostCard post={post} />)}</div></section>}
   <div class="wrap my-16"><Newsletter /></div>

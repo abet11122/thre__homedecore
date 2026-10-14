@@ -1,0 +1,44 @@
+{
+  "audit_date": "2026-10-15",
+  "posts": 250,
+  "counts": {
+    "KEEP+IMPROVE": 48,
+    "MERGE": 165,
+    "REMOVE": 37
+  },
+  "statuses": {
+    "MERGE_PENDING_NOINDEX_NOTICE": 84,
+    "OWNER_REVIEW_WITHHELD": 21,
+    "MERGED_REDIRECT_CONFIGURED": 81,
+    "PUBLISHED": 27,
+    "REMOVED_NOINDEX_NOTICE": 37
+  },
+  "off_topic": 17,
+  "repeated_paragraph_posts": 90,
+  "text_clusters": 17,
+  "similarity_pairs": 5462,
+  "keep_withheld": [
+    "above-kitchen-cabinet-decor-ideas",
+    "christmas-table-centerpieces",
+    "christmas-window-decor",
+    "coffee-station-ideas",
+    "coffee-table-decor-ideas",
+    "diy-christmas-ornaments",
+    "dorm-room-decor-ideas",
+    "fall-kitchen-decor-ideas",
+    "flooring-ideas-for-white-kitchen-cabinets",
+    "kitchen-counter-decor-ideas",
+    "kitchen-window-sill-decor-ideas",
+    "living-room-gallery-wall-ideas",
+    "outdoor-christmas-decor-ideas",
+    "small-apartment-christmas-decor",
+    "small-bathroom-decor-ideas",
+    "small-bedroom-decor-ideas",
+    "small-kitchen-living-room-ideas",
+    "small-laundry-room-ideas",
+    "small-living-room-decor-ideas",
+    "summer-kitchen-decor-ideas",
+    "vintage-christmas-decor-ideas"
+  ],
+  "unmatched_removals": []
+}

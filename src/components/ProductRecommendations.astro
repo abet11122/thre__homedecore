@@ -1,5 +1,6 @@
 ---
 import type { AffiliateProduct } from '../data/affiliateProducts';
+import AffiliateDisclosure from './AffiliateDisclosure.astro';
 
 interface Props {
   products: AffiliateProduct[];
@@ -16,6 +17,7 @@ const { products } = Astro.props;
       <p>Check the size and finish against your space before ordering.</p>
     </div>
 
+    <AffiliateDisclosure />
     <div class="product-recommendations-grid">
       {products.map((product, index) => (
         <article class="product-card">

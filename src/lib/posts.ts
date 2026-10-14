@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { canPublish } from './contentPolicy.mjs';
 
 export type Post = CollectionEntry<'posts'>;
 
@@ -12,7 +13,7 @@ export async function getAvailablePosts(): Promise<Post[]> {
 export async function getPublishedPosts(now = new Date()): Promise<Post[]> {
   const cutoff = now.getTime();
   return (await getAvailablePosts()).filter(
-    (post) => !post.data.noindex && post.data.publishDate.getTime() <= cutoff
+    (post) => canPublish(post.id) && !post.data.noindex && post.data.publishDate.getTime() <= cutoff
   );
 }
 

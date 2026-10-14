@@ -1,6 +1,7 @@
 ---
 import Img from './Img.astro';
 import { SITE } from '../site';
+import { localImageSource } from '../lib/stockImages';
 
 /**
  * The vertical 2:3 pin image with a Save button.
@@ -17,9 +18,7 @@ interface Props {
 
 const { image, title, description } = Astro.props;
 
-const mediaUrl = image.startsWith('photo-')
-  ? `https://images.unsplash.com/${image}?w=1000&h=1500&fit=crop&auto=format&q=80`
-  : new URL(image, Astro.site ?? SITE.url).href;
+const mediaUrl = new URL(localImageSource(image), Astro.site ?? SITE.url).href;
 ---
 
 <figure class="mx-auto max-w-sm">

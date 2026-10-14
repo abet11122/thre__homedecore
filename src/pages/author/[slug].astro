@@ -32,18 +32,18 @@ const beats = CATEGORIES.map((c) => ({
   .filter((c) => c.count > 0)
   .sort((a, b) => b.count - a.count);
 
-const description = `${SITE.author} contributes small-space styling and organization guides to ${SITE.name}.`;
+const description = 'The Editorial Team publication byline, image policy and current home decorating guides from Small Cozy Home.';
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 
 const profileSchema = {
-  '@type': 'ProfilePage',
+  '@type': 'CollectionPage',
   '@id': `${origin}/author/${SITE.authorSlug}/#profile`,
   url: `${origin}/author/${SITE.authorSlug}/`,
   name: SITE.author,
   description,
   isPartOf: { '@id': `${origin}/#website` },
-  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
+  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#editorial-team` },
 };
 ---
 
@@ -102,7 +102,7 @@ const profileSchema = {
   </header>
 
   <section class="wrap py-12 lg:py-16" aria-labelledby="author-beats">
-    <h2 id="author-beats" class="eyebrow-muted">What {SITE.author} writes about</h2>
+    <h2 id="author-beats" class="eyebrow-muted">Topics in this archive</h2>
     <ul class="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
       {beats.map((c) => (
         <li>
@@ -119,7 +119,7 @@ const profileSchema = {
 
   {latest && (
     <section class="wrap" aria-labelledby="author-latest">
-      <SectionHead id="author-latest" kicker="Most recent" title="Latest byline" />
+      <SectionHead id="author-latest" kicker="Most recent" title="Latest guide" />
       <div class="mt-12">
         <PostCard post={latest} variant="wide" sizes="(min-width: 640px) 45vw, 90vw" />
       </div>

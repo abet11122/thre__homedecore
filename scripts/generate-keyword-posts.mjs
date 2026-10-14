@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+throw new Error('Disabled after the approved content audit: this generator repeats generic paragraphs. Improve existing drafts using editorial/keep instead.');
+
 const root = path.resolve('src/content/posts');
 
 // Canonical topics from the supplied keyword list. Near-identical search intents

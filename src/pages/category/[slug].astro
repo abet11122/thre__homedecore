@@ -3,7 +3,6 @@ import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
 import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
 import { getPublishedPosts } from '../../lib/posts';
@@ -159,7 +158,7 @@ const listSchema = {
 
       {others.length > 0 && (
         <div class="wrap">
-          <AdSlot placement="feed" class="mb-12 lg:mb-16" />
+          
         </div>
       )}
     </>

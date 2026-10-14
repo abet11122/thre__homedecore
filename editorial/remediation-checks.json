@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-14T19:15:55.580Z",
+  "checks": {
+    "inventory": 250,
+    "publicKeep": 27,
+    "activeMergeRedirects": 81,
+    "pendingMergeNoindex": 84,
+    "removeNoindex": 37,
+    "withheldKeep": 21,
+    "htmlFiles": 273,
+    "sitemapUrls": 41,
+    "adMarkupPages": 0,
+    "privatePlaceholderPages": 0
+  },
+  "issues": [],
+  "scope": "Local source and built output; production HTTP status, ownership and originality require owner verification."
+}

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/prepare-publishing.mjs && astro build",
     "seo:check": "node scripts/check-seo.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "check:seo": "npm run build && npm run seo:audit",

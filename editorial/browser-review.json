@@ -1,0 +1,746 @@
+{
+  "checkedAt": "2026-10-14T19:15:55.303Z",
+  "origin": "http://127.0.0.1:4330",
+  "scope": "Local browser behavior at four widths. Navigation timings are local diagnostics, not Lighthouse scores or production Core Web Vitals.",
+  "reviews": [
+    {
+      "pathname": "/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "Home Decor Ideas for Beautiful, Livable Spaces — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [
+        {
+          "tag": "BUTTON",
+          "class": ""
+        },
+        {
+          "tag": "BUTTON",
+          "class": ""
+        },
+        {
+          "tag": "BUTTON",
+          "class": ""
+        }
+      ],
+      "navigation": [
+        {
+          "loadMs": 39,
+          "domContentLoadedMs": 28,
+          "transferBytes": 91879
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-boys-bedroom-ideas/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "17 Small Boys Bedroom Ideas for Small Rooms — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 103,
+          "domContentLoadedMs": 103,
+          "transferBytes": 71076
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-kitchen-organization-ideas/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "Small Kitchen Organization: A Counter and Cabinet Plan",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": 60,
+        "cls": 0
+      },
+      "overflowing": [
+        {
+          "tag": "TABLE",
+          "class": ""
+        },
+        {
+          "tag": "THEAD",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        },
+        {
+          "tag": "TH",
+          "class": ""
+        },
+        {
+          "tag": "TBODY",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        },
+        {
+          "tag": "TD",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        }
+      ],
+      "navigation": [
+        {
+          "loadMs": 64,
+          "domContentLoadedMs": 63,
+          "transferBytes": 55162
+        }
+      ]
+    },
+    {
+      "pathname": "/contact/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "Contact — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 19,
+          "domContentLoadedMs": 15,
+          "transferBytes": 15250
+        }
+      ]
+    },
+    {
+      "pathname": "/about/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "About — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 18,
+          "domContentLoadedMs": 15,
+          "transferBytes": 16417
+        }
+      ]
+    },
+    {
+      "pathname": "/search/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "Search — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 50,
+          "domContentLoadedMs": 48,
+          "transferBytes": 62119
+        }
+      ]
+    },
+    {
+      "pathname": "/saved/",
+      "width": 320,
+      "documentWidth": 320,
+      "h1": 1,
+      "title": "Your Saved Home Ideas — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 25,
+          "domContentLoadedMs": 22,
+          "transferBytes": 80921
+        }
+      ]
+    },
+    {
+      "pathname": "/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "Home Decor Ideas for Beautiful, Livable Spaces — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [
+        {
+          "tag": "BUTTON",
+          "class": ""
+        },
+        {
+          "tag": "BUTTON",
+          "class": ""
+        },
+        {
+          "tag": "BUTTON",
+          "class": ""
+        }
+      ],
+      "navigation": [
+        {
+          "loadMs": 31,
+          "domContentLoadedMs": 21,
+          "transferBytes": 91879
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-boys-bedroom-ideas/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "17 Small Boys Bedroom Ideas for Small Rooms — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": 48,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 56,
+          "domContentLoadedMs": 56,
+          "transferBytes": 71076
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-kitchen-organization-ideas/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "Small Kitchen Organization: A Counter and Cabinet Plan",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": 48,
+        "cls": 0
+      },
+      "overflowing": [
+        {
+          "tag": "TABLE",
+          "class": ""
+        },
+        {
+          "tag": "THEAD",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        },
+        {
+          "tag": "TH",
+          "class": ""
+        },
+        {
+          "tag": "TBODY",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        },
+        {
+          "tag": "TD",
+          "class": ""
+        },
+        {
+          "tag": "TR",
+          "class": ""
+        }
+      ],
+      "navigation": [
+        {
+          "loadMs": 53,
+          "domContentLoadedMs": 53,
+          "transferBytes": 55162
+        }
+      ]
+    },
+    {
+      "pathname": "/contact/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "Contact — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 17,
+          "domContentLoadedMs": 14,
+          "transferBytes": 15250
+        }
+      ]
+    },
+    {
+      "pathname": "/about/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "About — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 17,
+          "domContentLoadedMs": 13,
+          "transferBytes": 16417
+        }
+      ]
+    },
+    {
+      "pathname": "/search/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "Search — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 32,
+          "domContentLoadedMs": 22,
+          "transferBytes": 62119
+        }
+      ]
+    },
+    {
+      "pathname": "/saved/",
+      "width": 375,
+      "documentWidth": 375,
+      "h1": 1,
+      "title": "Your Saved Home Ideas — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 27,
+          "domContentLoadedMs": 22,
+          "transferBytes": 80921
+        }
+      ]
+    },
+    {
+      "pathname": "/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "Home Decor Ideas for Beautiful, Livable Spaces — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 35,
+          "domContentLoadedMs": 23,
+          "transferBytes": 91879
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-boys-bedroom-ideas/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "17 Small Boys Bedroom Ideas for Small Rooms — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0.04572627873280541
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 72,
+          "domContentLoadedMs": 71,
+          "transferBytes": 71076
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-kitchen-organization-ideas/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "Small Kitchen Organization: A Counter and Cabinet Plan",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0.054105891249815546
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 69,
+          "domContentLoadedMs": 65,
+          "transferBytes": 55162
+        }
+      ]
+    },
+    {
+      "pathname": "/contact/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "Contact — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 15,
+          "domContentLoadedMs": 12,
+          "transferBytes": 15250
+        }
+      ]
+    },
+    {
+      "pathname": "/about/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "About — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 16,
+          "domContentLoadedMs": 13,
+          "transferBytes": 16417
+        }
+      ]
+    },
+    {
+      "pathname": "/search/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "Search — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 34,
+          "domContentLoadedMs": 23,
+          "transferBytes": 62119
+        }
+      ]
+    },
+    {
+      "pathname": "/saved/",
+      "width": 768,
+      "documentWidth": 753,
+      "h1": 1,
+      "title": "Your Saved Home Ideas — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 29,
+          "domContentLoadedMs": 25,
+          "transferBytes": 80921
+        }
+      ]
+    },
+    {
+      "pathname": "/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "Home Decor Ideas for Beautiful, Livable Spaces — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 34,
+          "domContentLoadedMs": 25,
+          "transferBytes": 91879
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-boys-bedroom-ideas/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "17 Small Boys Bedroom Ideas for Small Rooms — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": 88,
+        "cls": 0.01694589083820663
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 83,
+          "domContentLoadedMs": 83,
+          "transferBytes": 71076
+        }
+      ]
+    },
+    {
+      "pathname": "/post/small-kitchen-organization-ideas/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "Small Kitchen Organization: A Counter and Cabinet Plan",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0.020085964912280704
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 53,
+          "domContentLoadedMs": 48,
+          "transferBytes": 55162
+        }
+      ]
+    },
+    {
+      "pathname": "/contact/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "Contact — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 22,
+          "domContentLoadedMs": 17,
+          "transferBytes": 15250
+        }
+      ]
+    },
+    {
+      "pathname": "/about/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "About — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 20,
+          "domContentLoadedMs": 16,
+          "transferBytes": 16417
+        }
+      ]
+    },
+    {
+      "pathname": "/search/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "Search — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 34,
+          "domContentLoadedMs": 24,
+          "transferBytes": 62119
+        }
+      ]
+    },
+    {
+      "pathname": "/saved/",
+      "width": 1440,
+      "documentWidth": 1425,
+      "h1": 1,
+      "title": "Your Saved Home Ideas — Small Cozy Home",
+      "placeholderVisible": false,
+      "missingImages": [],
+      "remoteImages": [],
+      "externalScripts": [],
+      "localVitals": {
+        "lcpMs": null,
+        "cls": 0
+      },
+      "overflowing": [],
+      "navigation": [
+        {
+          "loadMs": 46,
+          "domContentLoadedMs": 44,
+          "transferBytes": 80921
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "failedRequests": []
+}
