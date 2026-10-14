@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T19:15:55.580Z",
+  "checkedAt": "2026-10-14T19:17:19.523Z",
   "checks": {
     "inventory": 250,
     "publicKeep": 27,
@@ -10,7 +10,9 @@
     "htmlFiles": 273,
     "sitemapUrls": 41,
     "adMarkupPages": 0,
-    "privatePlaceholderPages": 0
+    "privatePlaceholderPages": 0,
+    "previewHttp301Verified": 81,
+    "oddTag404": true
   },
   "issues": [],
   "scope": "Local source and built output; production HTTP status, ownership and originality require owner verification."
