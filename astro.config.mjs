@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readdirSync, readFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
-import { SITE, CATEGORIES } from './src/site.ts';
+import { SITE, CATEGORIES, NAV_MIN_POSTS } from './src/site.ts';
 import { policy, keptSourceIsPublic } from './src/lib/contentPolicy.mjs';
 import remarkPrivateNotes from './src/lib/remarkPrivateNotes.mjs';
 import { satteri } from '@astrojs/markdown-satteri';
@@ -72,13 +72,17 @@ export default defineConfig({
       },
     }),
   ],
-  redirects: {
-    ...approvedRedirects,
-    '/tag/diy-decor': '/category/diy-decor/',
-    '/tag/entryway': '/category/entryway/',
-    '/tag/seasonal': '/category/seasonal/',
-    '/tag/small-spaces': '/category/small-spaces/',
-  },
+  /*
+    No redirects are declared here on purpose.
+
+    In `output: 'static'` Astro can only implement a redirect as an HTML page
+    carrying a meta refresh, which answers 200 — the reason every merged URL on
+    this site used to return a thin 200 instead of a 301. The real rules are
+    generated as vercel.json by scripts/prepare-publishing.mjs, which Vercel
+    applies before it looks at the filesystem. `approvedRedirects` above is kept
+    because the publishing script reports from the same policy data.
+  */
+  redirects: {},
   build: {
     inlineStylesheets: 'auto',
   },

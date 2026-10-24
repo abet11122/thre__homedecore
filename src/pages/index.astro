@@ -3,17 +3,23 @@ import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
 import PostCard from '../components/PostCard.astro';
 import Newsletter from '../components/Newsletter.astro';
-import { CATEGORIES, PRIMARY_CATEGORIES, categoryName } from '../site';
+import { CATEGORIES, PRIMARY_CATEGORIES, categoryName, NAV_MIN_POSTS } from '../site';
 import { getPublishedPosts } from '../lib/posts';
 const posts = await getPublishedPosts();
-const categories = CATEGORIES.filter(c => posts.filter(post => post.data.category === c.slug).length >= 2);
+const categories = CATEGORIES.filter(c => posts.filter(post => post.data.category === c.slug).length >= NAV_MIN_POSTS);
 const primaryCategories = PRIMARY_CATEGORIES.filter(c => categories.includes(c));
 const featured = posts.find(p => p.data.featured) ?? posts[0];
-const weekend = posts.find(p => p.id === 'diy-floating-shelves');
-const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apartment-decor-ideas-budget','diy-floating-shelves'].includes(p.id));
+// These two slots used to name specific articles, which left holes in the
+// homepage whenever one of them was withdrawn. They now pick from whatever is
+// published: the weekend slot wants a making project, and the picks are simply
+// the next most recent articles that are not already shown above.
+const weekend = posts.find(p => p.data.category === 'diy-decor');
+const picks = posts
+  .filter(p => p.id !== featured?.id && p.id !== weekend?.id)
+  .slice(0, 3);
 ---
-<Layout title="Home Decor Ideas for Beautiful, Livable Spaces" description="Find home decor ideas for small bedrooms, living rooms, rentals and more. Explore practical styling guides, save your favorites and plan your next room refresh.">
-  <div class="home-note"><span>A little inspiration. A home that feels like you.</span><a href="/category/small-spaces/">Small spaces, beautiful possibilities <span aria-hidden="true">↗</span></a></div>
+<Layout title="Seasonal Decorating Ideas for a Home That Feels Like Autumn" description="Seasonal decorating guides for porches, tables, mantels and front doors — with the measurements, quantities and colour choices that make each one work.">
+  <div class="home-note"><span>A little inspiration. A home that feels like you.</span><a href="/category/seasonal/">Decorating through the seasons <span aria-hidden="true">↗</span></a></div>
   <section class="wrap home-hero">
     <div class="home-hero-copy">
       <p class="eyebrow hero-kicker"><span aria-hidden="true"></span>The art of feeling at home</p>
@@ -45,8 +51,8 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
     </div>
   </section>
   <div class="wrap"></div>
-  {weekend && <section class="wrap weekend-section" aria-labelledby="weekend-title"><a class="weekend-photo frame" href={`/post/${weekend.id}/`}><Img src={weekend.data.heroImage} alt={weekend.data.title} width={900} height={680} sizes="(min-width: 900px) 48vw, 100vw" /></a><div class="weekend-copy"><p class="eyebrow">The weekend project</p><span class="weekend-number" aria-hidden="true">Made by you.</span><h2 id="weekend-title">A small project.<br />A lovely difference.</h2><p>A quiet afternoon, a few simple materials, and a corner that feels a little more yours. Start with our guide to floating shelves.</p><a class="link-arrow" href={`/post/${weekend.id}/`}>Make something lovely <span aria-hidden="true">↗</span></a></div></section>}
-  {picks.length > 0 && <section class="wrap budget-section" aria-labelledby="budget-title"><div class="home-section-head"><div><p class="eyebrow">Little changes, lovely results</p><h2 id="budget-title">Big on style. Kind to your budget.</h2></div><a class="quiet-link" href="/category/small-spaces/">Explore small-space ideas ↗</a></div><div class="grid gap-8 md:grid-cols-3">{picks.map(post => <PostCard post={post} />)}</div></section>}
+  {weekend && <section class="wrap weekend-section" aria-labelledby="weekend-title"><a class="weekend-photo frame" href={`/post/${weekend.id}/`}><Img src={weekend.data.heroImage} alt={weekend.data.title} width={900} height={680} sizes="(min-width: 900px) 48vw, 100vw" /></a><div class="weekend-copy"><p class="eyebrow">The weekend project</p><span class="weekend-number" aria-hidden="true">Made by you.</span><h2 id="weekend-title">A small project.<br />A lovely difference.</h2><p>A quiet afternoon, a few simple materials, and a corner that feels a little more yours.</p><a class="link-arrow" href={`/post/${weekend.id}/`}>Make something lovely <span aria-hidden="true">↗</span></a></div></section>}
+  {picks.length > 0 && <section class="wrap budget-section" aria-labelledby="budget-title"><div class="home-section-head"><div><p class="eyebrow">Little changes, lovely results</p><h2 id="budget-title">Big on style. Kind to your budget.</h2></div><a class="quiet-link" href="/category/seasonal/">Explore seasonal ideas ↗</a></div><div class="grid gap-8 md:grid-cols-3">{picks.map(post => <PostCard post={post} />)}</div></section>}
   <div class="wrap my-16"><Newsletter /></div>
 </Layout>
 <script>

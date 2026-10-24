@@ -3,33 +3,25 @@ import { render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
 import { readingTime } from '../../site';
 import { getPublishedPosts } from '../../lib/posts';
-import { policy } from '../../lib/contentPolicy.mjs';
-import Layout from '../../layouts/Layout.astro';
 
+/*
+  Only published articles get a page.
+
+  Withdrawn and merged URLs are deliberately not built. A merged URL is answered
+  by the 301 in vercel.json; a withdrawn one returns 404. Building a "retired"
+  notice for them instead, as this route used to, answered both with a thin 200
+  page — which is exactly the kind of page that counts against the site.
+*/
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
-  const publicIds = new Set(posts.map(post => post.id));
-  const archived = Object.entries(policy).filter(([, entry]) => entry.action !== 'KEEP+IMPROVE' && !(entry.action === 'MERGE' && publicIds.has(entry.target)));
-  return [...posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  })), ...archived.map(([slug]) => ({ params: { slug }, props: { post: null } }))];
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 
 const { post } = Astro.props;
-const rendered = post ? await render(post) : null;
-const Content = rendered?.Content;
-const headings = rendered?.headings ?? [];
-const minutes = post ? readingTime(post.body ?? '') : 0;
+const { Content, headings } = await render(post);
+const minutes = readingTime(post.body ?? '');
 ---
 
-{post && Content ? <PostLayout post={post} headings={headings} minutes={minutes}>
+<PostLayout post={post} headings={headings} minutes={minutes}>
   <Content />
-</PostLayout> : <Layout title="Article retired" description="This article has been retired from the Small Cozy Home archive. Browse the current home decorating and organization guides instead." noindex>
-  <section class="wrap py-16">
-    <p class="eyebrow">Archive notice</p>
-    <h1 class="mt-4 font-display text-4xl">This article has been retired</h1>
-    <p class="mt-6 max-w-2xl">This URL is no longer part of our current decorating and organization archive.</p>
-    <p class="mt-6"><a class="btn btn-primary" href="/">Browse current home ideas</a></p>
-  </section>
-</Layout>}
+</PostLayout>

@@ -1,0 +1,435 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/post/affordable-fall-porch-styling-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/affordable-fall-porch-styling-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/backyard-halloween-party-ideas",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/backyard-halloween-party-ideas/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-winter-home-decor-ideas",
+      "destination": "/post/spring-home-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-winter-home-decor-ideas/",
+      "destination": "/post/spring-home-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-halloween-decor-outdoor",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-halloween-decor-outdoor/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-mason-jar-centerpiece-ideas",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-mason-jar-centerpiece-ideas/",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-ideas-for-fall",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-ideas-for-fall/",
+      "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/easy-fall-centerpieces-for-table",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/easy-fall-centerpieces-for-table/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/elegant-halloween-decor",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/elegant-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-apartment-decor-ideas",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-apartment-decor-ideas/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-crafts-for-kids",
+      "destination": "/post/fall-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-crafts-for-kids/",
+      "destination": "/post/fall-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-decorations-indoor",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-decorations-indoor/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-entryway-decor-ideas",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-entryway-decor-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-entryway-table-decor-ideas",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-entryway-table-decor-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-flower-arrangement-ideas",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-flower-arrangement-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-front-door-decor-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-front-door-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-porch-sign-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-porch-sign-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-table-setting-ideas",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-table-setting-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tablescape-ideas",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tablescape-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tiered-tray-decor-ideas",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tiered-tray-decor-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tray-decor-ideas",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-tray-decor-ideas/",
+      "destination": "/post/fall-table-centerpiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-vignette-ideas",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-vignette-ideas/",
+      "destination": "/post/entryway-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-wreath-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-wreath-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/farmhouse-fall-porch-decor-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/farmhouse-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/friendsgiving-decor-ideas",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/friendsgiving-decor-ideas/",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/funny-outdoor-halloween-decorations",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/funny-outdoor-halloween-decorations/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-crafts-for-children",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-crafts-for-children/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-door-decor-ideas",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-door-decor-ideas/",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-door-decorations",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-door-decorations/",
+      "destination": "/post/halloween-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-fireplace-decor-ideas",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-fireplace-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-living-room-ideas",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-living-room-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kid-friendly-pumpkin-carving-ideas",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kid-friendly-pumpkin-carving-ideas/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/neutral-fall-decor",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/neutral-fall-decor/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/neutral-fall-porch-decor-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/neutral-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pool-towel-and-float-storage-ideas",
+      "destination": "/post/balcony-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pool-towel-and-float-storage-ideas/",
+      "destination": "/post/balcony-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pumpkin-painting-ideas",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pumpkin-painting-ideas/",
+      "destination": "/post/halloween-crafts-for-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-front-porch-fall-decor-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-front-porch-fall-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-space-halloween-decor",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-space-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/spring-decor-ideas",
+      "destination": "/post/spring-home-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/spring-decor-ideas/",
+      "destination": "/post/spring-home-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/summer-to-fall-porch-decor-ideas",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/summer-to-fall-porch-decor-ideas/",
+      "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/vintage-thanksgiving-decor-ideas",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/vintage-thanksgiving-decor-ideas/",
+      "destination": "/post/thanksgiving-table-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/diy-decor",
+      "destination": "/category/diy-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/diy-decor/",
+      "destination": "/category/diy-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/entryway",
+      "destination": "/category/entryway/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/entryway/",
+      "destination": "/category/entryway/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/seasonal",
+      "destination": "/category/seasonal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/seasonal/",
+      "destination": "/category/seasonal/",
+      "statusCode": 301
+    }
+  ]
+}
