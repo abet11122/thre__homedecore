@@ -2,16 +2,24 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
 ---
-<PageLayout title="About" eyebrow="About this site" description="How Small Cozy Home creates its decorating guides, uses stock photography and distinguishes general inspiration from documented projects." lede="Decorating references, with clear limits on what they demonstrate.">
-  <p>{SITE.name} publishes home decorating and organization guides. The name <a href={'/author/' + SITE.authorSlug + '/'}>Editorial Team</a> is a publication byline. It is not a personal identity, professional qualification, or claim that a particular designer has tested these ideas.</p>
-  <h2>How the archive is made</h2>
-  <p>The archive includes programmatically generated drafts. A content review identified repeated passages and overlapping topics. Those drafts are excluded from the current archive while useful existing material is consolidated. A published guide offers general planning references; it should not be read as a record of an owner's personal project.</p>
-  <p>A first-hand project, measurement, price, time estimate, review or quotation needs a traceable source before it can be presented as such. We do not supply invented personal experience or qualifications. Publication dates are the dates stored with the guides, rather than evidence of when a photographed room was built.</p>
+<PageLayout title="About" eyebrow="About this site" description="What this site covers, how its seasonal decorating guides are written and edited, what the photographs show, and how corrections are handled." lede="Seasonal decorating guides, with clear limits on what they claim.">
+  <p>{SITE.name} publishes guides to seasonal decorating and cozy styling: porches and front doors, tables and centrepieces, mantels and windows, seasonal crafts, and the colour, lighting and textiles that go with each time of year. The name <a href={'/author/' + SITE.authorSlug + '/'}>Editorial Team</a> is a publication byline. It is not a personal identity, a professional qualification, or a claim that a particular designer has tested these ideas.</p>
+
+  <h2>What you will not find here</h2>
+  <p>Storage systems, decluttering routines and small-space floor plans are deliberately out of scope. Guides that belonged to that subject were withdrawn in October 2026 rather than kept as thin variations of someone else's. What remains is about how a room looks and feels through the seasons.</p>
+
+  <h2>How a guide is written</h2>
+  <p>Each guide is written for a single question and edited to answer it in the opening lines, before any background. Where a measurement, spacing, quantity or timing is given, it is there because it changes the result — a wreath diameter against a door width, the number of stems that fills a bowl, the height a mantel garland needs to clear a firebox. Guides are structured around their own subject rather than a shared template, so two articles on this site should not read like the same article with different nouns.</p>
+  <p>A first-hand project, price, review or quotation needs a traceable source before it is presented as one. Invented personal experience and invented qualifications are not supplied here. Earlier in this site's history a large batch of drafts was generated in bulk; those drafts are held back unpublished rather than shown to readers, and the published guides have been rewritten.</p>
+  <p>Publication dates are the dates stored with each guide. Where a guide has been rewritten, an updated date is shown alongside the original.</p>
+
   <h2>What the photographs show</h2>
-  <p>The current guides use stock photographs for illustration. A stock photograph does not show work completed by this publication, and may illustrate a general atmosphere rather than every detail of a suggested layout. Hosting a copy on this site does not make it an original photograph. Source and license links accompany article photo credits where available.</p>
+  <p>The current guides use stock photographs for illustration. A stock photograph does not show work completed by this publication, and it may convey a general atmosphere rather than every detail of the arrangement described in the text. Hosting a copy on this site does not make it an original photograph. Source and licence links accompany photo credits where they are available.</p>
+
   <h2>Using a guide in your own home</h2>
-  <p>Measure doors, drawers, walkways and the actual product before buying. Building conditions, lease terms and budgets vary. Follow the manufacturer's installation instructions and load limits, and ask a qualified installer when the wall construction or fixing method is uncertain.</p>
+  <p>Measure the door, the shelf, the table or the wall before buying anything, and check the product's own dimensions rather than trusting a photograph. Fixings, lease terms, climates and budgets vary. Follow the manufacturer's instructions and load limits, use battery lights where a real flame would be unwise, and ask a qualified installer when the wall construction or fixing method is uncertain.</p>
+
   <h2>Funding and corrections</h2>
-  <p>Some product links earn a commission; a disclosure appears near those recommendations. Advertising is currently disabled. Read the <a href="/disclosure/">disclosure</a> and <a href="/privacy-policy/">privacy policy</a> for details.</p>
-  <p>Send a correction, question about ownership, or image-credit concern through the <a href="/contact/">contact page</a>, including the relevant URL and supporting information.</p>
+  <p>This site carries advertising through Google AdSense, and some product links earn a commission, with a disclosure shown near those recommendations. No advertiser pays for coverage and no mention is for sale. The <a href="/disclosure/">disclosure</a> and <a href="/privacy-policy/">privacy policy</a> set out the detail, including the cookies advertising sets and how to opt out of personalised ads.</p>
+  <p>Send a correction, an ownership question or an image-credit concern through the <a href="/contact/">contact page</a>, including the relevant address and anything that helps explain the issue. Corrections are dealt with before anything else.</p>
 </PageLayout>

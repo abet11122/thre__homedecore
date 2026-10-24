@@ -1,4 +1,12 @@
 ---
-/** Advertising is disabled during the content remediation. No code or slots are emitted. */
+/**
+ * No ad markup is emitted here on purpose.
+ *
+ * The AdSense script itself is loaded site-wide from layouts/Layout.astro, which
+ * is what Google reads to verify the publisher. Hand-placed slots are left out
+ * so that utility screens — search, topic listings, saved ideas, error pages —
+ * never carry advertising. Keeping the component means callers do not have to
+ * change if that decision is revisited.
+ */
 interface Props { placement?: string; class?: string; mobile?: unknown; desktop?: unknown; }
 ---

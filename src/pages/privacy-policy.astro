@@ -2,18 +2,154 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
 ---
-<PageLayout title="Privacy Policy" eyebrow="Legal" description="How Small Cozy Home handles browser-saved ideas, email enquiries and technical requests. Advertising and analytics scripts are currently disabled." lede="The data involved in reading this site and saving ideas." updated="October 14, 2026">
-  <p>This policy covers {SITE.name} at {SITE.url}. Contact <a href={'mailto:' + SITE.email}>{SITE.email}</a> with privacy questions or requests.</p>
-  <h2>Reading and saving ideas</h2>
-  <p>There is no account, login or newsletter signup. The saved-ideas feature stores article identifiers in your browser's local storage. Clear saved ideas or site data in your browser to remove them; clearing storage can also remove other preferences for this site.</p>
-  <h2>Email enquiries</h2>
-  <p>Contact links open your email application rather than submitting a web form. If you send an email, the recipient and email service process your address, message and any attachments. Send only the information needed for your enquiry.</p>
-  <h2>Technical requests</h2>
-  <p>Delivering this site requires requests to its hosting provider, which may process IP addresses, browser information, request times and access logs. This page does not claim a particular hosting provider or retention period without owner confirmation.</p>
-  <h2>Advertising, analytics and external services</h2>
-  <p>This version does not load advertising or analytics scripts. It does not load the Pinterest tracking script or remote font stylesheets. Illustrative images are served from this site's own assets.</p>
-  <p>Affiliate and other external links lead to websites with their own privacy policies. Using a Pinterest share button opens Pinterest only after you choose to use it. See the <a href="/disclosure/">disclosure</a> for information about affiliate links.</p>
-  <h2>Requests and changes</h2>
-  <p>You may contact the publication about information you have supplied or rights available under applicable law. The owner must verify the relevant records before responding; this policy makes no unsupported promise about a consent platform or automatic deletion service.</p>
-  <p>This policy should be reviewed whenever the site's data practices change. Advertising or tracking must not be enabled on the basis of an unverified claim that consent tools are configured.</p>
+<PageLayout
+  title="Privacy Policy"
+  eyebrow="Legal"
+  description="What this site collects, the cookies Google AdSense sets, and how to exercise your rights under the GDPR and the CCPA."
+  lede="What is collected, who else sees it, and how to opt out."
+  updated="October 24, 2026"
+>
+  <p>
+    This policy covers {SITE.name} at {SITE.url}. For any privacy question or
+    request, write to <a href={'mailto:' + SITE.email}>{SITE.email}</a>.
+  </p>
+
+  <h2>What this site collects directly</h2>
+  <p>
+    There is no account, login or newsletter sign-up, so no name or email
+    address is collected simply by reading. Two features store a small value in
+    your own browser rather than on a server:
+  </p>
+  <ul>
+    <li>
+      <strong>Saved ideas.</strong> When you save an article, its identifier is
+      written to your browser's local storage so the list survives a reload.
+    </li>
+    <li>
+      <strong>Text size.</strong> The larger-text setting is remembered the same
+      way.
+    </li>
+  </ul>
+  <p>
+    Neither value leaves your device and neither is readable by this site's
+    operator. Clearing site data in your browser removes them, along with other
+    preferences for this site.
+  </p>
+
+  <h2>Server logs</h2>
+  <p>
+    Serving a page requires a request to the hosting provider, which records
+    standard technical information: the IP address making the request, the page
+    requested, the time, the referring page and basic browser and device
+    details. These logs exist to deliver the site, keep it available and
+    investigate abuse. They are not used to build advertising profiles by this
+    publication.
+  </p>
+
+  <h2>Advertising and the cookies it sets</h2>
+  <p>
+    This site is a Google AdSense publisher, and the AdSense script is loaded on
+    every page. That means third parties, not just this site, process some data
+    about your visit.
+  </p>
+  <ul>
+    <li>
+      Google and its advertising partners use cookies and similar identifiers to
+      serve ads, limit how often you see the same ad, and measure whether ads
+      work.
+    </li>
+    <li>
+      Google's advertising cookie lets it and its partners serve ads based on
+      your visits to this site and other sites.
+    </li>
+    <li>
+      Third-party vendors may set their own cookies when their ads are shown.
+      This publication does not control those cookies and cannot read them.
+    </li>
+  </ul>
+  <p>
+    You can turn off personalised advertising in
+    <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google's Ads Settings</a>,
+    review how Google uses data from sites that use its services at
+    <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">policies.google.com/technologies/partner-sites</a>,
+    and opt out of personalisation by many other vendors at
+    <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">optout.aboutads.info</a>
+    or <a href="https://www.youronlinechoices.eu/" rel="nofollow noopener" target="_blank">youronlinechoices.eu</a>.
+    Turning off personalisation does not remove advertising; it makes the ads you
+    see less specific to you.
+  </p>
+  <p>
+    Most browsers also let you block or delete cookies for a single site. Doing
+    so for this site will not stop you reading it.
+  </p>
+
+  <h2>Analytics</h2>
+  <p>
+    No separate analytics product is installed. Google Search Console is used to
+    see how pages perform in search results; it reports aggregated queries and
+    counts, not individual readers.
+  </p>
+
+  <h2>External links and embedded buttons</h2>
+  <p>
+    Links to other sites, including any affiliate links, lead to services with
+    their own privacy policies, and this policy does not cover them. The
+    Pinterest save button contacts Pinterest only after you choose to use it.
+    The <a href="/disclosure/">disclosure page</a> explains how affiliate links
+    and advertising are handled here.
+  </p>
+
+  <h2>If you are in the UK or the European Economic Area</h2>
+  <p>
+    Under the UK GDPR and the EU GDPR you have the right to ask for a copy of
+    the personal data held about you, to have it corrected or erased, to
+    restrict or object to how it is used, to receive it in a portable form, and
+    to withdraw consent you have given. You also have the right to complain to
+    your national data protection authority.
+  </p>
+  <p>
+    The lawful basis for the technical logs described above is legitimate
+    interest in delivering and protecting the site. The lawful basis for
+    personalised advertising is consent, which you can change at any time
+    through the links in the advertising section.
+  </p>
+  <p>
+    Requests about data this publication holds should go to
+    <a href={'mailto:' + SITE.email}>{SITE.email}</a>. Requests about data held
+    by Google or another advertising vendor have to be made to that company,
+    because this publication cannot access or delete records held in their
+    systems.
+  </p>
+
+  <h2>If you are in California</h2>
+  <p>
+    Under the CCPA, as amended by the CPRA, you have the right to know what
+    categories of personal information are collected and who they are disclosed
+    to, to request deletion, to correct inaccurate information, and to opt out of
+    the sale or sharing of personal information — which includes sharing for
+    cross-context behavioural advertising. You also have the right not to be
+    treated differently for exercising any of these rights.
+  </p>
+  <p>
+    This publication does not sell personal information for money. Allowing
+    advertising vendors to set identifiers may still count as sharing under the
+    CCPA, so you can opt out using the advertising links above, or by writing to
+    <a href={'mailto:' + SITE.email}>{SITE.email}</a> with "California privacy
+    request" in the subject line.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    This site publishes home decorating guides for adults. It is not directed at
+    children under 13 and no information is knowingly collected from them. If
+    you believe a child has provided personal information, write to the address
+    above and it will be deleted.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    The date above changes whenever this policy does. Where a change materially
+    affects how data is handled, the change will be described rather than
+    quietly substituted.
+  </p>
 </PageLayout>

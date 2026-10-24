@@ -1,14 +1,89 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
+
+/*
+  Static hosting cannot process a form submission, so the form is rendered only
+  when an endpoint has been configured in src/site.ts. Until then the page
+  offers the email route, which always works. Nothing here is a placeholder for
+  a reader to stumble over.
+*/
+const formEndpoint = SITE.contactFormEndpoint;
 ---
-<PageLayout title="Contact" eyebrow="Get in touch" description="Contact Small Cozy Home by email about a guide, image credit, ownership, privacy request or correction. No web form submission is collected." lede="Questions and corrections by email.">
-  <h2>Email</h2>
-  <p>The contact address configured for this publication is <a href={'mailto:' + SITE.email}>{SITE.email}</a>. Include the page URL, what needs correcting, and any source or photograph that helps explain the issue.</p>
-  <p><a class="btn btn-primary" href={'mailto:' + SITE.email + '?subject=Small%20Cozy%20Home%20enquiry'}>Open your email app</a></p>
-  <p>This link opens your own email application. No message is submitted to this website and no delivery confirmation is shown here.</p>
-  <h2>Image and privacy enquiries</h2>
-  <p>Use the same address for image ownership or credit concerns, questions about the publication, and privacy requests. Please avoid sending confidential information that is not needed to handle the enquiry.</p>
-  <h2>Domain email</h2>
-  <p>A domain mailbox has not been configured here. Owner setup placeholder: <strong>[CONTACT EMAIL AT YOUR DOMAIN]</strong>. The configured email link above remains available.</p>
+<PageLayout
+  title="Contact"
+  eyebrow="Get in touch"
+  description="Contact us about a guide, an image credit, a privacy request or a correction. Every message reaches a monitored mailbox."
+  lede="Questions, corrections and image credits."
+>
+  <p>
+    Write to <a href={'mailto:' + SITE.email}>{SITE.email}</a> and include the
+    page address, what needs changing, and any source or photograph that helps
+    explain it. Corrections are the fastest thing we act on.
+  </p>
+
+  {formEndpoint ? (
+    <>
+      <h2>Send a message</h2>
+      <form method="POST" action={formEndpoint} class="contact-form">
+        <p>
+          <label for="contact-name">Your name</label>
+          <input id="contact-name" name="name" type="text" autocomplete="name" required />
+        </p>
+        <p>
+          <label for="contact-email">Your email</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" required />
+        </p>
+        <p>
+          <label for="contact-subject">Subject</label>
+          <select id="contact-subject" name="subject">
+            <option>Correction to a guide</option>
+            <option>Image credit or ownership</option>
+            <option>Privacy request</option>
+            <option>Advertising</option>
+            <option>Something else</option>
+          </select>
+        </p>
+        <p>
+          <label for="contact-url">Page address, if your message is about one</label>
+          <input id="contact-url" name="page" type="url" placeholder="https://" />
+        </p>
+        <p>
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="7" required></textarea>
+        </p>
+        <p><button class="btn btn-primary" type="submit">Send message</button></p>
+      </form>
+    </>
+  ) : (
+    <p>
+      <a class="btn btn-primary" href={'mailto:' + SITE.email + '?subject=Website%20enquiry'}>
+        Open your email app
+      </a>
+    </p>
+  )}
+
+  <h2>Image credits and ownership</h2>
+  <p>
+    Photographs are stock images unless a guide says otherwise. If you hold the
+    rights to a picture used here and want it credited differently or taken
+    down, write to the address above with the page and the image, and it will be
+    dealt with.
+  </p>
+
+  <h2>Privacy requests</h2>
+  <p>
+    Use the same address to ask what data this site holds about you, to ask for
+    it to be deleted, or to opt out of personalised advertising. The
+    <a href="/privacy-policy/">privacy policy</a> sets out what is collected,
+    who the advertising partners are, and the rights you have under the GDPR and
+    the CCPA. Please leave out any confidential detail the enquiry does not
+    need.
+  </p>
+
+  <h2>How long a reply takes</h2>
+  <p>
+    This is a small publication rather than a support desk, so expect a few days
+    rather than a few hours. Corrections and takedown requests are handled first.
+  </p>
 </PageLayout>

@@ -5,9 +5,9 @@
 
 export const SITE = {
   name: 'Small Cozy Home',
-  tagline: 'Big ideas for small, cozy spaces',
+  tagline: 'Seasonal decorating and cozy styling',
   description:
-    'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
+    'Seasonal decorating guides for real homes — porches and front doors, tables and centrepieces, mantels and windows, and the colour, light and textiles that suit each time of year.',
   // Interim: swap for your real domain once purchased — this is the only
   // place it needs to change (astro.config.mjs reads it from here).
   url: 'https://www.smallspaceorganizationidea.site',
@@ -22,6 +22,13 @@ export const SITE = {
   pinterest: '',
   instagram: '',
   email: 'mmubasharshahzad40@gmail.com',
+  /**
+   * Optional POST endpoint for the contact form — a Formspree, Basin or
+   * Vercel form handler, for example. Static hosting cannot process a form on
+   * its own, so while this is empty the contact page offers the email route
+   * only. It never renders a form that cannot submit.
+   */
+  contactFormEndpoint: '',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
@@ -171,6 +178,13 @@ export const CATEGORIES: Category[] = [
 ];
 
 /** Categories shown inline in the header; the rest sit under "More". */
+/**
+ * How many published posts a category needs before it may appear in the
+ * navigation or the footer. Thinner categories stay reachable by URL but are
+ * kept out of the menus, so no link leads to a near-empty index page.
+ */
+export const NAV_MIN_POSTS = 3;
+
 export const PRIMARY_CATEGORIES = CATEGORIES.filter((c) => c.primary);
 export const SECONDARY_CATEGORIES = CATEGORIES.filter((c) => !c.primary);
 
