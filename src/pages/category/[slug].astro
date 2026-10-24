@@ -4,7 +4,7 @@ import PostCard from '../../components/PostCard.astro';
 import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
+import { SITE, CATEGORIES, categoryBySlug, collectTags, NAV_MIN_POSTS } from '../../site';
 import { getPublishedPosts } from '../../lib/posts';
 
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ const posts = allPosts
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 
 const [lead, ...others] = posts;
-const otherCategories = CATEGORIES.filter((c) => c.slug !== slug && allPosts.filter(post => post.data.category === c.slug).length >= 2);
+const otherCategories = CATEGORIES.filter((c) => c.slug !== slug && allPosts.filter(post => post.data.category === c.slug).length >= NAV_MIN_POSTS);
 
 // Thin rooms were rendering a single card stranded in a three-column row with
 // two-thirds of the row empty. Match the column count to what is actually left:

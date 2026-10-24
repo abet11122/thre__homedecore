@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import '../styles/editorial.css';
 import SiteHeader from '../components/SiteHeader.astro';
-import { SITE, CATEGORIES, serializeJsonLd } from '../site';
+import { SITE, CATEGORIES, NAV_MIN_POSTS, serializeJsonLd } from '../site';
 import { articleImage } from '../lib/articleImages';
 import { getPublishedPosts } from '../lib/posts';
 import { localImageSource } from '../lib/stockImages';
@@ -97,7 +97,9 @@ const pathSlug = Astro.url.pathname.split('/').filter(Boolean)[0] === 'category'
 const currentCategory =
   pathSlug ?? (section ? CATEGORIES.find((c) => c.name === section)?.slug : undefined);
 const publishedPosts = await getPublishedPosts();
-const activeCategories = CATEGORIES.filter(c => publishedPosts.filter(post => post.data.category === c.slug).length >= 2);
+const activeCategories = CATEGORIES.filter(
+  c => publishedPosts.filter(post => post.data.category === c.slug).length >= NAV_MIN_POSTS
+);
 
 /* ------------------------------------------------------------------
    Structured data
@@ -261,6 +263,20 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     )}
     {SITE.googleVerification && (
       <meta name="google-site-verification" content={SITE.googleVerification} />
+    )}
+
+    {/*
+      AdSense publisher verification. This script is what Google reads to
+      confirm the site belongs to the publisher ID in /ads.txt, so it is
+      rendered on every page unconditionally. Individual ad slots are a
+      separate concern — see components/AdSlot.astro.
+    */}
+    {SITE.adsenseClientId && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClientId}`}
+        crossorigin="anonymous"
+      ></script>
     )}
 
     <script type="application/ld+json" set:html={serializeJsonLd(jsonLd)} />

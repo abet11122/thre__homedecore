@@ -1,9 +1,9 @@
 ---
-import { SITE, CATEGORIES } from '../site';
+import { SITE, CATEGORIES, NAV_MIN_POSTS } from '../site';
 import { getPublishedPosts } from '../lib/posts';
 const { currentCategory } = Astro.props;
 const published = await getPublishedPosts();
-const categories = CATEGORIES.filter(c => published.filter(post => post.data.category === c.slug).length >= 2);
+const categories = CATEGORIES.filter(c => published.filter(post => post.data.category === c.slug).length >= NAV_MIN_POSTS);
 const isArticle = Astro.url.pathname.startsWith('/post/');
 ---
 

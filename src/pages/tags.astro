@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Newsletter from '../components/Newsletter.astro';
-import { SITE, CATEGORIES, collectTags } from '../site';
+import { SITE, CATEGORIES, collectTags, NAV_MIN_POSTS } from '../site';
 import { getPublishedPosts } from '../lib/posts';
 
 /**
@@ -12,7 +12,7 @@ import { getPublishedPosts } from '../lib/posts';
  * and it gives every tag hub one strong internal link from a crawlable page.
  */
 const posts = await getPublishedPosts();
-const categories = CATEGORIES.filter(c => posts.filter(post => post.data.category === c.slug).length >= 2);
+const categories = CATEGORIES.filter(c => posts.filter(post => post.data.category === c.slug).length >= NAV_MIN_POSTS);
 const tags = collectTags(posts);
 const max = tags[0]?.count ?? 1;
 
