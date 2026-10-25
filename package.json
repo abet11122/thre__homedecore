@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/prepare-publishing.mjs && astro build",
+    "photos": "node scripts/process-photos.mjs",
+    "season": "node scripts/season-noindex.mjs",
+    "check:duplication": "node scripts/check-duplication.mjs",
     "seo:check": "node scripts/check-seo.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "check:seo": "npm run build && npm run seo:audit",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.20",
+    "sharp": "^0.35.4",
     "autoprefixer": "^10.5.4",
     "postcss": "^8.5.26",
     "tailwindcss": "^3.4.19"
