@@ -22,6 +22,26 @@
       "statusCode": 301
     },
     {
+      "source": "/post/christmas-centerpieces",
+      "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-centerpieces/",
+      "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-table-settings",
+      "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-table-settings/",
+      "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/cozy-winter-home-decor-ideas",
       "destination": "/post/spring-home-decor-ideas/",
       "statusCode": 301
@@ -49,6 +69,16 @@
     {
       "source": "/post/diy-mason-jar-centerpiece-ideas/",
       "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-for-christmas",
+      "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-for-christmas/",
+      "destination": "/post/christmas-table-centerpieces/",
       "statusCode": 301
     },
     {
@@ -219,6 +249,16 @@
     {
       "source": "/post/fall-wreath-ideas/",
       "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/farmhouse-christmas-porch-decor-ideas",
+      "destination": "/post/outdoor-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/farmhouse-christmas-porch-decor-ideas/",
+      "destination": "/post/outdoor-christmas-decor-ideas/",
       "statusCode": 301
     },
     {

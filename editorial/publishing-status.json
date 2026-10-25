@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-24T12:39:19.673Z",
+  "generatedAt": "2026-10-25T04:47:22.208Z",
   "kept": 48,
-  "published": 17,
-  "withheldKeep": 31,
-  "activeMergeRedirects": 40,
-  "pendingMerges": 84,
+  "published": 20,
+  "withheldKeep": 28,
+  "activeMergeRedirects": 44,
+  "pendingMerges": 80,
   "removed": 88,
   "redirects": [
     {
@@ -15,6 +15,16 @@
     {
       "source": "/post/backyard-halloween-party-ideas/",
       "destination": "/post/halloween-yard-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-centerpieces/",
+      "destination": "/post/christmas-table-centerpieces/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-table-settings/",
+      "destination": "/post/christmas-table-centerpieces/",
       "status": 301
     },
     {
@@ -30,6 +40,11 @@
     {
       "source": "/post/diy-mason-jar-centerpiece-ideas/",
       "destination": "/post/dough-bowl-centrepiece-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/dough-bowl-centrepiece-for-christmas/",
+      "destination": "/post/christmas-table-centerpieces/",
       "status": 301
     },
     {
@@ -115,6 +130,11 @@
     {
       "source": "/post/fall-wreath-ideas/",
       "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/farmhouse-christmas-porch-decor-ideas/",
+      "destination": "/post/outdoor-christmas-decor-ideas/",
       "status": 301
     },
     {
@@ -390,12 +410,6 @@
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
-      "url": "/post/christmas-centerpieces/",
-      "action": "MERGE",
-      "target": "christmas-table-centerpieces",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
       "url": "/post/christmas-coffee-table-decor-ideas/",
       "action": "MERGE",
       "target": "coffee-table-decor-ideas",
@@ -429,12 +443,6 @@
       "url": "/post/christmas-kitchen-decor-ideas/",
       "action": "MERGE",
       "target": "small-apartment-christmas-decor",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-table-settings/",
-      "action": "MERGE",
-      "target": "christmas-table-centerpieces",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -570,12 +578,6 @@
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
-      "url": "/post/dough-bowl-centrepiece-for-christmas/",
-      "action": "MERGE",
-      "target": "christmas-table-centerpieces",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
       "url": "/post/drop-zone-ideas/",
       "action": "REMOVE",
       "target": null,
@@ -639,12 +641,6 @@
       "url": "/post/farmhouse-christmas-decor-ideas/",
       "action": "MERGE",
       "target": "vintage-christmas-decor-ideas",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/farmhouse-christmas-porch-decor-ideas/",
-      "action": "MERGE",
-      "target": "outdoor-christmas-decor-ideas",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
