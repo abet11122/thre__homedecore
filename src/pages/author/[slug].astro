@@ -32,7 +32,7 @@ const beats = CATEGORIES.map((c) => ({
   .filter((c) => c.count > 0)
   .sort((a, b) => b.count - a.count);
 
-const description = 'The Editorial Team publication byline, image policy and current home decorating guides from Small Cozy Home.';
+const description = `${SITE.author} writes and publishes the seasonal decorating guides on ${SITE.name}. What the guides claim, what the photographs show, and every current one.`;
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 

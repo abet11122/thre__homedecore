@@ -111,7 +111,7 @@ const activeCategories = CATEGORIES.filter(
 ------------------------------------------------------------------- */
 const ORG_ID = `${origin}/#organization`;
 const SITE_ID = `${origin}/#website`;
-const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#editorial-team`;
+const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#author`;
 const PAGE_ID = `${canonical}#webpage`;
 const PRIMARY_IMAGE_ID = `${canonical}#primaryimage`;
 
@@ -141,13 +141,17 @@ const siteNode = {
   publisher: { '@id': ORG_ID },
 };
 
+// A named person, not a publication byline: Person rather than Organization,
+// so the author of an article resolves to someone rather than to the publisher
+// a second time.
 const authorNode = {
-  '@type': 'Organization',
+  '@type': 'Person',
   '@id': AUTHOR_ID,
   name: SITE.author,
   url: abs(`/author/${SITE.authorSlug}/`),
   description: SITE.authorBio,
-  parentOrganization: { '@id': ORG_ID },
+  ...(SITE.authorRole ? { jobTitle: SITE.authorRole } : {}),
+  worksFor: { '@id': ORG_ID },
   ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
 };
 

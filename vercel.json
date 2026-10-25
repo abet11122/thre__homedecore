@@ -470,6 +470,16 @@
       "source": "/tag/seasonal/",
       "destination": "/category/seasonal/",
       "statusCode": 301
+    },
+    {
+      "source": "/author/sophie-lane",
+      "destination": "/author/mubashar-shahzad/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/sophie-lane/",
+      "destination": "/author/mubashar-shahzad/",
+      "statusCode": 301
     }
   ]
 }

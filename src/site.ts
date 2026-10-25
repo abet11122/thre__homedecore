@@ -13,10 +13,10 @@ export const SITE = {
   url: 'https://www.smallspaceorganizationidea.site',
   /** Public AdSense publisher ID; keep public/ads.txt in sync when changing it. */
   adsenseClientId: 'ca-pub-8497285724891966',
-  author: 'Editorial Team',
-  authorRole: 'Publication byline',
+  author: 'Mubashar Shahzad',
+  authorRole: 'Writer and publisher',
   authorBio:
-    'Editorial Team is the publication byline for Small Cozy Home, not an individual designer or a claim of professional credentials. Stock images illustrate ideas unless a documented original project is identified.',
+    'Mubashar Shahzad writes and publishes Small Cozy Home, a collection of seasonal decorating guides covering porches, tables, mantels and the colour and light that suit each time of year. The guides are written as general references rather than records of professional practice, and no training or trade qualification is claimed. Photographs are stock images unless a guide says otherwise.',
   authorAvatar:
     '/favicon.svg',
   pinterest: '',
@@ -34,7 +34,7 @@ export const SITE = {
   /** Paste your Google Search Console verification code here. */
   googleVerification: '3YA4irBEBM26ScyVh4js0nLs2kw3MBl0a04u1ivQgL8',
   /** Slug for the author hub page at /author/<slug>/. */
-  authorSlug: 'sophie-lane',
+  authorSlug: 'mubashar-shahzad',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
   authorLinks: [] as string[],
   locale: 'en_US',

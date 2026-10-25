@@ -3,7 +3,8 @@ import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../site';
 ---
 <PageLayout title="About" eyebrow="About this site" description="What this site covers, how its seasonal decorating guides are written and edited, what the photographs show, and how corrections are handled." lede="Seasonal decorating guides, with clear limits on what they claim.">
-  <p>{SITE.name} publishes guides to seasonal decorating and cozy styling: porches and front doors, tables and centrepieces, mantels and windows, seasonal crafts, and the colour, lighting and textiles that go with each time of year. The name <a href={'/author/' + SITE.authorSlug + '/'}>Editorial Team</a> is a publication byline. It is not a personal identity, a professional qualification, or a claim that a particular designer has tested these ideas.</p>
+  <p>{SITE.name} publishes guides to seasonal decorating and cozy styling: porches and front doors, tables and centrepieces, mantels and windows, seasonal crafts, and the colour, lighting and textiles that go with each time of year. It is written and published by <a href={'/author/' + SITE.authorSlug + '/'}>{SITE.author}</a>.</p>
+  <p>That is a real name rather than a house byline, but it is not a claim of professional qualification. These are guides written for people decorating their own homes, not the record of a designer's practice, and nothing here should be read as a trade credential.</p>
 
   <h2>What you will not find here</h2>
   <p>Storage systems, decluttering routines and small-space floor plans are deliberately out of scope. Guides that belonged to that subject were withdrawn in October 2026 rather than kept as thin variations of someone else's. What remains is about how a room looks and feels through the seasons.</p>

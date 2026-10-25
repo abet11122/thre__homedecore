@@ -46,3 +46,4 @@ RedirectMatch 301 ^/post/vintage-thanksgiving-decor-ideas/?$ /post/thanksgiving-
 RedirectMatch 301 ^/tag/diy-decor/?$ /category/diy-decor/
 RedirectMatch 301 ^/tag/entryway/?$ /category/entryway/
 RedirectMatch 301 ^/tag/seasonal/?$ /category/seasonal/
+RedirectMatch 301 ^/author/sophie-lane/?$ /author/mubashar-shahzad/
