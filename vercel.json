@@ -22,6 +22,26 @@
       "statusCode": 301
     },
     {
+      "source": "/post/bathroom-christmas-decor",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-christmas-decor/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-bedroom-ideas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-bedroom-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/christmas-centerpieces",
       "destination": "/post/christmas-table-centerpieces/",
       "statusCode": 301
@@ -29,6 +49,56 @@
     {
       "source": "/post/christmas-centerpieces/",
       "destination": "/post/christmas-table-centerpieces/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-craft-ideas-for-adults",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-craft-ideas-for-adults/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-kids-to-make",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-kids-to-make/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-preschoolers",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-preschoolers/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-entryway-ideas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-entryway-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-kitchen-decor-ideas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-kitchen-decor-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
       "statusCode": 301
     },
     {
@@ -42,6 +112,16 @@
       "statusCode": 301
     },
     {
+      "source": "/post/cozy-christmas-bedroom-ideas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-christmas-bedroom-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/cozy-winter-home-decor-ideas",
       "destination": "/post/spring-home-decor-ideas/",
       "statusCode": 301
@@ -49,6 +129,16 @@
     {
       "source": "/post/cozy-winter-home-decor-ideas/",
       "destination": "/post/spring-home-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-christmas-craft-ideas",
+      "destination": "/post/diy-christmas-ornaments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-christmas-craft-ideas/",
+      "destination": "/post/diy-christmas-ornaments/",
       "statusCode": 301
     },
     {
@@ -252,6 +342,16 @@
       "statusCode": 301
     },
     {
+      "source": "/post/farmhouse-christmas-decor-ideas",
+      "destination": "/post/vintage-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/farmhouse-christmas-decor-ideas/",
+      "destination": "/post/vintage-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/farmhouse-christmas-porch-decor-ideas",
       "destination": "/post/outdoor-christmas-decor-ideas/",
       "statusCode": 301
@@ -342,6 +442,16 @@
       "statusCode": 301
     },
     {
+      "source": "/post/how-to-decorate-small-living-room-for-christmas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/how-to-decorate-small-living-room-for-christmas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/kid-friendly-pumpkin-carving-ideas",
       "destination": "/post/halloween-crafts-for-adults/",
       "statusCode": 301
@@ -399,6 +509,16 @@
     {
       "source": "/post/small-front-porch-fall-decor-ideas/",
       "destination": "/post/fall-porch-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-space-christmas-decor-ideas",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-space-christmas-decor-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
       "statusCode": 301
     },
     {

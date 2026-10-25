@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-25T04:53:02.894Z",
+  "generatedAt": "2026-10-25T05:08:20.291Z",
   "kept": 48,
-  "published": 20,
-  "withheldKeep": 28,
-  "activeMergeRedirects": 44,
-  "pendingMerges": 80,
+  "published": 23,
+  "withheldKeep": 25,
+  "activeMergeRedirects": 56,
+  "pendingMerges": 68,
   "removed": 88,
   "redirects": [
     {
@@ -18,8 +18,43 @@
       "status": 301
     },
     {
+      "source": "/post/bathroom-christmas-decor/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-bedroom-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "status": 301
+    },
+    {
       "source": "/post/christmas-centerpieces/",
       "destination": "/post/christmas-table-centerpieces/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-craft-ideas-for-adults/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-kids-to-make/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-crafts-for-preschoolers/",
+      "destination": "/post/diy-christmas-ornaments/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-entryway-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "status": 301
+    },
+    {
+      "source": "/post/christmas-kitchen-decor-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
       "status": 301
     },
     {
@@ -28,8 +63,18 @@
       "status": 301
     },
     {
+      "source": "/post/cozy-christmas-bedroom-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "status": 301
+    },
+    {
       "source": "/post/cozy-winter-home-decor-ideas/",
       "destination": "/post/spring-home-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/diy-christmas-craft-ideas/",
+      "destination": "/post/diy-christmas-ornaments/",
       "status": 301
     },
     {
@@ -133,6 +178,11 @@
       "status": 301
     },
     {
+      "source": "/post/farmhouse-christmas-decor-ideas/",
+      "destination": "/post/vintage-christmas-decor-ideas/",
+      "status": 301
+    },
+    {
       "source": "/post/farmhouse-christmas-porch-decor-ideas/",
       "destination": "/post/outdoor-christmas-decor-ideas/",
       "status": 301
@@ -178,6 +228,11 @@
       "status": 301
     },
     {
+      "source": "/post/how-to-decorate-small-living-room-for-christmas/",
+      "destination": "/post/small-apartment-christmas-decor/",
+      "status": 301
+    },
+    {
       "source": "/post/kid-friendly-pumpkin-carving-ideas/",
       "destination": "/post/halloween-crafts-for-adults/",
       "status": 301
@@ -205,6 +260,11 @@
     {
       "source": "/post/small-front-porch-fall-decor-ideas/",
       "destination": "/post/fall-porch-decor-ideas/",
+      "status": 301
+    },
+    {
+      "source": "/post/small-space-christmas-decor-ideas/",
+      "destination": "/post/small-apartment-christmas-decor/",
       "status": 301
     },
     {
@@ -275,12 +335,6 @@
       "url": "/post/backyard-wedding-decor-ideas/",
       "action": "REMOVE",
       "target": null,
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/bathroom-christmas-decor/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -404,45 +458,9 @@
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
-      "url": "/post/christmas-bedroom-ideas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
       "url": "/post/christmas-coffee-table-decor-ideas/",
       "action": "MERGE",
       "target": "coffee-table-decor-ideas",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-craft-ideas-for-adults/",
-      "action": "MERGE",
-      "target": "diy-christmas-ornaments",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-crafts-for-kids-to-make/",
-      "action": "MERGE",
-      "target": "diy-christmas-ornaments",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-crafts-for-preschoolers/",
-      "action": "MERGE",
-      "target": "diy-christmas-ornaments",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-entryway-ideas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/christmas-kitchen-decor-ideas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -500,12 +518,6 @@
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
-      "url": "/post/cozy-christmas-bedroom-ideas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
       "url": "/post/cozy-christmas-living-room-ideas/",
       "action": "REMOVE",
       "target": null,
@@ -539,12 +551,6 @@
       "url": "/post/decorating-above-kitchen-cabinets/",
       "action": "MERGE",
       "target": "above-kitchen-cabinet-decor-ideas",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/diy-christmas-craft-ideas/",
-      "action": "MERGE",
-      "target": "diy-christmas-ornaments",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -635,12 +641,6 @@
       "url": "/post/fall-kitchen-decorations/",
       "action": "MERGE",
       "target": "fall-kitchen-decor-ideas",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/farmhouse-christmas-decor-ideas/",
-      "action": "MERGE",
-      "target": "vintage-christmas-decor-ideas",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -773,12 +773,6 @@
       "url": "/post/how-to-decorate-around-a-tv/",
       "action": "MERGE",
       "target": "living-room-gallery-wall-ideas",
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/how-to-decorate-small-living-room-for-christmas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {
@@ -1079,12 +1073,6 @@
       "url": "/post/small-pantry-organization-ideas/",
       "action": "REMOVE",
       "target": null,
-      "handling": "noindex,follow retirement notice; original article retained privately"
-    },
-    {
-      "url": "/post/small-space-christmas-decor-ideas/",
-      "action": "MERGE",
-      "target": "small-apartment-christmas-decor",
       "handling": "noindex,follow retirement notice; original article retained privately"
     },
     {

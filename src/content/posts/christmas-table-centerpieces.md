@@ -1,5 +1,5 @@
 ---
-title: "Christmas Centrepieces That Survive the Meal"
+title: "Christmas Centrepieces That Last the Meal"
 description: "Build it on a board, keep it under 25cm, and use greenery that does not shed. A Christmas table carries more food than any other table of the year."
 category: seasonal
 tags: ["christmas decor", "table decor"]
@@ -89,3 +89,5 @@ Cut greenery dries out considerably over a fortnight indoors. A candle that was 
 Greenery composts. Candles that have burned unevenly can be levelled by standing them somewhere warm for an hour rather than thrown out.
 
 The board, the runner and the holders go away clean and come out again next year, which is the whole point of putting the money into those rather than into anything disposable.
+
+What sits among the greenery is worth making rather than buying: [the ornament guide](/post/diy-christmas-ornaments/) sorts the projects by how long each needs to dry, so you can pick by the time you actually have.

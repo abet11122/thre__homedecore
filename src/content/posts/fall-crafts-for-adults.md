@@ -15,6 +15,13 @@ keyTakeaways:
   - "Collect only what has already fallen, and never strip a living plant bare."
   - "Dry everything before it comes near a shelf, or you will be drying mould."
   - "Branches are the most useful thing you can bring home and cost nothing."
+faqs:
+  - q: "How do I preserve autumn leaves so they keep their colour?"
+    a: "Wax them. Melt plain candle wax in a jug standing in simmering water, let it cool until a skin forms, dip the leaf and hang it to set. Pressing in a heavy book takes two to three weeks and gives a flatter result."
+  - q: "Why does my foraged material go mouldy?"
+    a: "Almost always a drying failure. Air movement matters more than heat, so spread material out, keep bunches small and allow a fortnight for most things. Nothing goes into a sealed box or bag until it is completely dry."
+  - q: "Is it alright to collect material outdoors?"
+    a: "Take what has already fallen, take sparingly from living plants and never strip one bare, and check who owns the land. Seed heads left standing are food for birds through the winter, so leave most of them where they are."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: what one walk actually produced, laid out together, and then each finished piece]

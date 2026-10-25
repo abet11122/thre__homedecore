@@ -15,6 +15,13 @@ keyTakeaways:
   - "Choose length over depth: roughly half the table's length, no more than 12cm deep."
   - "Three materials per filling, in a shallow mound that is highest off-centre."
   - "Never oil the inside if food will touch it; never soak it at all."
+faqs:
+  - q: "What size dough bowl suits a dining table?"
+    a: "About half the length of the table and only 8 to 12cm deep. On a 180cm table that means a bowl of 80 to 90cm. Shallow bowls display their contents, while deep ones swallow whatever you put in them."
+  - q: "How do I stop a dough bowl cracking?"
+    a: "Keep it away from radiators, sunny windowsills and any direct heat, and never soak it or put it in a dishwasher. Rapid drying is what splits carved timber. Wipe it with a barely damp cloth and dry it at once."
+  - q: "Should I oil a dough bowl?"
+    a: "Only with a food-safe oil, and only if fruit or nuts touch it. If you simply want the wood to grey naturally, leave it alone. Avoid any finish that leaves a plastic film, which looks wrong on carved timber and chips."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the same bowl in all four fillings, shot from a seated height at the table]

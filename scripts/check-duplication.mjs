@@ -142,6 +142,24 @@ for (const sister of sisters) {
   }
 }
 
+// -------------------------------------------------------- links between posts
+/*
+  A link to an article that is withheld, withdrawn, or dated in the future is a
+  404 for readers until that date arrives — and a post dated ahead of today is
+  not built at all. This has bitten twice, so it is checked rather than
+  remembered.
+*/
+const publishedIds = new Set(published.map(p => p.slug));
+const danglingLinks = [];
+for (const p of published) {
+  for (const m of p.raw.matchAll(/\]\((\/post\/([^/)]+)\/)\)/g)) {
+    if (!publishedIds.has(m[2])) danglingLinks.push(`${p.slug} -> ${m[1]}`);
+  }
+}
+console.log(`\nLinks to articles that are not published: ${danglingLinks.length}`);
+danglingLinks.forEach(l => console.log(`  ${l}`));
+if (danglingLinks.length) failures++;
+
 // ---------------------------------------------------------------------- voice
 console.log('\nVoice and structure:');
 const bannedHits = [];

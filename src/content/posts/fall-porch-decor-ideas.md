@@ -15,6 +15,13 @@ keyTakeaways:
   - "Buy pumpkins late. Bought in September they are collapsing by Halloween."
   - "One large pot reads better from the street than five small ones."
   - "Keep 90cm of clear walking width and leave every step edge visible."
+faqs:
+  - q: "When should I buy pumpkins for the porch?"
+    a: "The first week of October. Bought in early September they are collapsing by the end of the month. Bought in October, left uncarved and kept off warm stone, they will see out the season and often last into December."
+  - q: "How do I stop pumpkins rotting outdoors?"
+    a: "Raise them off the ground on a board, a tray or an upturned crate. A pumpkin sitting on damp stone rots from the base first and marks the surface beneath it. Carve as late as you can, since carved ones last days rather than weeks."
+  - q: "How much walking space should I leave?"
+    a: "At least 90cm of clear width, measured rather than guessed, with every step edge left visible. A step edge hidden by decoration in poor light is the thing here most likely to hurt somebody."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the same porch at all three stages, from the same spot on the path]

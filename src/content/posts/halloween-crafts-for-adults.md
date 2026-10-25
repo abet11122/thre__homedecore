@@ -15,6 +15,13 @@ keyTakeaways:
   - "Most take an evening; two take a weekend because of drying time."
   - "Everything here stores flat or packs down for next year."
   - "Times are estimates for a first attempt, not records."
+faqs:
+  - q: "How thin should orange slices be for drying?"
+    a: "About 4mm, thinner than feels right, and blotted hard on both sides first. Slices cut thicker never dry through, and the moisture left in the centre is what goes mouldy a week later."
+  - q: "How do I dip candles without stripping them?"
+    a: "Melt the wax in a jug standing in simmering water, never over direct heat, and let it cool until a skin just begins to form at the edge. Wax that is too hot strips the candle instead of coating it."
+  - q: "Which projects store best for next year?"
+    a: "All of them pack flat, which is why they were chosen. Dried oranges and bay go in a paper bag rather than plastic, the wreath and door spray hang flat against a wall, and cut paper keeps between two sheets of card."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: each finished project, plus one in-progress shot of the step described as the difficult one]

@@ -3,7 +3,7 @@ title: "Christmas Ornaments Sorted by How Long They Take to Dry"
 description: "Some are on the tree in an hour, some need overnight, some need a week. Pick by the time you actually have before the tree goes up."
 category: diy-decor
 tags: ["diy christmas", "christmas crafts"]
-publishDate: 2026-11-04
+publishDate: 2026-10-25
 updatedDate: 2026-10-24
 heroImage: "photo-1512389142860-9c449e58a543"
 heroImageAlt: "Evergreen wreaths and small hanging decorations against a pale wall."
@@ -38,7 +38,7 @@ One rule applies to all of them: make the hanging hole before the piece dries. D
 
 ## Ready within the hour
 
-**Wax-dipped leaves and seed heads.** Melt plain candle wax in a jug standing in a pan of simmering water, never over direct heat. Let it cool until a skin just begins to form, dip the leaf, lift it straight out and hang it to set. Two minutes each, and the wax keeps the colour and stiffens the leaf enough to hang. Beech, oak and bay all work; anything already brittle will not.
+**Wax-dipped leaves and seed heads.** Stand a jug of plain candle wax in a pan of gently simmering water until it melts; direct heat on the jug will scorch it. Wait for the first skin to appear at the surface, then dip and lift in one movement and hang the leaf to set. Two minutes each, and the wax keeps the colour and stiffens the leaf enough to hang. Beech, oak and bay all work; anything already brittle will not.
 
 **Twine-wrapped baubles.** A plain or tired bauble, a length of garden twine and a glue gun. Start at the cap, run a thin line of glue and wind the twine down in a continuous spiral, pressing as you go. It covers scratched finishes, costs almost nothing, and gives a texture that catches tree lights far better than a flat surface. About ten minutes each once you have the knack.
 

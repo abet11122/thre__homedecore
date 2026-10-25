@@ -1,5 +1,5 @@
 ---
-title: "Planning a Halloween Yard Around One Good Idea"
+title: "Plan a Halloween Yard Around One Idea"
 description: "Pick a single scene, give it a clear edge and a light source, and leave the rest of the garden dark. Scattering props across a whole lawn always reads as clutter."
 category: outdoor
 tags: ["halloween","outdoor decor"]
@@ -15,6 +15,13 @@ keyTakeaways:
   - "Darkness is a material. Light one area and leave everything else unlit."
   - "Keep the path to the door lit and completely clear of cables and props."
   - "Weight or stake everything — late October wind decides what survives."
+faqs:
+  - q: "How do I make a small garden look decorated?"
+    a: "Concentrate rather than spread. One scene against the wall with a single light beats twelve items placed evenly over a lawn. Leave the rest of the garden dark, because the darkness is what makes the lit part land."
+  - q: "Do fog machines work outdoors?"
+    a: "Rarely. Fog disperses in any wind at all, so it needs a still night and an enclosed corner. Low-lying fog also needs chilling to stay at ground level. If any breeze is forecast, spend the money on lighting instead."
+  - q: "How do I keep a display safe for trick-or-treaters?"
+    a: "Keep the route to the door lit and clear, with nothing protruding at ankle or face height. Place anything intended to startle well away from the path, where somebody stepping back cannot fall off a step."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the scene after dark, taken from where people stand to look at it, plus the same view in daylight showing the construction]

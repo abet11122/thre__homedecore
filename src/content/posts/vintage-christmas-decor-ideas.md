@@ -3,7 +3,7 @@ title: "Vintage Christmas Decorating, and How to Buy It Honestly"
 description: "What the old decorations actually were, decade by decade, how to tell real from reproduction, and which pieces are safe to use rather than just display."
 category: seasonal
 tags: ["christmas decor", "vintage decor"]
-publishDate: 2026-10-28
+publishDate: 2026-10-23
 updatedDate: 2026-10-24
 heroImage: "photo-1543589077-47d81606c1bf"
 pinImage: "photo-1512389142860-9c449e58a543"

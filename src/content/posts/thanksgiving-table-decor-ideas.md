@@ -15,6 +15,13 @@ keyTakeaways:
   - "Allow 60cm of table width per person, plus the dish footprint."
   - "Do the slow jobs a week ahead; the table itself takes under an hour."
   - "If the meal is served at the table, the centrepiece has to leave."
+faqs:
+  - q: "How much table space does each person need?"
+    a: "About 60cm of table edge. Below roughly 55cm elbows meet and people eat with their arms pinned. If the numbers do not fit, a second small table joined on is better than squeezing everyone in."
+  - q: "Where should the centrepiece go if food is served at the table?"
+    a: "To the edges. When dishes come to the table the centre is spoken for, so run the decoration along the sides, and make anything in the middle liftable in one movement with somewhere decided in advance to put it."
+  - q: "What can I prepare in advance?"
+    a: "Press the linen, dry any orange slices, cut and dry the foliage, and lay the places the night before. Only fresh foliage, water in the glasses and lighting the candles need to happen on the day itself."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the laid table before the food, and the same table once every dish is on it — the second photo is the useful one]

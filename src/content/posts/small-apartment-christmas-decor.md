@@ -3,7 +3,7 @@ title: "Christmas in a Small Flat, Decided by the Storage Box"
 description: "In a flat the limit is not floor space but where it all lives in January. Pick the box first, then the tree, then three surfaces — in that order."
 category: seasonal
 tags: ["christmas decor", "renter-friendly"]
-publishDate: 2026-10-29
+publishDate: 2026-10-24
 updatedDate: 2026-10-24
 heroImage: "photo-1482517967863-00e15c9b44be"
 heroImageAlt: "Gold bauble on a lit Christmas tree with stockings and string lights blurred behind."

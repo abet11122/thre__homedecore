@@ -1,5 +1,5 @@
 ---
-title: "How to Style an Autumn Mantel in Three Heights"
+title: "Autumn Mantel Styling, in Three Heights"
 description: "Clear the shelf, pick one anchor at two-thirds the wall height, cluster a middle tier beside it, and keep a third of the mantel bare. Twenty minutes, mostly free materials."
 category: "seasonal"
 tags: ["styling"]
@@ -14,6 +14,13 @@ keyTakeaways:
   - "Set the tall anchor a third of the way in, never dead centre."
   - "Leave the third of the shelf furthest from the anchor almost bare."
   - "Buy materials that are already drying — they improve over the weeks you keep them."
+faqs:
+  - q: "How do I style a mantel if I have no fireplace?"
+    a: "The three-height method is not really about mantels. It works on a hall console, a wide windowsill, the top of a low bookcase or a shelf above a radiator. The only change is the anchor, which on a table becomes a branch arrangement so it reads from all sides."
+  - q: "How tall should the anchor object be?"
+    a: "Roughly two-thirds the height of the wall space above the shelf, set about a third of the way in from one end. Placing it dead centre makes the whole arrangement symmetrical and inert."
+  - q: "Which autumn materials last longest?"
+    a: "Anything already on its way to drying: wheat, oats and barley, hydrangea heads cut late, dried ferns, seed pods and beech branches. They look better three weeks in, and they store for the following year if kept dry."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the mantel straight on from across the room, plus a three-quarter angle showing the depth between layers]
@@ -112,3 +119,5 @@ The only change is the anchor. On a table seen from all sides, swap the tall lea
 Pick a date — late November, before any Christmas decorating starts — and clear the whole thing in one go.
 
 The dried material goes into a box somewhere dry, not into the bin. Wheat, pods and hydrangea heads will be perfectly good next year, and the vessels are the expensive part anyway. Leaving autumn up into January is the fastest way to make a house feel neglected.
+
+The mantel is only one surface, and the easiest to get right. The rest of the room is a question of weight and light rather than arrangement, worked through pass by pass in [the fall living room guide](/post/fall-living-room-decor-ideas/), and most of what ends up on the shelf can be gathered on a single walk — [the autumn making guide](/post/fall-crafts-for-adults/) covers what to collect and how to dry it.

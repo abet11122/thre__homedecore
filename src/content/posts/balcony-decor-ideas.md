@@ -15,6 +15,13 @@ keyTakeaways:
   - "Hang planters on the inside of the railing unless your building allows otherwise."
   - "Use IP44-rated outdoor lights; indoor string lights last one wet month."
   - "Wind, not cold, is what kills balcony planting. Shelter one corner first."
+faqs:
+  - q: "Can I hang planters on the outside of the railing?"
+    a: "Not unless your building explicitly permits it. A planter on the outside is a falling object above a public footpath, and most leases prohibit it for that reason. Hung on the inside it looks just as good from your chair and is sheltered from the worst wind."
+  - q: "Why do my balcony plants keep dying?"
+    a: "Usually wind rather than cold. Wind accelerates around a building and dries pots out quickly, and the higher the floor the worse it gets. Shelter one corner, use the largest pots the balcony can take, and weight anything light."
+  - q: "Do solar lights work on a balcony?"
+    a: "Only where the panel gets several hours of genuine direct sun. A north-facing balcony will not provide that between November and February, so battery or mains lighting is far more reliable there."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the balcony in winter, not summer — that is the version nobody photographs and everybody needs to see]

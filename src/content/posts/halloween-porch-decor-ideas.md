@@ -14,6 +14,13 @@ keyTakeaways:
   - "From the street only silhouette and light register — detail is wasted there."
   - "Keep 90cm of clear walking width and leave the step edge visible."
   - "One outdoor-rated extension lead, run along the edge, never across the path."
+faqs:
+  - q: "What actually reads from the street at night?"
+    a: "Only silhouette and light. Small painted details and delicate arrangements are invisible at about ten metres. Work in shape, light from behind the object rather than in front of it, and use one colour of light across the whole frontage."
+  - q: "Can I use indoor string lights outside?"
+    a: "No. Use outdoor-rated lights and leads, IP44 as a minimum, on an RCD-protected socket. Keep every connection off the ground and out of standing water, and run cable along the edge rather than across the path."
+  - q: "How long do carved pumpkins last?"
+    a: "A few days. Carve as late as you can, scrape the inner wall down to about 2.5cm so it dries evenly, keep them off warm stone and use battery tea lights. A real flame cooks the flesh from within."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: three shots of the same porch — from the pavement, halfway up the path, and standing at the door — to show what reads at each distance]

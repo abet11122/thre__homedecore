@@ -15,6 +15,13 @@ keyTakeaways:
   - "The door material decides the fixing: metal takes magnets, uPVC takes suction, wood takes a hook."
   - "An over-door hanger needs about 4cm of clearance and marks nothing."
   - "Keep weight under roughly 1kg, because the door is slammed daily."
+faqs:
+  - q: "Can I hang a wreath on a flat entrance door?"
+    a: "Check the building rules first. Many buildings prohibit anything on a flat entrance door for fire-safety reasons, because a fire door has to close and seal fully. Some allow a light wreath and nothing more. The inside face of your own door is always available."
+  - q: "What fixing works on a metal flat door?"
+    a: "A magnetic hook. Many flat entrance doors are steel-faced, so a magnet holds a light wreath, slides into position and leaves nothing behind. Test with a fridge magnet first, because a steel core under a timber skin will not hold one."
+  - q: "How heavy can a door decoration be?"
+    a: "Keep the finished weight under about 1kg. A flat door is slammed many times a day, so anything heavier swings like a pendulum and will eventually pull a suction or adhesive fixing off, usually in the night."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the fixing itself, close up, and the door after removal showing whether anything was left behind]
@@ -88,4 +95,4 @@ Adhesive strips come off by pulling the tab slowly straight down, flat against t
 
 Magnets and over-door hangers simply lift away. Suction hooks release by lifting the tab at the edge rather than pulling the body. Wipe the door afterwards; a clean ring of unexposed paint sometimes shows where a wreath sat all month, and a wash sorts it out.
 
-Store the wreath flat and the lights wound on card rather than knotted. For the rest of the flat, the same damage-free thinking and the three-surface limit are set out in [the renter's seasonal guide](/post/small-apartment-halloween-decor-ideas/), and the entry table just inside the door is covered in [its own guide](/post/entryway-table-decor-ideas/).
+Store the wreath flat and the lights wound on card rather than knotted. For the rest of the flat, the same damage-free thinking and the three-surface limit are set out in [the renter's seasonal guide](/post/small-apartment-halloween-decor-ideas/), and the entry table just inside the door is covered in [its own guide](/post/entryway-table-decor-ideas/). Everything on the other side of that door — the tree, the three surfaces and the box it all lives in afterwards — is in [the small flat guide](/post/small-apartment-christmas-decor/).

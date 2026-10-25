@@ -1,5 +1,5 @@
 ---
-title: "Autumn Centrepieces Sized to Your Actual Table"
+title: "Autumn Centrepieces Sized to Your Table"
 description: "A round table, a long table and a small one each need a different arrangement. Measure first — the shape of the table decides the shape of the centrepiece."
 category: seasonal
 tags: ["fall decor","table decor"]
@@ -15,6 +15,13 @@ keyTakeaways:
   - "Leave 15cm of clear table on every side, or there is nowhere for dishes."
   - "Keep it under 25cm tall so people can see one another."
   - "Build on a runner or board so the whole thing lifts off in one movement."
+faqs:
+  - q: "How tall should a table centrepiece be?"
+    a: "Under about 25cm, so people can see one another across the table. Leave at least 15cm of clear table on every side as well, or there is nowhere for the serving dishes to land."
+  - q: "What shape suits a round table?"
+    a: "A single compact group in the middle, roughly a third of the table diameter and fairly even in height. A round table is seen equally from every seat, so the arrangement cannot have a back."
+  - q: "Can a centrepiece stay up all month?"
+    a: "Yes, if it is built from material that is already drying. Small pumpkins, dried wheat, oak branches, seed pods and walnuts all last for weeks. Fresh cut flowers will die in the middle of the display."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the centrepiece from a seated position, and the same table mid-meal with the serving dishes on it]
@@ -83,4 +90,4 @@ The centrepiece is not the whole job, and the surrounding details are cheaper to
 
 Napkins in a colour from the arrangement, tied with twine and a single leaf tucked under, cost almost nothing and tie the table together. A small pumpkin or a named leaf at each place does the same work as a place card. Keep the tablecloth or runner plain — a patterned cloth beneath a textured arrangement is one layer too many.
 
-For the version of this sized to a whole holiday meal, with the timing worked out in advance, see [the Thanksgiving table guide](/post/thanksgiving-table-decor-ideas/); for the mantel in the same room, [the three-height method](/post/autumn-mantel-styling/) keeps both in the same palette.
+For the version of this sized to a whole holiday meal, with the timing worked out in advance, see [the Thanksgiving table guide](/post/thanksgiving-table-decor-ideas/); for the mantel in the same room, [the three-height method](/post/autumn-mantel-styling/) keeps both in the same palette. Nearly every material named above can be collected rather than bought, which is the subject of [the autumn making guide](/post/fall-crafts-for-adults/).

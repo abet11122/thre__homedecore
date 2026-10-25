@@ -15,6 +15,13 @@ keyTakeaways:
   - "Removable hooks need the clean-removal technique, and 24 hours to settle."
   - "Never put adhesive on wallpaper, fresh paint or textured plaster."
   - "Buy for the box it stores in, not the shelf it sits on."
+faqs:
+  - q: "How do I decorate a small flat without clutter?"
+    a: "Choose three surfaces and dress only those. A small flat has no spare surface to give the eye a rest, so the same number of objects that looks generous in a large room reads as mess in a small one."
+  - q: "How do I use adhesive hooks without damaging paint?"
+    a: "Clean the surface with rubbing alcohol first, wait an hour before hanging anything and 24 hours before loading it. To remove, pull the tab slowly straight down, parallel to the wall, never outward. Avoid wallpaper and fresh paint entirely."
+  - q: "Where do decorations live for the rest of the year?"
+    a: "Decide on the storage box first and buy only what fits inside it. That single constraint rules out bulky rigid props and pushes you towards flat, foldable and natural things that cost little to replace."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the three surfaces you chose, and one wide shot showing how much of the flat was left undecorated]

@@ -14,6 +14,13 @@ keyTakeaways:
   - "Branches beat cut flowers: weeks instead of days, often free."
   - "Raise the bulb colour and wash the windows — the light does the work."
   - "Do it in two stages a fortnight apart, or the house feels bare in February."
+faqs:
+  - q: "How do I decorate for spring?"
+    a: "Mostly by taking things away. Remove the heavy throws, dark cushion covers, layered rugs and half the surface objects. Most rooms are finished at that point, and adding before subtracting gives you winter plus daffodils."
+  - q: "What lasts longer than cut flowers in spring?"
+    a: "Branches. Forsythia, cherry, pussy willow, hazel and quince all force indoors. Cut them while the buds are still tight, crush the bottom 5cm of each stem, and stand them in deep water somewhere cool and bright."
+  - q: "When should spring decorating start?"
+    a: "Early February in most climates. Stripping a room in January leaves eight cold weeks with nothing comfortable to sit in, and the season registers through light and space rather than through objects."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the same room in full winter dress and after the subtraction pass, from the same spot]

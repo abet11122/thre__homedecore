@@ -1,5 +1,5 @@
 ---
-title: "Open Kitchen Shelves: What to Put on Each One, Season by Season"
+title: "Open Kitchen Shelves, Shelf by Shelf"
 description: "Load the lowest shelf with what you use daily, the middle with matching sets, the top with height. Then change three things when the season turns."
 category: "kitchen"
 tags: ["styling"]
@@ -15,6 +15,13 @@ keyTakeaways:
   - "Leave about a quarter of each shelf empty, in one stretch rather than scattered gaps."
   - "Hold the whole run to three materials and three colours."
   - "To mark a season, swap three things only — never redress the entire wall."
+faqs:
+  - q: "What should go on each open shelf?"
+    a: "Everyday cups and bowls on the lowest shelf, matching sets at eye level, and tall light things on top. Leave about a quarter of each shelf empty in one continuous stretch rather than as scattered gaps."
+  - q: "Do open shelves get greasy near the hob?"
+    a: "Within about a metre of one, yes. Cooking grease turns to a sticky dust on porous surfaces, so keep wood and cane out of that zone and put glazed ceramic or glass there instead, which wipes clean in one pass."
+  - q: "How much weight can an open shelf hold?"
+    a: "More than people allow for: a dozen dinner plates can pass 6kg on their own. Fix into studs where you can, and use fixings rated well beyond what you plan to stack, for your actual wall type rather than the best case."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the full shelf run straight on, lit from the side; plus one detail of the lowest shelf mid-week, in real use]

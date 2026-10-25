@@ -1,5 +1,5 @@
 ---
-title: "Fall Living Room Decorating, Layer by Layer"
+title: "Fall Living Room Decor, Layer by Layer"
 description: "Work in four passes — textiles, light, surfaces, then scent — and stop after the third. A room reads as autumn through weight and warmth, not through pumpkins."
 category: seasonal
 tags: ["fall decor","seasonal decorating"]
@@ -14,6 +14,13 @@ keyTakeaways:
   - "Heavier fabric does more than any ornament — weight is what reads as autumn."
   - "Swap one bright bulb for three dim ones at eye height or below."
   - "Stop after the third pass. Most rooms are finished before the ornaments come out."
+faqs:
+  - q: "What is the quickest way to make a room feel like autumn?"
+    a: "Change the weight of the fabric and lower the light. A wool throw in place of a linen one, and three low lamps instead of one bright ceiling light, read as the season from the doorway. Ornaments do far less."
+  - q: "Which bulb colour suits autumn?"
+    a: "Look for 2200K to 2700K on the box. A 4000K cool white bulb undoes every textile decision you have made. It is the cheapest correction in the room and the one people most often skip."
+  - q: "Should autumn decorating be orange?"
+    a: "Mostly not. Autumn is largely brown, russet, ochre and olive, with orange as a small accent if it appears at all. Work from whatever colour the room already is rather than adding a seasonal palette on top."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the same corner before the first pass and after the third, shot from an identical position]

@@ -15,6 +15,13 @@ keyTakeaways:
   - "For a seated dinner keep everything under 30cm so people can see across."
   - "A party table wants height, because nobody is sitting down."
   - "Build on a tray and the whole arrangement lifts off in one movement."
+faqs:
+  - q: "How do I choose a Halloween centrepiece?"
+    a: "By the kind of evening. A seated dinner needs everything under 30cm so people can see across. A family supper needs one object that moves easily. A standing party wants height, because nobody is sitting down."
+  - q: "Are candles safe on a Halloween table?"
+    a: "Use battery lights inside anything enclosed or packed with dried material. Keep real flame to tapers in heavy holders, clear of dried foliage and paper, where nobody reaches over them, and never leave them burning in an empty room."
+  - q: "Which colours work better than orange?"
+    a: "Near-black foliage, rust and oxblood, bone and parchment, with one metal. Pale pumpkins photograph better by candlelight than orange ones, which read as muddy brown once the main light is off."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the centrepiece shot from a seated position at the table, which is the only angle that matters, plus one from above]

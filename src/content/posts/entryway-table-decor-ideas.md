@@ -15,6 +15,13 @@ keyTakeaways:
   - "One tall object, one low object, one container. That is the whole formula."
   - "Hang the mirror so it reflects light, not the opposite wall's clutter."
   - "In winter, add a tray — wet boots and keys ruin an undefended wooden top."
+faqs:
+  - q: "How do I stop the hall table filling with clutter?"
+    a: "Give a third of the surface to keys and post and never put anything decorative on it. A shallow tray there gives keys a defined edge so they stop spreading. Style only the remaining two-thirds."
+  - q: "How high should a mirror hang above an entry table?"
+    a: "With its bottom edge roughly 15 to 20cm above the surface, and narrower than the table itself. A mirror wider than the furniture beneath it makes the table look as though it has shrunk."
+  - q: "What if there is no room for a hall table?"
+    a: "A narrow shelf at about 75 to 80cm from the floor does the same job in around 12cm of depth, with hooks beneath it and a basket below. The formula does not change; only the depth does."
 ---
 <!-- OWNER INPUT — not rendered publicly. Nothing here may be invented.
 [ADD YOUR PHOTO: the table as it looks at 6pm on a weekday, keys and post included, then the same table after the edit]
