@@ -35,17 +35,49 @@ const localImage = articleImage(localSource);
 
 const srcset = localImage?.srcset;
 const finalSrc = localSource;
+
+/*
+  alt="" is a deliberate choice rather than a missing value: it marks an image
+  as decorative, so a screen reader skips it instead of announcing a filename.
+  Every caller passing alt="" here does so beside a visible label — a post
+  title or a category name — which is the text a reader actually needs.
+
+  It has to be written as a literal. An attribute whose value is an empty
+  expression is dropped from the built HTML entirely, which left 46 images
+  with no alt attribute at all — a different thing from a decorative one, and
+  an accessibility failure. Hence the two branches.
+*/
+const altText = alt === '' ? '' : localImage?.alt || alt || '';
+const w = localImage?.width ?? width;
+const h = localImage?.height ?? height;
+const decoding = loading === 'eager' ? 'sync' : 'async';
 ---
 
-<img
-  src={finalSrc}
-  srcset={srcset}
-  sizes={srcset ? sizes : undefined}
-  alt={alt === '' ? '' : localImage?.alt || alt}
-  width={localImage?.width ?? width}
-  height={localImage?.height ?? height}
-  loading={loading}
-  decoding={loading === 'eager' ? 'sync' : 'async'}
-  fetchpriority={fetchpriority}
-  class={className}
-/>
+{altText === '' ? (
+  <img
+    src={finalSrc}
+    srcset={srcset}
+    sizes={srcset ? sizes : undefined}
+    alt=""
+    aria-hidden="true"
+    width={w}
+    height={h}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    class={className}
+  />
+) : (
+  <img
+    src={finalSrc}
+    srcset={srcset}
+    sizes={srcset ? sizes : undefined}
+    alt={altText}
+    width={w}
+    height={h}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    class={className}
+  />
+)}
