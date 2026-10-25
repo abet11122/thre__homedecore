@@ -36,13 +36,35 @@ export const WITHDRAWN = {
 const RETIRED_MERGE =
   'Withdrawn 2026-10: merge target was removed, so the URL is retired rather than redirected to an unrelated article';
 
+/**
+ * Held drafts cleared for publication, 2026-10-24.
+ *
+ * These were already KEEP+IMPROVE but withheld. They were rewritten to the same
+ * standard as the live articles — their own headings, real measurements, no
+ * shared sentences with either sister site — and released. Each keeps the
+ * publish date it already carried, so the ones dated ahead of today go live on
+ * that date rather than immediately.
+ */
+export const CLEARED = {
+  'christmas-table-centerpieces': 'Rewritten and cleared 2026-10-24',
+  'christmas-window-decor': 'Rewritten and cleared 2026-10-24',
+  'outdoor-christmas-decor-ideas': 'Rewritten and cleared 2026-10-24',
+  'vintage-christmas-decor-ideas': 'Rewritten and cleared 2026-10-24',
+  'diy-christmas-ornaments': 'Rewritten and cleared 2026-10-24',
+  'small-apartment-christmas-decor': 'Rewritten and cleared 2026-10-24',
+};
+
 /** content-policy.json with the focus change applied. */
 function withFocusChange(source) {
   const out = {};
   for (const [slug, entry] of Object.entries(source)) {
-    out[slug] = WITHDRAWN[slug]
-      ? { ...entry, action: 'REMOVE', target: null, reason: WITHDRAWN[slug], publicationReady: false }
-      : entry;
+    if (WITHDRAWN[slug]) {
+      out[slug] = { ...entry, action: 'REMOVE', target: null, reason: WITHDRAWN[slug], publicationReady: false };
+    } else if (CLEARED[slug]) {
+      out[slug] = { ...entry, action: 'KEEP+IMPROVE', reason: CLEARED[slug], publicationReady: true };
+    } else {
+      out[slug] = entry;
+    }
   }
   // A merge pointing at a withdrawn article has nowhere useful to go, and a
   // redirect to an unrelated article reads as a soft 404, so retire it instead.
