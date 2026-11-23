@@ -6,7 +6,7 @@ tags: ["christmas decor", "vintage decor"]
 publishDate: 2026-10-23
 updatedDate: 2026-10-24
 heroImage: "photo-1543589077-47d81606c1bf"
-pinImage: "photo-1512389142860-9c449e58a543"
+pinImage: "photo-1640087293138-67cc236c1431"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

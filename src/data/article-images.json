@@ -817,5 +817,65 @@
     "licenseUrl": "https://unsplash.com/license",
     "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
     "originalSourceId": "photo-1767111399310-8be95e7d25ae"
+  },
+  "/images/stock/photo-1606568939710-ad9c1f460dd2.webp": {
+    "width": 1440,
+    "height": 2157,
+    "srcset": "/images/stock/photo-1606568939710-ad9c1f460dd2-480.webp 480w, /images/stock/photo-1606568939710-ad9c1f460dd2-960.webp 960w, /images/stock/photo-1606568939710-ad9c1f460dd2.webp 1440w",
+    "alt": "Christmas table centrepiece of red berries, tall red and green taper candles and greenery on a tartan cloth.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1606568939710-ad9c1f460dd2",
+    "downloadUrl": "https://images.unsplash.com/photo-1606568939710-ad9c1f460dd2?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1606568939710-ad9c1f460dd2"
+  },
+  "/images/stock/photo-1639880005608-6e0688ce2c9c.webp": {
+    "width": 1440,
+    "height": 1920,
+    "srcset": "/images/stock/photo-1639880005608-6e0688ce2c9c-480.webp 480w, /images/stock/photo-1639880005608-6e0688ce2c9c-960.webp 960w, /images/stock/photo-1639880005608-6e0688ce2c9c.webp 1440w",
+    "alt": "Christmas wreath tied with a red ribbon bow hanging on a white front door.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1639880005608-6e0688ce2c9c",
+    "downloadUrl": "https://images.unsplash.com/photo-1639880005608-6e0688ce2c9c?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1639880005608-6e0688ce2c9c"
+  },
+  "/images/stock/photo-1765242099670-97928c5886f5.webp": {
+    "width": 1440,
+    "height": 2224,
+    "srcset": "/images/stock/photo-1765242099670-97928c5886f5-480.webp 480w, /images/stock/photo-1765242099670-97928c5886f5-960.webp 960w, /images/stock/photo-1765242099670-97928c5886f5.webp 1440w",
+    "alt": "House exterior decorated with a Christmas wreath and outdoor string lights at dusk.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1765242099670-97928c5886f5",
+    "downloadUrl": "https://images.unsplash.com/photo-1765242099670-97928c5886f5?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1765242099670-97928c5886f5"
+  },
+  "/images/stock/photo-1635177106334-1024e7802f06.webp": {
+    "width": 1440,
+    "height": 2160,
+    "srcset": "/images/stock/photo-1635177106334-1024e7802f06-480.webp 480w, /images/stock/photo-1635177106334-1024e7802f06-960.webp 960w, /images/stock/photo-1635177106334-1024e7802f06.webp 1440w",
+    "alt": "Carved jack-o-lantern sitting in the grass in front of a Halloween tombstone.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1635177106334-1024e7802f06",
+    "downloadUrl": "https://images.unsplash.com/photo-1635177106334-1024e7802f06?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1635177106334-1024e7802f06"
+  },
+  "/images/stock/photo-1640087293138-67cc236c1431.webp": {
+    "width": 1440,
+    "height": 2160,
+    "srcset": "/images/stock/photo-1640087293138-67cc236c1431-480.webp 480w, /images/stock/photo-1640087293138-67cc236c1431-960.webp 960w, /images/stock/photo-1640087293138-67cc236c1431.webp 1440w",
+    "alt": "Classic striped candy cane and a glass bauble hanging on a Christmas tree.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1640087293138-67cc236c1431",
+    "downloadUrl": "https://images.unsplash.com/photo-1640087293138-67cc236c1431?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1640087293138-67cc236c1431"
   }
 }

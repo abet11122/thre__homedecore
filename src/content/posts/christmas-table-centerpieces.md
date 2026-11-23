@@ -7,7 +7,7 @@ publishDate: 2026-10-22
 updatedDate: 2026-10-24
 heroImage: "photo-1512389142860-9c449e58a543"
 heroImageAlt: "Evergreen wreaths and small hanging decorations against a pale wall."
-pinImage: "photo-1482517967863-00e15c9b44be"
+pinImage: "photo-1606568939710-ad9c1f460dd2"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

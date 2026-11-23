@@ -7,7 +7,7 @@ publishDate: 2026-09-09
 updatedDate: 2026-10-24
 heroImage: "photo-1635177105263-3acc58071dc2"
 heroImageAlt: "Carved jack-o-lantern on a lawn among small Halloween tombstones beside a brick house."
-pinImage: "photo-1508193638397-1c4234db14d8"
+pinImage: "photo-1635177106334-1024e7802f06"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:
