@@ -11,6 +11,7 @@
     "photos": "node scripts/process-photos.mjs",
     "season": "node scripts/season-noindex.mjs",
     "check:duplication": "node scripts/check-duplication.mjs",
+    "check:images": "node scripts/check-unique-images.mjs",
     "seo:check": "node scripts/check-seo.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "check:seo": "npm run build && npm run seo:audit",
