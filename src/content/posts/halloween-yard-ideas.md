@@ -5,8 +5,8 @@ category: outdoor
 tags: ["halloween","outdoor decor"]
 publishDate: 2026-09-09
 updatedDate: 2026-10-24
-heroImage: "photo-1693643449872-67f203f99560"
-heroImageAlt: "Outdoor seating with a low sofa and chairs beside shrubs and a lawn."
+heroImage: "photo-1635177105263-3acc58071dc2"
+heroImageAlt: "Carved jack-o-lantern on a lawn among small Halloween tombstones beside a brick house."
 pinImage: "photo-1508193638397-1c4234db14d8"
 featured: false
 affiliateDisclosure: false

@@ -5,8 +5,8 @@ category: diy-decor
 tags: ["diy christmas", "christmas crafts"]
 publishDate: 2026-10-25
 updatedDate: 2026-10-24
-heroImage: "photo-1512389142860-9c449e58a543"
-heroImageAlt: "Evergreen wreaths and small hanging decorations against a pale wall."
+heroImage: "photo-1734046281884-cfc7c9385f8f"
+heroImageAlt: "Handmade crocheted red bow ornament hanging on a Christmas tree branch."
 pinImage: "photo-1482517967863-00e15c9b44be"
 featured: false
 affiliateDisclosure: false

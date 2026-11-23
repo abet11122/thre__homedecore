@@ -5,7 +5,7 @@ category: outdoor
 tags: ["halloween","outdoor decor"]
 publishDate: 2026-09-08
 updatedDate: 2026-10-24
-heroImage: "photo-1543589077-47d81606c1bf"
+heroImage: "photo-1635079661006-20bb3610a77b"
 pinImage: "photo-1693643449872-67f203f99560"
 featured: false
 affiliateDisclosure: false

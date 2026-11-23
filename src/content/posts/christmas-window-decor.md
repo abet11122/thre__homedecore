@@ -5,7 +5,7 @@ category: seasonal
 tags: ["christmas decor", "window decor"]
 publishDate: 2026-10-20
 updatedDate: 2026-10-24
-heroImage: "photo-1543589077-47d81606c1bf"
+heroImage: "photo-1767464949419-9244283f4abb"
 pinImage: "photo-1512389142860-9c449e58a543"
 featured: false
 affiliateDisclosure: false

@@ -5,8 +5,8 @@ category: outdoor
 tags: ["christmas decor", "outdoor decor"]
 publishDate: 2026-10-21
 updatedDate: 2026-10-24
-heroImage: "photo-1482517967863-00e15c9b44be"
-heroImageAlt: "Gold bauble on a lit Christmas tree with stockings and string lights blurred behind."
+heroImage: "photo-1767111399310-8be95e7d25ae"
+heroImageAlt: "Front yard at night lit with a glowing Christmas light arch and outdoor light displays."
 pinImage: "photo-1543589077-47d81606c1bf"
 featured: false
 affiliateDisclosure: true

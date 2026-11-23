@@ -745,5 +745,77 @@
     "licenseUrl": "https://unsplash.com/license",
     "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
     "originalSourceId": "photo-1502005229762-cf1b2da7c5d6"
+  },
+  "/images/stock/photo-1635079661006-20bb3610a77b.webp": {
+    "width": 1440,
+    "height": 954,
+    "srcset": "/images/stock/photo-1635079661006-20bb3610a77b-480.webp 480w, /images/stock/photo-1635079661006-20bb3610a77b-960.webp 960w, /images/stock/photo-1635079661006-20bb3610a77b.webp 1440w",
+    "alt": "Carved jack-o-lanterns and small pumpkins arranged on painted porch steps.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1635079661006-20bb3610a77b",
+    "downloadUrl": "https://images.unsplash.com/photo-1635079661006-20bb3610a77b?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1635079661006-20bb3610a77b"
+  },
+  "/images/stock/photo-1767464949419-9244283f4abb.webp": {
+    "width": 1440,
+    "height": 955,
+    "srcset": "/images/stock/photo-1767464949419-9244283f4abb-480.webp 480w, /images/stock/photo-1767464949419-9244283f4abb-960.webp 960w, /images/stock/photo-1767464949419-9244283f4abb.webp 1440w",
+    "alt": "Small wooden Christmas tree cutouts on a windowsill with a winter view outside.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1767464949419-9244283f4abb",
+    "downloadUrl": "https://images.unsplash.com/photo-1767464949419-9244283f4abb?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1767464949419-9244283f4abb"
+  },
+  "/images/stock/photo-1734046281884-cfc7c9385f8f.webp": {
+    "width": 1440,
+    "height": 2160,
+    "srcset": "/images/stock/photo-1734046281884-cfc7c9385f8f-480.webp 480w, /images/stock/photo-1734046281884-cfc7c9385f8f-960.webp 960w, /images/stock/photo-1734046281884-cfc7c9385f8f.webp 1440w",
+    "alt": "Handmade crocheted red bow ornament hanging on a Christmas tree branch.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1734046281884-cfc7c9385f8f",
+    "downloadUrl": "https://images.unsplash.com/photo-1734046281884-cfc7c9385f8f?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1734046281884-cfc7c9385f8f"
+  },
+  "/images/stock/photo-1703187439179-9b8c323294a8.webp": {
+    "width": 1440,
+    "height": 2164,
+    "srcset": "/images/stock/photo-1703187439179-9b8c323294a8-480.webp 480w, /images/stock/photo-1703187439179-9b8c323294a8-960.webp 960w, /images/stock/photo-1703187439179-9b8c323294a8.webp 1440w",
+    "alt": "Evergreen wreath with a large red velvet bow hanging on a dark front door.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1703187439179-9b8c323294a8",
+    "downloadUrl": "https://images.unsplash.com/photo-1703187439179-9b8c323294a8?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1703187439179-9b8c323294a8"
+  },
+  "/images/stock/photo-1635177105263-3acc58071dc2.webp": {
+    "width": 1440,
+    "height": 960,
+    "srcset": "/images/stock/photo-1635177105263-3acc58071dc2-480.webp 480w, /images/stock/photo-1635177105263-3acc58071dc2-960.webp 960w, /images/stock/photo-1635177105263-3acc58071dc2.webp 1440w",
+    "alt": "Carved jack-o-lantern on a lawn among small Halloween tombstones beside a brick house.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1635177105263-3acc58071dc2",
+    "downloadUrl": "https://images.unsplash.com/photo-1635177105263-3acc58071dc2?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1635177105263-3acc58071dc2"
+  },
+  "/images/stock/photo-1767111399310-8be95e7d25ae.webp": {
+    "width": 1440,
+    "height": 960,
+    "srcset": "/images/stock/photo-1767111399310-8be95e7d25ae-480.webp 480w, /images/stock/photo-1767111399310-8be95e7d25ae-960.webp 960w, /images/stock/photo-1767111399310-8be95e7d25ae.webp 1440w",
+    "alt": "Front yard at night lit with a glowing Christmas light arch and outdoor light displays.",
+    "photographer": "Unsplash contributor (name not recorded)",
+    "sourceUrl": "https://images.unsplash.com/photo-1767111399310-8be95e7d25ae",
+    "downloadUrl": "https://images.unsplash.com/photo-1767111399310-8be95e7d25ae?w=1440&fit=max&auto=format&q=80",
+    "licenseUrl": "https://unsplash.com/license",
+    "provenance": "Stock; legacy source ID retained. Photographer and original photo-page URL require owner verification.",
+    "originalSourceId": "photo-1767111399310-8be95e7d25ae"
   }
 }
